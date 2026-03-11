@@ -11,16 +11,16 @@ city_name: Białystok
 city_slug: bialystok
 state: Podlaskie
 state_slug: podlaskie
-count: 4
-avg_rating: 4.5
-lat: 53.1484
-lng: 23.096
+count: 3
+avg_rating: 4.6
+lat: 53.1544
+lng: 23.0998
 robots: index,follow
 faq:
   - q: Ile salonów NIO jest w mieście Białystok?
-    a: W mieście Białystok działa 4 autoryzowanych salonów NIO.
+    a: W mieście Białystok działa 3 autoryzowanych salonów NIO.
   - q: Jaka jest średnia ocena salonów NIO w mieście Białystok?
-    a: Średnia ocena salonów NIO w mieście Białystok wynosi 4.5/5.
+    a: Średnia ocena salonów NIO w mieście Białystok wynosi 4.6/5.
   - q: Gdzie znaleźć salon NIO w mieście Białystok?
     a: Lista wszystkich salonów NIO w mieście Białystok z adresami i telefonami znajduje się na tej stronie.
 ---

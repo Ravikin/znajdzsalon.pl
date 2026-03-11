@@ -2,7 +2,7 @@
   {
     "name": "Mazowieckie",
     "slug": "mazowieckie",
-    "count": 189,
+    "count": 183,
     "cities": [
       "Blizne Łaszczyńskiego",
       "Falenty",
@@ -18,7 +18,7 @@
   {
     "name": "Wielkopolskie",
     "slug": "wielkopolskie",
-    "count": 84,
+    "count": 80,
     "cities": [
       "Baranowo",
       "Komorniki",
@@ -29,18 +29,9 @@
     "cities_count": 5
   },
   {
-    "name": "Łódzkie",
-    "slug": "lodzkie",
-    "count": 82,
-    "cities": [
-      "Łódź"
-    ],
-    "cities_count": 1
-  },
-  {
     "name": "Małopolskie",
     "slug": "malopolskie",
-    "count": 82,
+    "count": 78,
     "cities": [
       "Kraków",
       "Modlnica",
@@ -49,22 +40,18 @@
     "cities_count": 3
   },
   {
-    "name": "Śląskie",
-    "slug": "slaskie",
-    "count": 67,
+    "name": "Łódzkie",
+    "slug": "lodzkie",
+    "count": 70,
     "cities": [
-      "Bielsko-Biała",
-      "Chorzów",
-      "Gliwice",
-      "Katowice",
-      "Sosnowiec"
+      "Łódź"
     ],
-    "cities_count": 5
+    "cities_count": 1
   },
   {
     "name": "Pomorskie",
     "slug": "pomorskie",
-    "count": 64,
+    "count": 62,
     "cities": [
       "Gdańsk",
       "Osielsko",
@@ -76,7 +63,7 @@
   {
     "name": "Dolnośląskie",
     "slug": "dolnoslaskie",
-    "count": 64,
+    "count": 62,
     "cities": [
       "Bielany Wrocławskie",
       "Długołęka",
@@ -85,9 +72,22 @@
     "cities_count": 3
   },
   {
+    "name": "Śląskie",
+    "slug": "slaskie",
+    "count": 54,
+    "cities": [
+      "Bielsko-Biała",
+      "Chorzów",
+      "Gliwice",
+      "Katowice",
+      "Sosnowiec"
+    ],
+    "cities_count": 5
+  },
+  {
     "name": "Zachodniopomorskie",
     "slug": "zachodniopomorskie",
-    "count": 58,
+    "count": 47,
     "cities": [
       "Szczecin",
       "Ustowo, Szczecin"
@@ -95,9 +95,18 @@
     "cities_count": 2
   },
   {
+    "name": "Lubuskie",
+    "slug": "lubuskie",
+    "count": 38,
+    "cities": [
+      "Zielona Góra"
+    ],
+    "cities_count": 1
+  },
+  {
     "name": "Podlaskie",
     "slug": "podlaskie",
-    "count": 56,
+    "count": 36,
     "cities": [
       "Białystok",
       "Krupniki, Białystok",
@@ -106,27 +115,9 @@
     "cities_count": 3
   },
   {
-    "name": "Świętokrzyskie",
-    "slug": "swietokrzyskie",
-    "count": 48,
-    "cities": [
-      "Kielce"
-    ],
-    "cities_count": 1
-  },
-  {
-    "name": "Lubuskie",
-    "slug": "lubuskie",
-    "count": 48,
-    "cities": [
-      "Zielona Góra"
-    ],
-    "cities_count": 1
-  },
-  {
     "name": "Lubelskie",
     "slug": "lubelskie",
-    "count": 44,
+    "count": 36,
     "cities": [
       "Konopnica, Lublin",
       "Lublin",
@@ -135,18 +126,18 @@
     "cities_count": 3
   },
   {
-    "name": "Warmińsko-mazurskie",
-    "slug": "warminsko-mazurskie",
-    "count": 40,
+    "name": "Kujawsko-pomorskie",
+    "slug": "kujawsko-pomorskie",
+    "count": 33,
     "cities": [
-      "Olsztyn"
+      "Bydgoszcz"
     ],
     "cities_count": 1
   },
   {
     "name": "Podkarpackie",
     "slug": "podkarpackie",
-    "count": 38,
+    "count": 33,
     "cities": [
       "Krasne, Rzeszów",
       "Rzeszów",
@@ -155,146 +146,29 @@
     "cities_count": 3
   },
   {
-    "name": "Kujawsko-pomorskie",
-    "slug": "kujawsko-pomorskie",
-    "count": 34,
+    "name": "Warmińsko-mazurskie",
+    "slug": "warminsko-mazurskie",
+    "count": 31,
     "cities": [
-      "Bydgoszcz"
+      "Olsztyn"
     ],
     "cities_count": 1
   },
   {
     "name": "Opolskie",
     "slug": "opolskie",
-    "count": 29,
+    "count": 28,
     "cities": [
       "Opole"
     ],
     "cities_count": 1
   },
   {
-    "name": "British Columbia",
-    "slug": "british-columbia",
-    "count": 17,
+    "name": "Świętokrzyskie",
+    "slug": "swietokrzyskie",
+    "count": 28,
     "cities": [
-      "Burnaby",
-      "Langley",
-      "North Vancouver",
-      "Port Alberni",
-      "Port Coquitlam",
-      "Richmond",
-      "Surrey",
-      "Vancouver",
-      "West Vancouver"
-    ],
-    "cities_count": 9
-  },
-  {
-    "name": "State of Rio de Janeiro",
-    "slug": "state-of-rio-de-janeiro",
-    "count": 17,
-    "cities": [
-      "Duque de Caxias",
-      "Niterói",
-      "Nova Iguaçu",
-      "Petrópolis",
-      "Rio de Janeiro",
-      "Três Rios",
-      "Vassouras"
-    ],
-    "cities_count": 7
-  },
-  {
-    "name": "Tokyo",
-    "slug": "tokyo",
-    "count": 5,
-    "cities": [
-      "Meguro City",
-      "Minato City",
-      "Setagaya City",
-      "Suginami City"
-    ],
-    "cities_count": 4
-  },
-  {
-    "name": "State of São Paulo",
-    "slug": "state-of-sao-paulo",
-    "count": 3,
-    "cities": [
-      "Campinas"
-    ],
-    "cities_count": 1
-  },
-  {
-    "name": "Idaho",
-    "slug": "idaho",
-    "count": 2,
-    "cities": [
-      "Boise"
-    ],
-    "cities_count": 1
-  },
-  {
-    "name": "Texas",
-    "slug": "texas",
-    "count": 2,
-    "cities": [
-      "Austin",
-      "Friendswood"
-    ],
-    "cities_count": 2
-  },
-  {
-    "name": "North Carolina",
-    "slug": "north-carolina",
-    "count": 1,
-    "cities": [
-      "Durham"
-    ],
-    "cities_count": 1
-  },
-  {
-    "name": "Ohio",
-    "slug": "ohio",
-    "count": 1,
-    "cities": [
-      "Columbus"
-    ],
-    "cities_count": 1
-  },
-  {
-    "name": "Metropolitan City of Milan",
-    "slug": "metropolitan-city-of-milan",
-    "count": 1,
-    "cities": [
-      "Milan"
-    ],
-    "cities_count": 1
-  },
-  {
-    "name": "BC",
-    "slug": "bc",
-    "count": 1,
-    "cities": [
-      "Surrey"
-    ],
-    "cities_count": 1
-  },
-  {
-    "name": "Indiana",
-    "slug": "indiana",
-    "count": 1,
-    "cities": [
-      "Indianapolis"
-    ],
-    "cities_count": 1
-  },
-  {
-    "name": "Oregon",
-    "slug": "oregon",
-    "count": 1,
-    "cities": [
-      "Portland"
+      "Kielce"
     ],
     "cities_count": 1
   }

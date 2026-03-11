@@ -9,15 +9,15 @@ brand_name: Jeep
 brand_slug: jeep
 state_name: Pomorskie
 state_slug: pomorskie
-count: 4
+count: 3
 cities_count: 1
 cities:
   - Gdańsk
-avg_rating: 4.4
+avg_rating: 4.3
 robots: index,follow
 faq:
   - q: Ile salonów Jeep jest w województwie pomorskie?
-    a: W województwie pomorskie działa 4 salonów Jeep w 1 miastach.
+    a: W województwie pomorskie działa 3 salonów Jeep w 1 miastach.
   - q: W jakich miastach województwa pomorskie są salony Jeep?
     a: Lista miast z salonami Jeep w województwie pomorskie znajduje się na tej stronie.
 ---

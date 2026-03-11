@@ -11,16 +11,16 @@ city_name: Warszawa
 city_slug: warszawa
 state: Mazowieckie
 state_slug: mazowieckie
-count: 6
-avg_rating: 4.1
-lat: 52.2305
-lng: 21.0074
+count: 5
+avg_rating: 4.4
+lat: 52.2395
+lng: 21.0081
 robots: index,follow
 faq:
   - q: Ile salonów Hyundai jest w mieście Warszawa?
-    a: W mieście Warszawa działa 6 autoryzowanych salonów Hyundai.
+    a: W mieście Warszawa działa 5 autoryzowanych salonów Hyundai.
   - q: Jaka jest średnia ocena salonów Hyundai w mieście Warszawa?
-    a: Średnia ocena salonów Hyundai w mieście Warszawa wynosi 4.1/5.
+    a: Średnia ocena salonów Hyundai w mieście Warszawa wynosi 4.4/5.
   - q: Gdzie znaleźć salon Hyundai w mieście Warszawa?
     a: Lista wszystkich salonów Hyundai w mieście Warszawa z adresami i telefonami znajduje się na tej stronie.
 ---

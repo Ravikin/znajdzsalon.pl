@@ -2,13 +2,13 @@
   {
     "name": "Volkswagen",
     "slug": "volkswagen",
-    "count": 59,
-    "cities_count": 22
+    "count": 56,
+    "cities_count": 20
   },
   {
     "name": "NIO",
     "slug": "nio",
-    "count": 55,
+    "count": 51,
     "cities_count": 17
   },
   {
@@ -20,32 +20,14 @@
   {
     "name": "Kia",
     "slug": "kia",
-    "count": 39,
-    "cities_count": 25
-  },
-  {
-    "name": "Fiat",
-    "slug": "fiat",
-    "count": 39,
-    "cities_count": 21
+    "count": 37,
+    "cities_count": 23
   },
   {
     "name": "BMW",
     "slug": "bmw",
     "count": 37,
     "cities_count": 20
-  },
-  {
-    "name": "Peugeot",
-    "slug": "peugeot",
-    "count": 36,
-    "cities_count": 18
-  },
-  {
-    "name": "Nissan",
-    "slug": "nissan",
-    "count": 35,
-    "cities_count": 25
   },
   {
     "name": "Skoda",
@@ -60,16 +42,28 @@
     "cities_count": 18
   },
   {
-    "name": "Hyundai",
-    "slug": "hyundai",
-    "count": 32,
-    "cities_count": 20
+    "name": "Peugeot",
+    "slug": "peugeot",
+    "count": 33,
+    "cities_count": 17
   },
   {
     "name": "Citroen",
     "slug": "citroen",
     "count": 31,
     "cities_count": 17
+  },
+  {
+    "name": "Hyundai",
+    "slug": "hyundai",
+    "count": 31,
+    "cities_count": 20
+  },
+  {
+    "name": "Nissan",
+    "slug": "nissan",
+    "count": 30,
+    "cities_count": 21
   },
   {
     "name": "Renault",
@@ -84,12 +78,6 @@
     "cities_count": 19
   },
   {
-    "name": "Jeep",
-    "slug": "jeep",
-    "count": 29,
-    "cities_count": 15
-  },
-  {
     "name": "Mercedes-Benz",
     "slug": "mercedes-benz",
     "count": 29,
@@ -98,13 +86,13 @@
   {
     "name": "Audi",
     "slug": "audi",
-    "count": 28,
+    "count": 26,
     "cities_count": 16
   },
   {
     "name": "Suzuki",
     "slug": "suzuki",
-    "count": 27,
+    "count": 26,
     "cities_count": 15
   },
   {
@@ -120,10 +108,10 @@
     "cities_count": 20
   },
   {
-    "name": "Honda",
-    "slug": "honda",
+    "name": "Jeep",
+    "slug": "jeep",
     "count": 25,
-    "cities_count": 18
+    "cities_count": 13
   },
   {
     "name": "Dacia",
@@ -138,16 +126,22 @@
     "cities_count": 11
   },
   {
+    "name": "Honda",
+    "slug": "honda",
+    "count": 24,
+    "cities_count": 17
+  },
+  {
     "name": "Opel",
     "slug": "opel",
     "count": 23,
     "cities_count": 14
   },
   {
-    "name": "Porsche",
-    "slug": "porsche",
+    "name": "Fiat",
+    "slug": "fiat",
     "count": 22,
-    "cities_count": 17
+    "cities_count": 14
   },
   {
     "name": "Mazda",
@@ -156,38 +150,20 @@
     "cities_count": 18
   },
   {
-    "name": "Tesla",
-    "slug": "tesla",
-    "count": 21,
-    "cities_count": 16
-  },
-  {
-    "name": "Mitsubishi",
-    "slug": "mitsubishi",
-    "count": 21,
-    "cities_count": 13
-  },
-  {
     "name": "Lexus",
     "slug": "lexus",
     "count": 20,
     "cities_count": 14
   },
   {
-    "name": "Seat",
-    "slug": "seat",
+    "name": "Mitsubishi",
+    "slug": "mitsubishi",
     "count": 19,
-    "cities_count": 17
-  },
-  {
-    "name": "Mini",
-    "slug": "mini",
-    "count": 18,
     "cities_count": 13
   },
   {
-    "name": "Subaru",
-    "slug": "subaru",
+    "name": "Seat",
+    "slug": "seat",
     "count": 18,
     "cities_count": 16
   },
@@ -198,40 +174,58 @@
     "cities_count": 10
   },
   {
+    "name": "Mini",
+    "slug": "mini",
+    "count": 17,
+    "cities_count": 12
+  },
+  {
     "name": "Alfa Romeo",
     "slug": "alfa-romeo",
     "count": 17,
     "cities_count": 11
   },
   {
-    "name": "Land Rover",
-    "slug": "land-rover",
+    "name": "Porsche",
+    "slug": "porsche",
+    "count": 16,
+    "cities_count": 12
+  },
+  {
+    "name": "Subaru",
+    "slug": "subaru",
     "count": 15,
     "cities_count": 13
   },
   {
+    "name": "Land Rover",
+    "slug": "land-rover",
+    "count": 14,
+    "cities_count": 12
+  },
+  {
     "name": "DS",
     "slug": "ds",
-    "count": 14,
-    "cities_count": 11
+    "count": 10,
+    "cities_count": 9
   },
   {
     "name": "Jaguar",
     "slug": "jaguar",
-    "count": 11,
-    "cities_count": 10
+    "count": 9,
+    "cities_count": 8
+  },
+  {
+    "name": "Tesla",
+    "slug": "tesla",
+    "count": 8,
+    "cities_count": 7
   },
   {
     "name": "Dodge",
     "slug": "dodge",
-    "count": 11,
-    "cities_count": 9
-  },
-  {
-    "name": "RAM",
-    "slug": "ram",
     "count": 8,
-    "cities_count": 8
+    "cities_count": 6
   },
   {
     "name": "Maxus",
@@ -240,16 +234,16 @@
     "cities_count": 5
   },
   {
+    "name": "RAM",
+    "slug": "ram",
+    "count": 5,
+    "cities_count": 5
+  },
+  {
     "name": "Isuzu",
     "slug": "isuzu",
     "count": 4,
     "cities_count": 4
-  },
-  {
-    "name": "Lynk",
-    "slug": "lynk",
-    "count": 3,
-    "cities_count": 3
   },
   {
     "name": "Fiat Professional",
@@ -278,12 +272,6 @@
   {
     "name": "Leapmotor",
     "slug": "leapmotor",
-    "count": 1,
-    "cities_count": 1
-  },
-  {
-    "name": "Great Wall",
-    "slug": "great-wall",
     "count": 1,
     "cities_count": 1
   }

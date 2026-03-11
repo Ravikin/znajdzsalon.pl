@@ -11,14 +11,14 @@ city_name: Warszawa
 city_slug: warszawa
 state: Mazowieckie
 state_slug: mazowieckie
-count: 5
+count: 4
 avg_rating: 4.3
-lat: 52.207
-lng: 20.9687
+lat: 52.2113
+lng: 20.9741
 robots: index,follow
 faq:
   - q: Ile salonów Mitsubishi jest w mieście Warszawa?
-    a: W mieście Warszawa działa 5 autoryzowanych salonów Mitsubishi.
+    a: W mieście Warszawa działa 4 autoryzowanych salonów Mitsubishi.
   - q: Jaka jest średnia ocena salonów Mitsubishi w mieście Warszawa?
     a: Średnia ocena salonów Mitsubishi w mieście Warszawa wynosi 4.3/5.
   - q: Gdzie znaleźć salon Mitsubishi w mieście Warszawa?

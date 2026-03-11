@@ -11,14 +11,14 @@ city_name: Wrocław
 city_slug: wroclaw
 state: Dolnośląskie
 state_slug: dolnoslaskie
-count: 3
+count: 2
 avg_rating: 4.2
-lat: 51.0942
-lng: 16.9932
+lat: 51.085
+lng: 16.9927
 robots: index,follow
 faq:
   - q: Ile salonów Mitsubishi jest w mieście Wrocław?
-    a: W mieście Wrocław działa 3 autoryzowanych salonów Mitsubishi.
+    a: W mieście Wrocław działa 2 autoryzowanych salonów Mitsubishi.
   - q: Jaka jest średnia ocena salonów Mitsubishi w mieście Wrocław?
     a: Średnia ocena salonów Mitsubishi w mieście Wrocław wynosi 4.2/5.
   - q: Gdzie znaleźć salon Mitsubishi w mieście Wrocław?

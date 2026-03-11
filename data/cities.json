@@ -4,25 +4,16 @@
     "slug": "warszawa",
     "state": "Mazowieckie",
     "state_slug": "mazowieckie",
-    "count": 179,
+    "count": 173,
     "lat": 52.241054999999996,
     "lng": 21.0273734
-  },
-  {
-    "name": "Łódź",
-    "slug": "lodz",
-    "state": "Łódzkie",
-    "state_slug": "lodzkie",
-    "count": 82,
-    "lat": 51.8062007,
-    "lng": 19.3702896
   },
   {
     "name": "Kraków",
     "slug": "krakow",
     "state": "Małopolskie",
     "state_slug": "malopolskie",
-    "count": 79,
+    "count": 75,
     "lat": 50.1011963,
     "lng": 19.887947399999998
   },
@@ -31,106 +22,106 @@
     "slug": "poznan",
     "state": "Wielkopolskie",
     "state_slug": "wielkopolskie",
-    "count": 76,
+    "count": 72,
     "lat": 52.3835258,
     "lng": 16.9748035
   },
   {
-    "name": "Katowice",
-    "slug": "katowice",
-    "state": "Śląskie",
-    "state_slug": "slaskie",
-    "count": 61,
-    "lat": 50.2602486,
-    "lng": 19.0200803
+    "name": "Łódź",
+    "slug": "lodz",
+    "state": "Łódzkie",
+    "state_slug": "lodzkie",
+    "count": 70,
+    "lat": 51.8062007,
+    "lng": 19.3702896
   },
   {
     "name": "Gdańsk",
     "slug": "gdansk",
     "state": "Pomorskie",
     "state_slug": "pomorskie",
-    "count": 60,
+    "count": 58,
     "lat": 54.392854,
     "lng": 18.583816
-  },
-  {
-    "name": "Białystok",
-    "slug": "bialystok",
-    "state": "Podlaskie",
-    "state_slug": "podlaskie",
-    "count": 53,
-    "lat": 53.1440677,
-    "lng": 23.081320599999998
   },
   {
     "name": "Wrocław",
     "slug": "wroclaw",
     "state": "Dolnośląskie",
     "state_slug": "dolnoslaskie",
-    "count": 53,
+    "count": 51,
     "lat": 51.0638808,
     "lng": 17.0007479
   },
   {
-    "name": "Kielce",
-    "slug": "kielce",
-    "state": "Świętokrzyskie",
-    "state_slug": "swietokrzyskie",
+    "name": "Katowice",
+    "slug": "katowice",
+    "state": "Śląskie",
+    "state_slug": "slaskie",
     "count": 48,
-    "lat": 50.8726874,
-    "lng": 20.6209429
+    "lat": 50.2639238,
+    "lng": 19.0493502
   },
   {
     "name": "Zielona Góra",
     "slug": "zielona-gora",
     "state": "Lubuskie",
     "state_slug": "lubuskie",
-    "count": 48,
+    "count": 38,
     "lat": 51.9588423,
     "lng": 15.540037199999999
   },
   {
-    "name": "Szczecin",
-    "slug": "szczecin",
-    "state": "Zachodniopomorskie",
-    "state_slug": "zachodniopomorskie",
-    "count": 43,
-    "lat": 53.3990242,
-    "lng": 14.5005007
+    "name": "Białystok",
+    "slug": "bialystok",
+    "state": "Podlaskie",
+    "state_slug": "podlaskie",
+    "count": 33,
+    "lat": 53.1440677,
+    "lng": 23.081320599999998
   },
   {
     "name": "Lublin",
     "slug": "lublin",
     "state": "Lubelskie",
     "state_slug": "lubelskie",
-    "count": 41,
+    "count": 33,
     "lat": 51.2646003,
     "lng": 22.570928199999997
-  },
-  {
-    "name": "Olsztyn",
-    "slug": "olsztyn",
-    "state": "Warmińsko-mazurskie",
-    "state_slug": "warminsko-mazurskie",
-    "count": 40,
-    "lat": 53.7798696,
-    "lng": 20.5137397
   },
   {
     "name": "Bydgoszcz",
     "slug": "bydgoszcz",
     "state": "Kujawsko-pomorskie",
     "state_slug": "kujawsko-pomorskie",
-    "count": 34,
+    "count": 33,
     "lat": 53.145525799999994,
     "lng": 18.026856
+  },
+  {
+    "name": "Szczecin",
+    "slug": "szczecin",
+    "state": "Zachodniopomorskie",
+    "state_slug": "zachodniopomorskie",
+    "count": 32,
+    "lat": 53.3990242,
+    "lng": 14.5005007
+  },
+  {
+    "name": "Olsztyn",
+    "slug": "olsztyn",
+    "state": "Warmińsko-mazurskie",
+    "state_slug": "warminsko-mazurskie",
+    "count": 31,
+    "lat": 53.7798696,
+    "lng": 20.5137397
   },
   {
     "name": "Rzeszów",
     "slug": "rzeszow",
     "state": "Podkarpackie",
     "state_slug": "podkarpackie",
-    "count": 34,
+    "count": 29,
     "lat": 49.9986107,
     "lng": 22.0186438
   },
@@ -139,9 +130,18 @@
     "slug": "opole",
     "state": "Opolskie",
     "state_slug": "opolskie",
-    "count": 29,
+    "count": 28,
     "lat": 50.6969919,
     "lng": 17.8761412
+  },
+  {
+    "name": "Kielce",
+    "slug": "kielce",
+    "state": "Świętokrzyskie",
+    "state_slug": "swietokrzyskie",
+    "count": 28,
+    "lat": 50.8964657,
+    "lng": 20.5945799
   },
   {
     "name": "Ustowo, Szczecin",
@@ -151,15 +151,6 @@
     "count": 15,
     "lat": 53.3865239,
     "lng": 14.4973113
-  },
-  {
-    "name": "Rio de Janeiro",
-    "slug": "rio-de-janeiro",
-    "state": "State of Rio de Janeiro",
-    "state_slug": "state-of-rio-de-janeiro",
-    "count": 11,
-    "lat": -22.9118283,
-    "lng": -43.191838999999995
   },
   {
     "name": "Długołęka",
@@ -187,24 +178,6 @@
     "count": 6,
     "lat": 52.4196891,
     "lng": 16.787899499999998
-  },
-  {
-    "name": "Surrey",
-    "slug": "surrey",
-    "state": "British Columbia",
-    "state_slug": "british-columbia",
-    "count": 5,
-    "lat": 49.106032299999995,
-    "lng": -122.6860469
-  },
-  {
-    "name": "Vancouver",
-    "slug": "vancouver",
-    "state": "British Columbia",
-    "state_slug": "british-columbia",
-    "count": 5,
-    "lat": 49.268708,
-    "lng": -123.1099519
   },
   {
     "name": "Krasne",
@@ -279,15 +252,6 @@
     "lng": 23.068477599999998
   },
   {
-    "name": "Campinas",
-    "slug": "campinas",
-    "state": "State of São Paulo",
-    "state_slug": "state-of-sao-paulo",
-    "count": 3,
-    "lat": -22.9287612,
-    "lng": -47.0698046
-  },
-  {
     "name": "Modlniczka",
     "slug": "modlniczka",
     "state": "",
@@ -360,15 +324,6 @@
     "lng": 17.75563
   },
   {
-    "name": "Boise",
-    "slug": "boise",
-    "state": "Idaho",
-    "state_slug": "idaho",
-    "count": 2,
-    "lat": 43.601140699999995,
-    "lng": -116.2782549
-  },
-  {
     "name": "Konopnica, Lublin",
     "slug": "konopnica-lublin",
     "state": "Lubelskie",
@@ -403,15 +358,6 @@
     "count": 2,
     "lat": 53.1773234,
     "lng": 18.0580308
-  },
-  {
-    "name": "Port Coquitlam",
-    "slug": "port-coquitlam",
-    "state": "British Columbia",
-    "state_slug": "british-columbia",
-    "count": 2,
-    "lat": 49.2571198,
-    "lng": -122.7491302
   },
   {
     "name": "Krupniki, Białystok",
@@ -466,15 +412,6 @@
     "count": 2,
     "lat": 52.301795899999995,
     "lng": 21.088478199999997
-  },
-  {
-    "name": "Suginami City",
-    "slug": "suginami-city",
-    "state": "Tokyo",
-    "state_slug": "tokyo",
-    "count": 2,
-    "lat": 35.682438999999995,
-    "lng": 139.6317972
   },
   {
     "name": "Konstancin-Jeziorna",
@@ -558,15 +495,6 @@
     "lng": 20.0437202
   },
   {
-    "name": "Richmond",
-    "slug": "richmond",
-    "state": "British Columbia",
-    "state_slug": "british-columbia",
-    "count": 1,
-    "lat": 49.1707669,
-    "lng": -123.07730439999999
-  },
-  {
     "name": "Jamnica",
     "slug": "jamnica",
     "state": "",
@@ -574,15 +502,6 @@
     "count": 1,
     "lat": 50.572769699999995,
     "lng": 21.941119099999998
-  },
-  {
-    "name": "West Vancouver",
-    "slug": "west-vancouver",
-    "state": "British Columbia",
-    "state_slug": "british-columbia",
-    "count": 1,
-    "lat": 49.325363599999996,
-    "lng": -123.141756
   },
   {
     "name": "Wiry",
@@ -612,15 +531,6 @@
     "lng": 20.8898329
   },
   {
-    "name": "Durham",
-    "slug": "durham",
-    "state": "North Carolina",
-    "state_slug": "north-carolina",
-    "count": 1,
-    "lat": 35.9692754,
-    "lng": -78.95430069999999
-  },
-  {
     "name": "Gliwice",
     "slug": "gliwice",
     "state": "Śląskie",
@@ -637,24 +547,6 @@
     "count": 1,
     "lat": 53.149277,
     "lng": 23.065932
-  },
-  {
-    "name": "Niterói",
-    "slug": "niteroi",
-    "state": "State of Rio de Janeiro",
-    "state_slug": "state-of-rio-de-janeiro",
-    "count": 1,
-    "lat": -22.893483099999997,
-    "lng": -43.1151616
-  },
-  {
-    "name": "Columbus",
-    "slug": "columbus",
-    "state": "Ohio",
-    "state_slug": "ohio",
-    "count": 1,
-    "lat": 39.9247739,
-    "lng": -83.1240354
   },
   {
     "name": "Starowa Góra",
@@ -684,15 +576,6 @@
     "lng": 22.4737485
   },
   {
-    "name": "Milan",
-    "slug": "milan",
-    "state": "Metropolitan City of Milan",
-    "state_slug": "metropolitan-city-of-milan",
-    "count": 1,
-    "lat": 45.4674869,
-    "lng": 9.1984336
-  },
-  {
     "name": "Piaseczno",
     "slug": "piaseczno",
     "state": "Mazowieckie",
@@ -720,15 +603,6 @@
     "lng": 20.8879602
   },
   {
-    "name": "Vassouras",
-    "slug": "vassouras",
-    "state": "State of Rio de Janeiro",
-    "state_slug": "state-of-rio-de-janeiro",
-    "count": 1,
-    "lat": -22.4083878,
-    "lng": -43.6697803
-  },
-  {
     "name": "Sopot",
     "slug": "sopot",
     "state": "Pomorskie",
@@ -736,42 +610,6 @@
     "count": 1,
     "lat": 54.460051899999996,
     "lng": 18.5534686
-  },
-  {
-    "name": "Friendswood",
-    "slug": "friendswood",
-    "state": "Texas",
-    "state_slug": "texas",
-    "count": 1,
-    "lat": 29.5602482,
-    "lng": -95.16219819999999
-  },
-  {
-    "name": "Austin",
-    "slug": "austin",
-    "state": "Texas",
-    "state_slug": "texas",
-    "count": 1,
-    "lat": 30.2728084,
-    "lng": -97.7629843
-  },
-  {
-    "name": "North Vancouver",
-    "slug": "north-vancouver",
-    "state": "British Columbia",
-    "state_slug": "british-columbia",
-    "count": 1,
-    "lat": 49.3209941,
-    "lng": -123.0948045
-  },
-  {
-    "name": "Port Alberni",
-    "slug": "port-alberni",
-    "state": "British Columbia",
-    "state_slug": "british-columbia",
-    "count": 1,
-    "lat": 49.263749999999995,
-    "lng": -124.76293989999999
   },
   {
     "name": "Mościska",
@@ -792,51 +630,6 @@
     "lng": 16.8288889
   },
   {
-    "name": "Três Rios",
-    "slug": "tres-rios",
-    "state": "State of Rio de Janeiro",
-    "state_slug": "state-of-rio-de-janeiro",
-    "count": 1,
-    "lat": -22.1085167,
-    "lng": -43.2111787
-  },
-  {
-    "name": "Langley",
-    "slug": "langley",
-    "state": "British Columbia",
-    "state_slug": "british-columbia",
-    "count": 1,
-    "lat": 49.111052,
-    "lng": -122.67485599999999
-  },
-  {
-    "name": "Indianapolis",
-    "slug": "indianapolis",
-    "state": "Indiana",
-    "state_slug": "indiana",
-    "count": 1,
-    "lat": 39.906886899999996,
-    "lng": -86.0712514
-  },
-  {
-    "name": "Duque de Caxias",
-    "slug": "duque-de-caxias",
-    "state": "State of Rio de Janeiro",
-    "state_slug": "state-of-rio-de-janeiro",
-    "count": 1,
-    "lat": -22.798165299999997,
-    "lng": -43.294267999999995
-  },
-  {
-    "name": "Petrópolis",
-    "slug": "petropolis",
-    "state": "State of Rio de Janeiro",
-    "state_slug": "state-of-rio-de-janeiro",
-    "count": 1,
-    "lat": -22.5253852,
-    "lng": -43.1933674
-  },
-  {
     "name": "Rudna Mała",
     "slug": "rudna-mala",
     "state": "",
@@ -844,24 +637,6 @@
     "count": 1,
     "lat": 50.1053661,
     "lng": 21.9772776
-  },
-  {
-    "name": "Portland",
-    "slug": "portland",
-    "state": "Oregon",
-    "state_slug": "oregon",
-    "count": 1,
-    "lat": 45.445136999999995,
-    "lng": -122.7784423
-  },
-  {
-    "name": "Nova Iguaçu",
-    "slug": "nova-iguacu",
-    "state": "State of Rio de Janeiro",
-    "state_slug": "state-of-rio-de-janeiro",
-    "count": 1,
-    "lat": -22.7633781,
-    "lng": -43.428273499999996
   },
   {
     "name": "Tyniec Mały",
@@ -889,78 +664,6 @@
     "count": 1,
     "lat": 52.101099999999995,
     "lng": 20.8233998
-  },
-  {
-    "name": "Meguro City",
-    "slug": "meguro-city",
-    "state": "Tokyo",
-    "state_slug": "tokyo",
-    "count": 1,
-    "lat": 35.6390332,
-    "lng": 139.7040997
-  },
-  {
-    "name": "Setagaya City",
-    "slug": "setagaya-city",
-    "state": "Tokyo",
-    "state_slug": "tokyo",
-    "count": 1,
-    "lat": 35.639599,
-    "lng": 139.6353653
-  },
-  {
-    "name": "Munich",
-    "slug": "munich",
-    "state": "",
-    "state_slug": "",
-    "count": 1,
-    "lat": 48.1423049,
-    "lng": 11.512920999999999
-  },
-  {
-    "name": "Hamburg",
-    "slug": "hamburg",
-    "state": "",
-    "state_slug": "",
-    "count": 1,
-    "lat": 53.552549299999995,
-    "lng": 9.9903596
-  },
-  {
-    "name": "Galeria",
-    "slug": "galeria",
-    "state": "",
-    "state_slug": "",
-    "count": 1,
-    "lat": 50.2589529,
-    "lng": 19.0178091
-  },
-  {
-    "name": "Berlin",
-    "slug": "berlin",
-    "state": "",
-    "state_slug": "",
-    "count": 1,
-    "lat": 52.5247986,
-    "lng": 13.4064645
-  },
-  {
-    "name": "Burnaby",
-    "slug": "burnaby",
-    "state": "British Columbia",
-    "state_slug": "british-columbia",
-    "count": 1,
-    "lat": 49.267946099999996,
-    "lng": -123.00254869999999
-  },
-  {
-    "name": "Minato City",
-    "slug": "minato-city",
-    "state": "Tokyo",
-    "state_slug": "tokyo",
-    "count": 1,
-    "lat": 35.666347699999996,
-    "lng": 139.71386669999998
   },
   {
     "name": "Fasty",
