@@ -1,0 +1,46 @@
+{{ define "title" }}Najlepsze salony samochodowe w Polsce | ZnajdźSalon.pl{{ end }}
+{{ define "description" }}Ranking najlepiej ocenianych salonów samochodowych w Polsce na podstawie opinii Google. Sprawdź, którzy dealerzy mają najwyższe oceny.{{ end }}
+
+{{ define "main" }}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  {{ partial "breadcrumbs.html" . }}
+
+  <h1 class="text-3xl font-bold mb-2">Najlepsze salony samochodowe</h1>
+  <p class="text-text-muted mb-8">Ranking według ocen Google — salony z największą liczbą opinii i najwyższą średnią</p>
+
+  <!-- Top listings sorted by rating then reviews -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    {{ $count := 0 }}
+    {{ range sort .Site.Data.listings "rating" "desc" }}
+      {{ if and .rating (ge .reviews_count 10) (lt $count 50) }}
+        <article class="bg-white rounded-xl border border-gray-200 hover:border-primary-light hover:shadow-md transition-all p-5">
+          <div class="flex items-start justify-between gap-3">
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-xs font-bold text-accent bg-accent/10 px-2 py-0.5 rounded-full">#{{ add $count 1 }}</span>
+                <h2 class="font-bold text-lg truncate">
+                  <a href="/salon/{{ .slug }}/" class="hover:text-primary transition-colors">{{ .name }}</a>
+                </h2>
+              </div>
+              <p class="text-text-muted text-sm">{{ .full_address }}</p>
+            </div>
+            <div class="flex-shrink-0 text-right">
+              <div class="text-xl font-bold text-accent">{{ .rating }}<span class="text-sm font-normal text-text-muted">/5</span></div>
+              <div class="text-xs text-text-muted">{{ .reviews_count }} opinii</div>
+            </div>
+          </div>
+
+          {{ if .brands }}
+          <div class="flex flex-wrap gap-1.5 mt-3">
+            {{ range .brands }}
+              <span class="inline-block bg-primary/5 text-primary text-xs font-medium px-2 py-0.5 rounded-full">{{ . }}</span>
+            {{ end }}
+          </div>
+          {{ end }}
+        </article>
+        {{ $count = add $count 1 }}
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

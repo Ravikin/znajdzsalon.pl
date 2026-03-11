@@ -27,14 +27,32 @@ title = "ZnajdźSalon.pl — Salony samochodowe w Polsce"
 
 [menu]
   [[menu.main]]
-    name = "Marki"
+    name = "Znajdź salon"
     url = "/marki/"
     weight = 1
-  [[menu.main]]
-    name = "Miasta"
-    url = "/miasta/"
-    weight = 2
+    [menu.main.params]
+      icon = "search"
   [[menu.main]]
     name = "Województwa"
     url = "/wojewodztwa/"
+    weight = 2
+    [menu.main.params]
+      icon = "map"
+  [[menu.main]]
+    name = "Najlepsze salony"
+    url = "/najlepsze/"
     weight = 3
+    [menu.main.params]
+      icon = "star"
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+    [menu.main.params]
+      icon = "blog"
+  [[menu.main]]
+    name = "Kontakt"
+    url = "/kontakt/"
+    weight = 5
+    [menu.main.params]
+      icon = "contact"
