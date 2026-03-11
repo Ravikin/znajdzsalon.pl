@@ -17,10 +17,12 @@
       <!-- Search input -->
       <div class="max-w-xl mx-auto relative">
         <div class="relative">
-          <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-text-muted pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
-          </svg>
-          <input type="text" x-model="query" x-on:input="filter()"
+          <button x-on:click="filter()" class="absolute left-4 top-1/2 -translate-y-1/2 text-text-muted hover:text-primary transition-colors">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
+          </button>
+          <input type="text" x-model="query" x-on:input="filter()" x-on:keydown.enter.prevent="filter()"
             placeholder="np. Toyota, Warszawa, BMW Kraków..."
             class="w-full pl-12 pr-12 py-4 rounded-xl text-text text-base sm:text-lg shadow-lg border-0 focus:outline-none focus:ring-4 focus:ring-accent/40 placeholder:text-gray-400">
           <button x-show="query.length > 0" x-on:click="query = ''; filter()" x-cloak
@@ -181,6 +183,8 @@ function searchPage() {
 
     init() {
       this.allListings = {{ .Site.Data.listings | jsonify }};
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('q')) this.query = params.get('q');
       this.filter();
     },
 
