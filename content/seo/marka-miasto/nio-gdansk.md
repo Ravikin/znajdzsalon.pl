@@ -11,16 +11,16 @@ city_name: Gdańsk
 city_slug: gdansk
 state: Pomorskie
 state_slug: pomorskie
-count: 2
-avg_rating: 3.7
-lat: 54.3457
-lng: 18.532
+count: 3
+avg_rating: 4.1
+lat: 54.3465
+lng: 18.5843
 robots: index,follow
 faq:
   - q: Ile salonów NIO jest w mieście Gdańsk?
-    a: W mieście Gdańsk działa 2 autoryzowanych salonów NIO.
+    a: W mieście Gdańsk działa 3 autoryzowanych salonów NIO.
   - q: Jaka jest średnia ocena salonów NIO w mieście Gdańsk?
-    a: Średnia ocena salonów NIO w mieście Gdańsk wynosi 3.7/5.
+    a: Średnia ocena salonów NIO w mieście Gdańsk wynosi 4.1/5.
   - q: Gdzie znaleźć salon NIO w mieście Gdańsk?
     a: Lista wszystkich salonów NIO w mieście Gdańsk z adresami i telefonami znajduje się na tej stronie.
 ---

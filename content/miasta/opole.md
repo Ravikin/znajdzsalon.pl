@@ -5,12 +5,12 @@ type: miasta
 city_name: Opole
 state: Opolskie
 state_slug: opolskie
-count: 23
+count: 29
 lat: 50.6969919
 lng: 17.8761412
 faq:
   - q: Ile salonów samochodowych jest w mieście Opole?
-    a: W mieście Opole (Opolskie) działa 23 salonów samochodowych.
+    a: W mieście Opole (Opolskie) działa 29 salonów samochodowych.
   - q: Jak znaleźć salon samochodowy w mieście Opole?
     a: Na tej stronie znajdziesz listę wszystkich salonów samochodowych w mieście Opole z adresami, opiniami i danymi kontaktowymi.
 ---

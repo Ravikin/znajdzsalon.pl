@@ -3,13 +3,13 @@ title: Salony Mercedes-Benz w Polsce
 slug: mercedes-benz
 type: marki
 brand_name: Mercedes-Benz
-count: 28
+count: 29
 cities_count: 18
 faq:
   - q: Ile salonów Mercedes-Benz jest w Polsce?
-    a: W Polsce działa 28 salonów Mercedes-Benz w 18 miastach.
+    a: W Polsce działa 29 salonów Mercedes-Benz w 18 miastach.
   - q: Gdzie znaleźć salon Mercedes-Benz?
-    a: Na tej stronie znajdziesz listę wszystkich 28 salonów Mercedes-Benz w Polsce z adresami, telefonami i opiniami.
+    a: Na tej stronie znajdziesz listę wszystkich 29 salonów Mercedes-Benz w Polsce z adresami, telefonami i opiniami.
 ---
 
 

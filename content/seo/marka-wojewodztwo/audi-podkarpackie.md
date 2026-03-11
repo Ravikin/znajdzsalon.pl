@@ -9,15 +9,15 @@ brand_name: Audi
 brand_slug: audi
 state_name: Podkarpackie
 state_slug: podkarpackie
-count: 1
+count: 2
 cities_count: 1
 cities:
   - Rzeszów
-avg_rating: 4.5
+avg_rating: 4.7
 robots: index,follow
 faq:
   - q: Ile salonów Audi jest w województwie podkarpackie?
-    a: W województwie podkarpackie działa 1 salonów Audi w 1 miastach.
+    a: W województwie podkarpackie działa 2 salonów Audi w 1 miastach.
   - q: W jakich miastach województwa podkarpackie są salony Audi?
     a: Lista miast z salonami Audi w województwie podkarpackie znajduje się na tej stronie.
 ---

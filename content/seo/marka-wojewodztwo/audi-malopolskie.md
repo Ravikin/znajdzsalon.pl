@@ -9,15 +9,15 @@ brand_name: Audi
 brand_slug: audi
 state_name: Małopolskie
 state_slug: malopolskie
-count: 1
+count: 2
 cities_count: 1
 cities:
   - Kraków
-avg_rating: 4.8
+avg_rating: 4.6
 robots: index,follow
 faq:
   - q: Ile salonów Audi jest w województwie małopolskie?
-    a: W województwie małopolskie działa 1 salonów Audi w 1 miastach.
+    a: W województwie małopolskie działa 2 salonów Audi w 1 miastach.
   - q: W jakich miastach województwa małopolskie są salony Audi?
     a: Lista miast z salonami Audi w województwie małopolskie znajduje się na tej stronie.
 ---

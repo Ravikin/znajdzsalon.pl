@@ -47,6 +47,18 @@
     "avg_rating": 4.2
   },
   {
+    "brand_name": "NIO",
+    "brand_slug": "nio",
+    "state_name": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 12,
+    "cities_count": 1,
+    "cities": [
+      "Warszawa"
+    ],
+    "avg_rating": 4.4
+  },
+  {
     "brand_name": "Volkswagen",
     "brand_slug": "volkswagen",
     "state_name": "Wielkopolskie",
@@ -58,6 +70,18 @@
       "Przeźmierowo"
     ],
     "avg_rating": 4.4
+  },
+  {
+    "brand_name": "BYD",
+    "brand_slug": "byd",
+    "state_name": "Kujawsko-pomorskie",
+    "state_slug": "kujawsko-pomorskie",
+    "count": 10,
+    "cities_count": 1,
+    "cities": [
+      "Bydgoszcz"
+    ],
+    "avg_rating": 4.7
   },
   {
     "brand_name": "Ford",
@@ -84,6 +108,19 @@
     "avg_rating": 4.7
   },
   {
+    "brand_name": "Kia",
+    "brand_slug": "kia",
+    "state_name": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 9,
+    "cities_count": 2,
+    "cities": [
+      "Konstancin-Jeziorna",
+      "Warszawa"
+    ],
+    "avg_rating": 4.1
+  },
+  {
     "brand_name": "Suzuki",
     "brand_slug": "suzuki",
     "state_name": "Mazowieckie",
@@ -96,41 +133,28 @@
     "avg_rating": 4.5
   },
   {
-    "brand_name": "Kia",
-    "brand_slug": "kia",
-    "state_name": "Mazowieckie",
-    "state_slug": "mazowieckie",
-    "count": 8,
-    "cities_count": 2,
-    "cities": [
-      "Konstancin-Jeziorna",
-      "Warszawa"
-    ],
-    "avg_rating": 4.1
-  },
-  {
-    "brand_name": "NIO",
-    "brand_slug": "nio",
-    "state_name": "Mazowieckie",
-    "state_slug": "mazowieckie",
-    "count": 8,
-    "cities_count": 1,
-    "cities": [
-      "Warszawa"
-    ],
-    "avg_rating": 4.4
-  },
-  {
     "brand_name": "Volkswagen",
     "brand_slug": "volkswagen",
     "state_name": "Mazowieckie",
     "state_slug": "mazowieckie",
-    "count": 8,
+    "count": 9,
     "cities_count": 1,
     "cities": [
       "Warszawa"
     ],
     "avg_rating": 4.3
+  },
+  {
+    "brand_name": "Nissan",
+    "brand_slug": "nissan",
+    "state_name": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 8,
+    "cities_count": 1,
+    "cities": [
+      "Warszawa"
+    ],
+    "avg_rating": 4.2
   },
   {
     "brand_name": "BMW",
@@ -183,8 +207,8 @@
     "avg_rating": 4.6
   },
   {
-    "brand_name": "Nissan",
-    "brand_slug": "nissan",
+    "brand_name": "Hyundai",
+    "brand_slug": "hyundai",
     "state_name": "Mazowieckie",
     "state_slug": "mazowieckie",
     "count": 6,
@@ -193,6 +217,19 @@
       "Warszawa"
     ],
     "avg_rating": 4.1
+  },
+  {
+    "brand_name": "MG",
+    "brand_slug": "mg",
+    "state_name": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 6,
+    "cities_count": 2,
+    "cities": [
+      "Falenty",
+      "Warszawa"
+    ],
+    "avg_rating": 4.4
   },
   {
     "brand_name": "Opel",
@@ -205,6 +242,33 @@
       "Warszawa"
     ],
     "avg_rating": 4.2
+  },
+  {
+    "brand_name": "SsangYong",
+    "brand_slug": "ssangyong",
+    "state_name": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 6,
+    "cities_count": 1,
+    "cities": [
+      "Warszawa"
+    ],
+    "avg_rating": 4.1
+  },
+  {
+    "brand_name": "Tesla",
+    "brand_slug": "tesla",
+    "state_name": "British Columbia",
+    "state_slug": "british-columbia",
+    "count": 6,
+    "cities_count": 4,
+    "cities": [
+      "Burnaby",
+      "North Vancouver",
+      "Vancouver",
+      "West Vancouver"
+    ],
+    "avg_rating": 4.0
   },
   {
     "brand_name": "Volvo",
@@ -229,6 +293,18 @@
       "Łódź"
     ],
     "avg_rating": 4.4
+  },
+  {
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
+    "state_name": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 5,
+    "cities_count": 1,
+    "cities": [
+      "Warszawa"
+    ],
+    "avg_rating": 4.8
   },
   {
     "brand_name": "Honda",
@@ -266,6 +342,31 @@
       "Warszawa"
     ],
     "avg_rating": 4.3
+  },
+  {
+    "brand_name": "NIO",
+    "brand_slug": "nio",
+    "state_name": "Łódzkie",
+    "state_slug": "lodzkie",
+    "count": 5,
+    "cities_count": 1,
+    "cities": [
+      "Łódź"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "NIO",
+    "brand_slug": "nio",
+    "state_name": "Podlaskie",
+    "state_slug": "podlaskie",
+    "count": 5,
+    "cities_count": 2,
+    "cities": [
+      "Białystok",
+      "Krupniki, Białystok"
+    ],
+    "avg_rating": 4.5
   },
   {
     "brand_name": "Nissan",
@@ -310,6 +411,18 @@
     "avg_rating": 4.4
   },
   {
+    "brand_name": "Alfa Romeo",
+    "brand_slug": "alfa-romeo",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 4,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.3
+  },
+  {
     "brand_name": "BMW",
     "brand_slug": "bmw",
     "state_name": "Małopolskie",
@@ -334,16 +447,28 @@
     "avg_rating": 4.2
   },
   {
-    "brand_name": "Hyundai",
-    "brand_slug": "hyundai",
-    "state_name": "Mazowieckie",
-    "state_slug": "mazowieckie",
+    "brand_name": "Jeep",
+    "brand_slug": "jeep",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
     "count": 4,
     "cities_count": 1,
     "cities": [
-      "Warszawa"
+      "Poznań"
     ],
-    "avg_rating": 4.0
+    "avg_rating": 4.4
+  },
+  {
+    "brand_name": "Jeep",
+    "brand_slug": "jeep",
+    "state_name": "Pomorskie",
+    "state_slug": "pomorskie",
+    "count": 4,
+    "cities_count": 1,
+    "cities": [
+      "Gdańsk"
+    ],
+    "avg_rating": 4.4
   },
   {
     "brand_name": "Jeep",
@@ -356,6 +481,19 @@
       "Warszawa"
     ],
     "avg_rating": 4.2
+  },
+  {
+    "brand_name": "Kia",
+    "brand_slug": "kia",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 4,
+    "cities_count": 2,
+    "cities": [
+      "Komorniki",
+      "Poznań"
+    ],
+    "avg_rating": 4.4
   },
   {
     "brand_name": "Kia",
@@ -386,6 +524,18 @@
   {
     "brand_name": "NIO",
     "brand_slug": "nio",
+    "state_name": "Małopolskie",
+    "state_slug": "malopolskie",
+    "count": 4,
+    "cities_count": 1,
+    "cities": [
+      "Kraków"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "NIO",
+    "brand_slug": "nio",
     "state_name": "Opolskie",
     "state_slug": "opolskie",
     "count": 4,
@@ -394,18 +544,6 @@
       "Opole"
     ],
     "avg_rating": 4.6
-  },
-  {
-    "brand_name": "NIO",
-    "brand_slug": "nio",
-    "state_name": "Łódzkie",
-    "state_slug": "lodzkie",
-    "count": 4,
-    "cities_count": 1,
-    "cities": [
-      "Łódź"
-    ],
-    "avg_rating": 4.5
   },
   {
     "brand_name": "Peugeot",
@@ -482,6 +620,18 @@
     "avg_rating": 4.7
   },
   {
+    "brand_name": "Alfa Romeo",
+    "brand_slug": "alfa-romeo",
+    "state_name": "Małopolskie",
+    "state_slug": "malopolskie",
+    "count": 3,
+    "cities_count": 1,
+    "cities": [
+      "Kraków"
+    ],
+    "avg_rating": 4.7
+  },
+  {
     "brand_name": "Audi",
     "brand_slug": "audi",
     "state_name": "Wielkopolskie",
@@ -508,14 +658,74 @@
   {
     "brand_name": "BYD",
     "brand_slug": "byd",
-    "state_name": "Kujawsko-pomorskie",
-    "state_slug": "kujawsko-pomorskie",
+    "state_name": "Mazowieckie",
+    "state_slug": "mazowieckie",
     "count": 3,
     "cities_count": 1,
     "cities": [
-      "Bydgoszcz"
+      "Warszawa"
     ],
-    "avg_rating": 4.5
+    "avg_rating": 4.4
+  },
+  {
+    "brand_name": "Dacia",
+    "brand_slug": "dacia",
+    "state_name": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 3,
+    "cities_count": 1,
+    "cities": [
+      "Warszawa"
+    ],
+    "avg_rating": 4.8
+  },
+  {
+    "brand_name": "Dacia",
+    "brand_slug": "dacia",
+    "state_name": "Małopolskie",
+    "state_slug": "malopolskie",
+    "count": 3,
+    "cities_count": 1,
+    "cities": [
+      "Kraków"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "Dodge",
+    "brand_slug": "dodge",
+    "state_name": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 3,
+    "cities_count": 1,
+    "cities": [
+      "Warszawa"
+    ],
+    "avg_rating": 4.0
+  },
+  {
+    "brand_name": "Fiat",
+    "brand_slug": "fiat",
+    "state_name": "Łódzkie",
+    "state_slug": "lodzkie",
+    "count": 3,
+    "cities_count": 1,
+    "cities": [
+      "Łódź"
+    ],
+    "avg_rating": 4.4
+  },
+  {
+    "brand_name": "Fiat",
+    "brand_slug": "fiat",
+    "state_name": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 3,
+    "cities_count": 1,
+    "cities": [
+      "Warszawa"
+    ],
+    "avg_rating": 4.2
   },
   {
     "brand_name": "Ford",
@@ -605,27 +815,15 @@
   {
     "brand_name": "Jeep",
     "brand_slug": "jeep",
-    "state_name": "Wielkopolskie",
-    "state_slug": "wielkopolskie",
-    "count": 3,
-    "cities_count": 1,
-    "cities": [
-      "Poznań"
-    ],
-    "avg_rating": 4.5
-  },
-  {
-    "brand_name": "Kia",
-    "brand_slug": "kia",
-    "state_name": "Wielkopolskie",
-    "state_slug": "wielkopolskie",
+    "state_name": "British Columbia",
+    "state_slug": "british-columbia",
     "count": 3,
     "cities_count": 2,
     "cities": [
-      "Komorniki",
-      "Poznań"
+      "Port Alberni",
+      "Vancouver"
     ],
-    "avg_rating": 4.5
+    "avg_rating": 4.2
   },
   {
     "brand_name": "Land Rover",
@@ -651,6 +849,19 @@
       "Poznań"
     ],
     "avg_rating": 4.7
+  },
+  {
+    "brand_name": "MG",
+    "brand_slug": "mg",
+    "state_name": "Pomorskie",
+    "state_slug": "pomorskie",
+    "count": 3,
+    "cities_count": 2,
+    "cities": [
+      "Gdańsk",
+      "Rumia"
+    ],
+    "avg_rating": 4.3
   },
   {
     "brand_name": "Mercedes-Benz",
@@ -715,6 +926,30 @@
   {
     "brand_name": "NIO",
     "brand_slug": "nio",
+    "state_name": "Pomorskie",
+    "state_slug": "pomorskie",
+    "count": 3,
+    "cities_count": 1,
+    "cities": [
+      "Gdańsk"
+    ],
+    "avg_rating": 4.1
+  },
+  {
+    "brand_name": "NIO",
+    "brand_slug": "nio",
+    "state_name": "Lubuskie",
+    "state_slug": "lubuskie",
+    "count": 3,
+    "cities_count": 1,
+    "cities": [
+      "Zielona Góra"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "NIO",
+    "brand_slug": "nio",
     "state_name": "Kujawsko-pomorskie",
     "state_slug": "kujawsko-pomorskie",
     "count": 3,
@@ -727,15 +962,26 @@
   {
     "brand_name": "NIO",
     "brand_slug": "nio",
-    "state_name": "Podlaskie",
-    "state_slug": "podlaskie",
+    "state_name": "Lubelskie",
+    "state_slug": "lubelskie",
     "count": 3,
-    "cities_count": 2,
+    "cities_count": 1,
     "cities": [
-      "Białystok",
-      "Krupniki, Białystok"
+      "Lublin"
     ],
-    "avg_rating": 4.4
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "NIO",
+    "brand_slug": "nio",
+    "state_name": "Świętokrzyskie",
+    "state_slug": "swietokrzyskie",
+    "count": 3,
+    "cities_count": 1,
+    "cities": [
+      "Kielce"
+    ],
+    "avg_rating": 4.6
   },
   {
     "brand_name": "NIO",
@@ -859,6 +1105,18 @@
     "avg_rating": 4.4
   },
   {
+    "brand_name": "Tesla",
+    "brand_slug": "tesla",
+    "state_name": "Zachodniopomorskie",
+    "state_slug": "zachodniopomorskie",
+    "count": 3,
+    "cities_count": 1,
+    "cities": [
+      "Szczecin"
+    ],
+    "avg_rating": 3.9
+  },
+  {
     "brand_name": "Toyota",
     "brand_slug": "toyota",
     "state_name": "Małopolskie",
@@ -884,6 +1142,42 @@
     "avg_rating": 4.5
   },
   {
+    "brand_name": "Alfa Romeo",
+    "brand_slug": "alfa-romeo",
+    "state_name": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Warszawa"
+    ],
+    "avg_rating": 4.2
+  },
+  {
+    "brand_name": "Audi",
+    "brand_slug": "audi",
+    "state_name": "Małopolskie",
+    "state_slug": "malopolskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Kraków"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "Audi",
+    "brand_slug": "audi",
+    "state_name": "Podkarpackie",
+    "state_slug": "podkarpackie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Rzeszów"
+    ],
+    "avg_rating": 4.7
+  },
+  {
     "brand_name": "Audi",
     "brand_slug": "audi",
     "state_name": "Dolnośląskie",
@@ -898,6 +1192,18 @@
   {
     "brand_name": "Audi",
     "brand_slug": "audi",
+    "state_name": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Katowice"
+    ],
+    "avg_rating": 4.5
+  },
+  {
+    "brand_name": "Audi",
+    "brand_slug": "audi",
     "state_name": "Pomorskie",
     "state_slug": "pomorskie",
     "count": 2,
@@ -906,6 +1212,18 @@
       "Gdańsk"
     ],
     "avg_rating": 4.3
+  },
+  {
+    "brand_name": "BMW",
+    "brand_slug": "bmw",
+    "state_name": "Lubuskie",
+    "state_slug": "lubuskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Zielona Góra"
+    ],
+    "avg_rating": 4.6
   },
   {
     "brand_name": "BMW",
@@ -943,6 +1261,43 @@
       "Ustowo, Szczecin"
     ],
     "avg_rating": 4.5
+  },
+  {
+    "brand_name": "BYD",
+    "brand_slug": "byd",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 2,
+    "cities_count": 2,
+    "cities": [
+      "Poznań",
+      "Przeźmierowo"
+    ],
+    "avg_rating": 4.8
+  },
+  {
+    "brand_name": "BYD",
+    "brand_slug": "byd",
+    "state_name": "Małopolskie",
+    "state_slug": "malopolskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Kraków"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "BYD",
+    "brand_slug": "byd",
+    "state_name": "Łódzkie",
+    "state_slug": "lodzkie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Łódź"
+    ],
+    "avg_rating": 4.1
   },
   {
     "brand_name": "Citroen",
@@ -993,8 +1348,8 @@
     "avg_rating": 3.7
   },
   {
-    "brand_name": "Fiat",
-    "brand_slug": "fiat",
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
     "state_name": "Łódzkie",
     "state_slug": "lodzkie",
     "count": 2,
@@ -1002,7 +1357,140 @@
     "cities": [
       "Łódź"
     ],
-    "avg_rating": 4.3
+    "avg_rating": 5.0
+  },
+  {
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
+    "state_name": "Pomorskie",
+    "state_slug": "pomorskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Gdańsk"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
+    "state_name": "Małopolskie",
+    "state_slug": "malopolskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Kraków"
+    ],
+    "avg_rating": 4.8
+  },
+  {
+    "brand_name": "DS",
+    "brand_slug": "ds",
+    "state_name": "Warmińsko-mazurskie",
+    "state_slug": "warminsko-mazurskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Olsztyn"
+    ],
+    "avg_rating": 3.5
+  },
+  {
+    "brand_name": "DS",
+    "brand_slug": "ds",
+    "state_name": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Warszawa"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "DS",
+    "brand_slug": "ds",
+    "state_name": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Katowice"
+    ],
+    "avg_rating": 4.5
+  },
+  {
+    "brand_name": "Dacia",
+    "brand_slug": "dacia",
+    "state_name": "Kujawsko-pomorskie",
+    "state_slug": "kujawsko-pomorskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Bydgoszcz"
+    ],
+    "avg_rating": 5.0
+  },
+  {
+    "brand_name": "Dacia",
+    "brand_slug": "dacia",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Dacia",
+    "brand_slug": "dacia",
+    "state_name": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Katowice"
+    ],
+    "avg_rating": 4.8
+  },
+  {
+    "brand_name": "Dacia",
+    "brand_slug": "dacia",
+    "state_name": "Lubelskie",
+    "state_slug": "lubelskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Lublin"
+    ],
+    "avg_rating": 4.8
+  },
+  {
+    "brand_name": "Dacia",
+    "brand_slug": "dacia",
+    "state_name": "Łódzkie",
+    "state_slug": "lodzkie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Łódź"
+    ],
+    "avg_rating": 4.8
+  },
+  {
+    "brand_name": "Dodge",
+    "brand_slug": "dodge",
+    "state_name": "British Columbia",
+    "state_slug": "british-columbia",
+    "count": 2,
+    "cities_count": 2,
+    "cities": [
+      "Port Alberni",
+      "Vancouver"
+    ],
+    "avg_rating": 4.4
   },
   {
     "brand_name": "Fiat",
@@ -1015,18 +1503,6 @@
       "Gdańsk"
     ],
     "avg_rating": 4.3
-  },
-  {
-    "brand_name": "Fiat",
-    "brand_slug": "fiat",
-    "state_name": "Mazowieckie",
-    "state_slug": "mazowieckie",
-    "count": 2,
-    "cities_count": 1,
-    "cities": [
-      "Warszawa"
-    ],
-    "avg_rating": 4.2
   },
   {
     "brand_name": "Ford",
@@ -1154,6 +1630,32 @@
   {
     "brand_name": "Kia",
     "brand_slug": "kia",
+    "state_name": "Zachodniopomorskie",
+    "state_slug": "zachodniopomorskie",
+    "count": 2,
+    "cities_count": 2,
+    "cities": [
+      "Szczecin",
+      "Ustowo, Szczecin"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "Kia",
+    "brand_slug": "kia",
+    "state_name": "Dolnośląskie",
+    "state_slug": "dolnoslaskie",
+    "count": 2,
+    "cities_count": 2,
+    "cities": [
+      "Długołęka",
+      "Wrocław"
+    ],
+    "avg_rating": 4.5
+  },
+  {
+    "brand_name": "Kia",
+    "brand_slug": "kia",
     "state_name": "Łódzkie",
     "state_slug": "lodzkie",
     "count": 2,
@@ -1242,6 +1744,18 @@
   {
     "brand_name": "Mazda",
     "brand_slug": "mazda",
+    "state_name": "Świętokrzyskie",
+    "state_slug": "swietokrzyskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Kielce"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "Mazda",
+    "brand_slug": "mazda",
     "state_name": "Lubelskie",
     "state_slug": "lubelskie",
     "count": 2,
@@ -1287,6 +1801,18 @@
       "Wrocław"
     ],
     "avg_rating": 4.3
+  },
+  {
+    "brand_name": "Mercedes-Benz",
+    "brand_slug": "mercedes-benz",
+    "state_name": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Warszawa"
+    ],
+    "avg_rating": 4.2
   },
   {
     "brand_name": "Mercedes-Benz",
@@ -1363,50 +1889,15 @@
   {
     "brand_name": "NIO",
     "brand_slug": "nio",
-    "state_name": "Małopolskie",
-    "state_slug": "malopolskie",
+    "state_name": "Dolnośląskie",
+    "state_slug": "dolnoslaskie",
     "count": 2,
-    "cities_count": 1,
+    "cities_count": 2,
     "cities": [
-      "Kraków"
-    ],
-    "avg_rating": 4.7
-  },
-  {
-    "brand_name": "NIO",
-    "brand_slug": "nio",
-    "state_name": "Lubelskie",
-    "state_slug": "lubelskie",
-    "count": 2,
-    "cities_count": 1,
-    "cities": [
-      "Lublin"
-    ],
-    "avg_rating": 4.6
-  },
-  {
-    "brand_name": "NIO",
-    "brand_slug": "nio",
-    "state_name": "Świętokrzyskie",
-    "state_slug": "swietokrzyskie",
-    "count": 2,
-    "cities_count": 1,
-    "cities": [
-      "Kielce"
+      "Długołęka",
+      "Wrocław"
     ],
     "avg_rating": 4.5
-  },
-  {
-    "brand_name": "NIO",
-    "brand_slug": "nio",
-    "state_name": "Pomorskie",
-    "state_slug": "pomorskie",
-    "count": 2,
-    "cities_count": 1,
-    "cities": [
-      "Gdańsk"
-    ],
-    "avg_rating": 3.7
   },
   {
     "brand_name": "Nissan",
@@ -1572,6 +2063,18 @@
   {
     "brand_name": "Peugeot",
     "brand_slug": "peugeot",
+    "state_name": "Małopolskie",
+    "state_slug": "malopolskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Kraków"
+    ],
+    "avg_rating": 4.3
+  },
+  {
+    "brand_name": "Peugeot",
+    "brand_slug": "peugeot",
     "state_name": "Lubelskie",
     "state_slug": "lubelskie",
     "count": 2,
@@ -1617,6 +2120,18 @@
       "Sopot"
     ],
     "avg_rating": 3.6
+  },
+  {
+    "brand_name": "Renault",
+    "brand_slug": "renault",
+    "state_name": "Kujawsko-pomorskie",
+    "state_slug": "kujawsko-pomorskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Bydgoszcz"
+    ],
+    "avg_rating": 4.7
   },
   {
     "brand_name": "Renault",
@@ -1667,6 +2182,30 @@
     "avg_rating": 4.3
   },
   {
+    "brand_name": "Seat",
+    "brand_slug": "seat",
+    "state_name": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Warszawa"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "Seat",
+    "brand_slug": "seat",
+    "state_name": "Dolnośląskie",
+    "state_slug": "dolnoslaskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Wrocław"
+    ],
+    "avg_rating": 4.2
+  },
+  {
     "brand_name": "Skoda",
     "brand_slug": "skoda",
     "state_name": "Wielkopolskie",
@@ -1705,6 +2244,67 @@
   {
     "brand_name": "SsangYong",
     "brand_slug": "ssangyong",
+    "state_name": "Kujawsko-pomorskie",
+    "state_slug": "kujawsko-pomorskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Bydgoszcz"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "SsangYong",
+    "brand_slug": "ssangyong",
+    "state_name": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Katowice"
+    ],
+    "avg_rating": 4.3
+  },
+  {
+    "brand_name": "SsangYong",
+    "brand_slug": "ssangyong",
+    "state_name": "Łódzkie",
+    "state_slug": "lodzkie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Łódź"
+    ],
+    "avg_rating": 4.3
+  },
+  {
+    "brand_name": "Subaru",
+    "brand_slug": "subaru",
+    "state_name": "Łódzkie",
+    "state_slug": "lodzkie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Łódź"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "Subaru",
+    "brand_slug": "subaru",
+    "state_name": "British Columbia",
+    "state_slug": "british-columbia",
+    "count": 2,
+    "cities_count": 2,
+    "cities": [
+      "Port Coquitlam",
+      "Surrey"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "Subaru",
+    "brand_slug": "subaru",
     "state_name": "Mazowieckie",
     "state_slug": "mazowieckie",
     "count": 2,
@@ -1712,7 +2312,7 @@
     "cities": [
       "Warszawa"
     ],
-    "avg_rating": 4.8
+    "avg_rating": 4.3
   },
   {
     "brand_name": "Suzuki",
@@ -1727,6 +2327,19 @@
     "avg_rating": 4.5
   },
   {
+    "brand_name": "Tesla",
+    "brand_slug": "tesla",
+    "state_name": "Dolnośląskie",
+    "state_slug": "dolnoslaskie",
+    "count": 2,
+    "cities_count": 2,
+    "cities": [
+      "Długołęka",
+      "Wrocław"
+    ],
+    "avg_rating": 4.4
+  },
+  {
     "brand_name": "Toyota",
     "brand_slug": "toyota",
     "state_name": "Śląskie",
@@ -1735,6 +2348,18 @@
     "cities_count": 1,
     "cities": [
       "Katowice"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "Toyota",
+    "brand_slug": "toyota",
+    "state_name": "Lubuskie",
+    "state_slug": "lubuskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Zielona Góra"
     ],
     "avg_rating": 4.7
   },
@@ -1789,6 +2414,18 @@
   {
     "brand_name": "Volkswagen",
     "brand_slug": "volkswagen",
+    "state_name": "Podlaskie",
+    "state_slug": "podlaskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Białystok"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "Volkswagen",
+    "brand_slug": "volkswagen",
     "state_name": "Zachodniopomorskie",
     "state_slug": "zachodniopomorskie",
     "count": 2,
@@ -1797,6 +2434,18 @@
       "Szczecin"
     ],
     "avg_rating": 4.7
+  },
+  {
+    "brand_name": "Volkswagen",
+    "brand_slug": "volkswagen",
+    "state_name": "Kujawsko-pomorskie",
+    "state_slug": "kujawsko-pomorskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Bydgoszcz"
+    ],
+    "avg_rating": 4.5
   },
   {
     "brand_name": "Volkswagen",
@@ -1874,6 +2523,18 @@
   {
     "brand_name": "Alfa Romeo",
     "brand_slug": "alfa-romeo",
+    "state_name": "Lubuskie",
+    "state_slug": "lubuskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Zielona Góra"
+    ],
+    "avg_rating": 4.5
+  },
+  {
+    "brand_name": "Alfa Romeo",
+    "brand_slug": "alfa-romeo",
     "state_name": "Lubelskie",
     "state_slug": "lubelskie",
     "count": 1,
@@ -1884,16 +2545,64 @@
     "avg_rating": 4.4
   },
   {
-    "brand_name": "Audi",
-    "brand_slug": "audi",
-    "state_name": "Małopolskie",
-    "state_slug": "malopolskie",
+    "brand_name": "Alfa Romeo",
+    "brand_slug": "alfa-romeo",
+    "state_name": "Dolnośląskie",
+    "state_slug": "dolnoslaskie",
     "count": 1,
     "cities_count": 1,
     "cities": [
-      "Kraków"
+      "Wrocław"
     ],
-    "avg_rating": 4.8
+    "avg_rating": 4.4
+  },
+  {
+    "brand_name": "Alfa Romeo",
+    "brand_slug": "alfa-romeo",
+    "state_name": "Pomorskie",
+    "state_slug": "pomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Gdańsk"
+    ],
+    "avg_rating": 4.4
+  },
+  {
+    "brand_name": "Alfa Romeo",
+    "brand_slug": "alfa-romeo",
+    "state_name": "Zachodniopomorskie",
+    "state_slug": "zachodniopomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Szczecin"
+    ],
+    "avg_rating": 4.2
+  },
+  {
+    "brand_name": "Alfa Romeo",
+    "brand_slug": "alfa-romeo",
+    "state_name": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Katowice"
+    ],
+    "avg_rating": 4.1
+  },
+  {
+    "brand_name": "Alfa Romeo",
+    "brand_slug": "alfa-romeo",
+    "state_name": "Opolskie",
+    "state_slug": "opolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Opole"
+    ],
+    "avg_rating": 3.0
   },
   {
     "brand_name": "Audi",
@@ -1918,30 +2627,6 @@
       "Opole"
     ],
     "avg_rating": 4.7
-  },
-  {
-    "brand_name": "Audi",
-    "brand_slug": "audi",
-    "state_name": "Śląskie",
-    "state_slug": "slaskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Katowice"
-    ],
-    "avg_rating": 4.5
-  },
-  {
-    "brand_name": "Audi",
-    "brand_slug": "audi",
-    "state_name": "Podkarpackie",
-    "state_slug": "podkarpackie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Rzeszów"
-    ],
-    "avg_rating": 4.5
   },
   {
     "brand_name": "Audi",
@@ -2088,16 +2773,64 @@
     "avg_rating": 4.4
   },
   {
-    "brand_name": "BMW",
-    "brand_slug": "bmw",
-    "state_name": "Lubuskie",
-    "state_slug": "lubuskie",
+    "brand_name": "BYD",
+    "brand_slug": "byd",
+    "state_name": "Dolnośląskie",
+    "state_slug": "dolnoslaskie",
     "count": 1,
     "cities_count": 1,
     "cities": [
-      "Zielona Góra"
+      "Wrocław"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "BYD",
+    "brand_slug": "byd",
+    "state_name": "Zachodniopomorskie",
+    "state_slug": "zachodniopomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Szczecin"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "BYD",
+    "brand_slug": "byd",
+    "state_name": "Pomorskie",
+    "state_slug": "pomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Gdańsk"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "BYD",
+    "brand_slug": "byd",
+    "state_name": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Katowice"
     ],
     "avg_rating": 4.4
+  },
+  {
+    "brand_name": "CUPRA",
+    "brand_slug": "cupra",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.1
   },
   {
     "brand_name": "Citroen",
@@ -2220,6 +2953,342 @@
     "avg_rating": 5.0
   },
   {
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
+    "state_name": "Lubelskie",
+    "state_slug": "lubelskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Lublin"
+    ],
+    "avg_rating": 5.0
+  },
+  {
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
+    "state_name": "Podkarpackie",
+    "state_slug": "podkarpackie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Rzeszów"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
+    "state_name": "Podlaskie",
+    "state_slug": "podlaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Białystok"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
+    "state_name": "Zachodniopomorskie",
+    "state_slug": "zachodniopomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Szczecin"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
+    "state_name": "Świętokrzyskie",
+    "state_slug": "swietokrzyskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Kielce"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
+    "state_name": "Lubuskie",
+    "state_slug": "lubuskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Zielona Góra"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
+    "state_name": "Kujawsko-pomorskie",
+    "state_slug": "kujawsko-pomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Bydgoszcz"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
+    "state_name": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Katowice"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
+    "state_name": "Warmińsko-mazurskie",
+    "state_slug": "warminsko-mazurskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Olsztyn"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
+    "state_name": "Dolnośląskie",
+    "state_slug": "dolnoslaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Wrocław"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "DS",
+    "brand_slug": "ds",
+    "state_name": "Podkarpackie",
+    "state_slug": "podkarpackie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Rzeszów"
+    ],
+    "avg_rating": 4.8
+  },
+  {
+    "brand_name": "DS",
+    "brand_slug": "ds",
+    "state_name": "Małopolskie",
+    "state_slug": "malopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Kraków"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "DS",
+    "brand_slug": "ds",
+    "state_name": "Pomorskie",
+    "state_slug": "pomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Gdańsk"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "DS",
+    "brand_slug": "ds",
+    "state_name": "Dolnośląskie",
+    "state_slug": "dolnoslaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Wrocław"
+    ],
+    "avg_rating": 4.5
+  },
+  {
+    "brand_name": "DS",
+    "brand_slug": "ds",
+    "state_name": "Podlaskie",
+    "state_slug": "podlaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Białystok"
+    ],
+    "avg_rating": 4.5
+  },
+  {
+    "brand_name": "DS",
+    "brand_slug": "ds",
+    "state_name": "Łódzkie",
+    "state_slug": "lodzkie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Łódź"
+    ],
+    "avg_rating": 4.5
+  },
+  {
+    "brand_name": "DS",
+    "brand_slug": "ds",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.2
+  },
+  {
+    "brand_name": "Dacia",
+    "brand_slug": "dacia",
+    "state_name": "Dolnośląskie",
+    "state_slug": "dolnoslaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Wrocław"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Dacia",
+    "brand_slug": "dacia",
+    "state_name": "Podlaskie",
+    "state_slug": "podlaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Białystok"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Dacia",
+    "brand_slug": "dacia",
+    "state_name": "Warmińsko-mazurskie",
+    "state_slug": "warminsko-mazurskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Olsztyn"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Dacia",
+    "brand_slug": "dacia",
+    "state_name": "Świętokrzyskie",
+    "state_slug": "swietokrzyskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Kielce"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Dacia",
+    "brand_slug": "dacia",
+    "state_name": "Opolskie",
+    "state_slug": "opolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Opole"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Dacia",
+    "brand_slug": "dacia",
+    "state_name": "Zachodniopomorskie",
+    "state_slug": "zachodniopomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Szczecin"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "Dacia",
+    "brand_slug": "dacia",
+    "state_name": "Podkarpackie",
+    "state_slug": "podkarpackie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Rzeszów"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "Dodge",
+    "brand_slug": "dodge",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "Dodge",
+    "brand_slug": "dodge",
+    "state_name": "Dolnośląskie",
+    "state_slug": "dolnoslaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Długołęka"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "Dodge",
+    "brand_slug": "dodge",
+    "state_name": "Pomorskie",
+    "state_slug": "pomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Gdańsk"
+    ],
+    "avg_rating": 4.6
+  },
+  {
     "brand_name": "Dodge",
     "brand_slug": "dodge",
     "state_name": "Lubelskie",
@@ -2234,14 +3303,26 @@
   {
     "brand_name": "Dodge",
     "brand_slug": "dodge",
-    "state_name": "Mazowieckie",
-    "state_slug": "mazowieckie",
+    "state_name": "Śląskie",
+    "state_slug": "slaskie",
     "count": 1,
     "cities_count": 1,
     "cities": [
-      "Warszawa"
+      "Katowice"
     ],
-    "avg_rating": 4.4
+    "avg_rating": 4.2
+  },
+  {
+    "brand_name": "Dodge",
+    "brand_slug": "dodge",
+    "state_name": "Podkarpackie",
+    "state_slug": "podkarpackie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Rzeszów"
+    ],
+    "avg_rating": 4.2
   },
   {
     "brand_name": "Fiat",
@@ -2364,6 +3445,18 @@
     "avg_rating": 4.1
   },
   {
+    "brand_name": "Fiat Professional",
+    "brand_slug": "fiat-professional",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.1
+  },
+  {
     "brand_name": "Ford",
     "brand_slug": "ford",
     "state_name": "Pomorskie",
@@ -2482,6 +3575,18 @@
       "Bydgoszcz"
     ],
     "avg_rating": 4.1
+  },
+  {
+    "brand_name": "Great Wall",
+    "brand_slug": "great-wall",
+    "state_name": "Pomorskie",
+    "state_slug": "pomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Gdańsk"
+    ],
+    "avg_rating": 4.0
   },
   {
     "brand_name": "Honda",
@@ -2748,6 +3853,18 @@
     "avg_rating": 4.4
   },
   {
+    "brand_name": "IVECO",
+    "brand_slug": "iveco",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.1
+  },
+  {
     "brand_name": "Isuzu",
     "brand_slug": "isuzu",
     "state_name": "Łódzkie",
@@ -2918,24 +4035,24 @@
   {
     "brand_name": "Jeep",
     "brand_slug": "jeep",
+    "state_name": "Lubuskie",
+    "state_slug": "lubuskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Zielona Góra"
+    ],
+    "avg_rating": 4.4
+  },
+  {
+    "brand_name": "Jeep",
+    "brand_slug": "jeep",
     "state_name": "Podkarpackie",
     "state_slug": "podkarpackie",
     "count": 1,
     "cities_count": 1,
     "cities": [
       "Rzeszów"
-    ],
-    "avg_rating": 4.3
-  },
-  {
-    "brand_name": "Jeep",
-    "brand_slug": "jeep",
-    "state_name": "Pomorskie",
-    "state_slug": "pomorskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Gdańsk"
     ],
     "avg_rating": 4.3
   },
@@ -2986,30 +4103,6 @@
       "Porosły-Kolonia, Białystok"
     ],
     "avg_rating": 4.6
-  },
-  {
-    "brand_name": "Kia",
-    "brand_slug": "kia",
-    "state_name": "Zachodniopomorskie",
-    "state_slug": "zachodniopomorskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Szczecin"
-    ],
-    "avg_rating": 4.6
-  },
-  {
-    "brand_name": "Kia",
-    "brand_slug": "kia",
-    "state_name": "Dolnośląskie",
-    "state_slug": "dolnoslaskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Wrocław"
-    ],
-    "avg_rating": 4.5
   },
   {
     "brand_name": "Kia",
@@ -3156,6 +4249,18 @@
     "avg_rating": 4.5
   },
   {
+    "brand_name": "Leapmotor",
+    "brand_slug": "leapmotor",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.1
+  },
+  {
     "brand_name": "Lexus",
     "brand_slug": "lexus",
     "state_name": "Świętokrzyskie",
@@ -3226,6 +4331,246 @@
       "Katowice"
     ],
     "avg_rating": 4.5
+  },
+  {
+    "brand_name": "Lynk",
+    "brand_slug": "lynk",
+    "state_name": "Metropolitan City of Milan",
+    "state_slug": "metropolitan-city-of-milan",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Milan"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "MG",
+    "brand_slug": "mg",
+    "state_name": "Warmińsko-mazurskie",
+    "state_slug": "warminsko-mazurskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Olsztyn"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "MG",
+    "brand_slug": "mg",
+    "state_name": "Lubuskie",
+    "state_slug": "lubuskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Zielona Góra"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "MG",
+    "brand_slug": "mg",
+    "state_name": "Kujawsko-pomorskie",
+    "state_slug": "kujawsko-pomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Bydgoszcz"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "MG",
+    "brand_slug": "mg",
+    "state_name": "Świętokrzyskie",
+    "state_slug": "swietokrzyskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Kielce"
+    ],
+    "avg_rating": 4.8
+  },
+  {
+    "brand_name": "MG",
+    "brand_slug": "mg",
+    "state_name": "Małopolskie",
+    "state_slug": "malopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Kraków"
+    ],
+    "avg_rating": 4.8
+  },
+  {
+    "brand_name": "MG",
+    "brand_slug": "mg",
+    "state_name": "Podlaskie",
+    "state_slug": "podlaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Białystok"
+    ],
+    "avg_rating": 4.8
+  },
+  {
+    "brand_name": "MG",
+    "brand_slug": "mg",
+    "state_name": "Opolskie",
+    "state_slug": "opolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Opole"
+    ],
+    "avg_rating": 4.8
+  },
+  {
+    "brand_name": "MG",
+    "brand_slug": "mg",
+    "state_name": "Lubelskie",
+    "state_slug": "lubelskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Lublin"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "MG",
+    "brand_slug": "mg",
+    "state_name": "Dolnośląskie",
+    "state_slug": "dolnoslaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Długołęka"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "MG",
+    "brand_slug": "mg",
+    "state_name": "Zachodniopomorskie",
+    "state_slug": "zachodniopomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Ustowo, Szczecin"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "MG",
+    "brand_slug": "mg",
+    "state_name": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Katowice"
+    ],
+    "avg_rating": 4.5
+  },
+  {
+    "brand_name": "MG",
+    "brand_slug": "mg",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.4
+  },
+  {
+    "brand_name": "MG",
+    "brand_slug": "mg",
+    "state_name": "Podkarpackie",
+    "state_slug": "podkarpackie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Rzeszów"
+    ],
+    "avg_rating": 4.4
+  },
+  {
+    "brand_name": "MG",
+    "brand_slug": "mg",
+    "state_name": "Łódzkie",
+    "state_slug": "lodzkie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Łódź"
+    ],
+    "avg_rating": 4.2
+  },
+  {
+    "brand_name": "Maxus",
+    "brand_slug": "maxus",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Maxus",
+    "brand_slug": "maxus",
+    "state_name": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Katowice"
+    ],
+    "avg_rating": 4.5
+  },
+  {
+    "brand_name": "Maxus",
+    "brand_slug": "maxus",
+    "state_name": "Lubelskie",
+    "state_slug": "lubelskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Lublin"
+    ],
+    "avg_rating": 4.1
+  },
+  {
+    "brand_name": "Maxus",
+    "brand_slug": "maxus",
+    "state_name": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Warszawa"
+    ],
+    "avg_rating": 3.5
+  },
+  {
+    "brand_name": "Maxus",
+    "brand_slug": "maxus",
+    "state_name": "Łódzkie",
+    "state_slug": "lodzkie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Łódź"
+    ],
+    "avg_rating": 3.1
   },
   {
     "brand_name": "Mazda",
@@ -3332,18 +4677,6 @@
     "cities_count": 1,
     "cities": [
       "Rzeszów"
-    ],
-    "avg_rating": 4.5
-  },
-  {
-    "brand_name": "Mazda",
-    "brand_slug": "mazda",
-    "state_name": "Świętokrzyskie",
-    "state_slug": "swietokrzyskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Kielce"
     ],
     "avg_rating": 4.5
   },
@@ -3480,18 +4813,6 @@
     "avg_rating": 4.1
   },
   {
-    "brand_name": "Mercedes-Benz",
-    "brand_slug": "mercedes-benz",
-    "state_name": "Mazowieckie",
-    "state_slug": "mazowieckie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Warszawa"
-    ],
-    "avg_rating": 4.0
-  },
-  {
     "brand_name": "Mini",
     "brand_slug": "mini",
     "state_name": "Wielkopolskie",
@@ -3500,6 +4821,18 @@
     "cities_count": 1,
     "cities": [
       "Poznań"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Mini",
+    "brand_slug": "mini",
+    "state_name": "Świętokrzyskie",
+    "state_slug": "swietokrzyskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Kielce"
     ],
     "avg_rating": 4.9
   },
@@ -3670,30 +5003,6 @@
       "Zielona Góra"
     ],
     "avg_rating": 4.1
-  },
-  {
-    "brand_name": "NIO",
-    "brand_slug": "nio",
-    "state_name": "Lubuskie",
-    "state_slug": "lubuskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Zielona Góra"
-    ],
-    "avg_rating": 4.6
-  },
-  {
-    "brand_name": "NIO",
-    "brand_slug": "nio",
-    "state_name": "Dolnośląskie",
-    "state_slug": "dolnoslaskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Wrocław"
-    ],
-    "avg_rating": 4.6
   },
   {
     "brand_name": "Nissan",
@@ -3926,18 +5235,6 @@
   {
     "brand_name": "Peugeot",
     "brand_slug": "peugeot",
-    "state_name": "Małopolskie",
-    "state_slug": "malopolskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Kraków"
-    ],
-    "avg_rating": 4.3
-  },
-  {
-    "brand_name": "Peugeot",
-    "brand_slug": "peugeot",
     "state_name": "Lubuskie",
     "state_slug": "lubuskie",
     "count": 1,
@@ -4058,6 +5355,30 @@
   {
     "brand_name": "RAM",
     "brand_slug": "ram",
+    "state_name": "Świętokrzyskie",
+    "state_slug": "swietokrzyskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Kielce"
+    ],
+    "avg_rating": 4.8
+  },
+  {
+    "brand_name": "RAM",
+    "brand_slug": "ram",
+    "state_name": "Łódzkie",
+    "state_slug": "lodzkie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Łódź"
+    ],
+    "avg_rating": 4.8
+  },
+  {
+    "brand_name": "RAM",
+    "brand_slug": "ram",
     "state_name": "Mazowieckie",
     "state_slug": "mazowieckie",
     "count": 1,
@@ -4066,6 +5387,66 @@
       "Warszawa"
     ],
     "avg_rating": 4.7
+  },
+  {
+    "brand_name": "RAM",
+    "brand_slug": "ram",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "RAM",
+    "brand_slug": "ram",
+    "state_name": "Pomorskie",
+    "state_slug": "pomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Gdańsk"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "RAM",
+    "brand_slug": "ram",
+    "state_name": "British Columbia",
+    "state_slug": "british-columbia",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Port Alberni"
+    ],
+    "avg_rating": 4.5
+  },
+  {
+    "brand_name": "RAM",
+    "brand_slug": "ram",
+    "state_name": "Podlaskie",
+    "state_slug": "podlaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Białystok"
+    ],
+    "avg_rating": 4.4
+  },
+  {
+    "brand_name": "RAM",
+    "brand_slug": "ram",
+    "state_name": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Katowice"
+    ],
+    "avg_rating": 4.2
   },
   {
     "brand_name": "Renault",
@@ -4130,18 +5511,6 @@
   {
     "brand_name": "Renault",
     "brand_slug": "renault",
-    "state_name": "Kujawsko-pomorskie",
-    "state_slug": "kujawsko-pomorskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Bydgoszcz"
-    ],
-    "avg_rating": 4.6
-  },
-  {
-    "brand_name": "Renault",
-    "brand_slug": "renault",
     "state_name": "Dolnośląskie",
     "state_slug": "dolnoslaskie",
     "count": 1,
@@ -4188,6 +5557,42 @@
     "avg_rating": 4.3
   },
   {
+    "brand_name": "SEAT",
+    "brand_slug": "seat",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.1
+  },
+  {
+    "brand_name": "Seat",
+    "brand_slug": "seat",
+    "state_name": "Opolskie",
+    "state_slug": "opolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Opole"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "Seat",
+    "brand_slug": "seat",
+    "state_name": "Zachodniopomorskie",
+    "state_slug": "zachodniopomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Szczecin"
+    ],
+    "avg_rating": 4.8
+  },
+  {
     "brand_name": "Seat",
     "brand_slug": "seat",
     "state_name": "Wielkopolskie",
@@ -4202,6 +5607,42 @@
   {
     "brand_name": "Seat",
     "brand_slug": "seat",
+    "state_name": "Świętokrzyskie",
+    "state_slug": "swietokrzyskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Kielce"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "Seat",
+    "brand_slug": "seat",
+    "state_name": "Lubuskie",
+    "state_slug": "lubuskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Zielona Góra"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "Seat",
+    "brand_slug": "seat",
+    "state_name": "Kujawsko-pomorskie",
+    "state_slug": "kujawsko-pomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Bydgoszcz"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "Seat",
+    "brand_slug": "seat",
     "state_name": "Łódzkie",
     "state_slug": "lodzkie",
     "count": 1,
@@ -4210,6 +5651,66 @@
       "Łódź"
     ],
     "avg_rating": 4.6
+  },
+  {
+    "brand_name": "Seat",
+    "brand_slug": "seat",
+    "state_name": "Podlaskie",
+    "state_slug": "podlaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Białystok"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "Seat",
+    "brand_slug": "seat",
+    "state_name": "Podkarpackie",
+    "state_slug": "podkarpackie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Rzeszów"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "Seat",
+    "brand_slug": "seat",
+    "state_name": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Katowice"
+    ],
+    "avg_rating": 4.5
+  },
+  {
+    "brand_name": "Seat",
+    "brand_slug": "seat",
+    "state_name": "Pomorskie",
+    "state_slug": "pomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Gdańsk"
+    ],
+    "avg_rating": 4.4
+  },
+  {
+    "brand_name": "Seat",
+    "brand_slug": "seat",
+    "state_name": "Małopolskie",
+    "state_slug": "malopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Kraków"
+    ],
+    "avg_rating": 4.3
   },
   {
     "brand_name": "Skoda",
@@ -4274,6 +5775,30 @@
   {
     "brand_name": "SsangYong",
     "brand_slug": "ssangyong",
+    "state_name": "Dolnośląskie",
+    "state_slug": "dolnoslaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Wrocław"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "SsangYong",
+    "brand_slug": "ssangyong",
+    "state_name": "Świętokrzyskie",
+    "state_slug": "swietokrzyskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Kielce"
+    ],
+    "avg_rating": 4.9
+  },
+  {
+    "brand_name": "SsangYong",
+    "brand_slug": "ssangyong",
     "state_name": "Warmińsko-mazurskie",
     "state_slug": "warminsko-mazurskie",
     "count": 1,
@@ -4286,24 +5811,144 @@
   {
     "brand_name": "SsangYong",
     "brand_slug": "ssangyong",
-    "state_name": "Łódzkie",
-    "state_slug": "lodzkie",
+    "state_name": "Opolskie",
+    "state_slug": "opolskie",
     "count": 1,
     "cities_count": 1,
     "cities": [
-      "Łódź"
+      "Opole"
+    ],
+    "avg_rating": 4.4
+  },
+  {
+    "brand_name": "SsangYong",
+    "brand_slug": "ssangyong",
+    "state_name": "Podkarpackie",
+    "state_slug": "podkarpackie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Rzeszów"
+    ],
+    "avg_rating": 4.2
+  },
+  {
+    "brand_name": "Subaru",
+    "brand_slug": "subaru",
+    "state_name": "Lubelskie",
+    "state_slug": "lubelskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Konopnica, Lublin"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "Subaru",
+    "brand_slug": "subaru",
+    "state_name": "Idaho",
+    "state_slug": "idaho",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Boise"
+    ],
+    "avg_rating": 4.7
+  },
+  {
+    "brand_name": "Subaru",
+    "brand_slug": "subaru",
+    "state_name": "Lubuskie",
+    "state_slug": "lubuskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Zielona Góra"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "Subaru",
+    "brand_slug": "subaru",
+    "state_name": "Podkarpackie",
+    "state_slug": "podkarpackie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Rzeszów"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "Subaru",
+    "brand_slug": "subaru",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.5
+  },
+  {
+    "brand_name": "Subaru",
+    "brand_slug": "subaru",
+    "state_name": "Zachodniopomorskie",
+    "state_slug": "zachodniopomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Ustowo, Szczecin"
+    ],
+    "avg_rating": 4.5
+  },
+  {
+    "brand_name": "Subaru",
+    "brand_slug": "subaru",
+    "state_name": "Małopolskie",
+    "state_slug": "malopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Kraków"
+    ],
+    "avg_rating": 4.4
+  },
+  {
+    "brand_name": "Subaru",
+    "brand_slug": "subaru",
+    "state_name": "Pomorskie",
+    "state_slug": "pomorskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Gdańsk"
+    ],
+    "avg_rating": 4.4
+  },
+  {
+    "brand_name": "Subaru",
+    "brand_slug": "subaru",
+    "state_name": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Katowice"
     ],
     "avg_rating": 4.3
   },
   {
     "brand_name": "Subaru",
     "brand_slug": "subaru",
-    "state_name": "Mazowieckie",
-    "state_slug": "mazowieckie",
+    "state_name": "Podlaskie",
+    "state_slug": "podlaskie",
     "count": 1,
     "cities_count": 1,
     "cities": [
-      "Warszawa"
+      "Białystok"
     ],
     "avg_rating": 4.2
   },
@@ -4394,14 +6039,86 @@
   {
     "brand_name": "Tesla",
     "brand_slug": "tesla",
-    "state_name": "Zachodniopomorskie",
-    "state_slug": "zachodniopomorskie",
+    "state_name": "Pomorskie",
+    "state_slug": "pomorskie",
     "count": 1,
     "cities_count": 1,
     "cities": [
-      "Szczecin"
+      "Gdańsk"
+    ],
+    "avg_rating": 4.6
+  },
+  {
+    "brand_name": "Tesla",
+    "brand_slug": "tesla",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
     ],
     "avg_rating": 4.5
+  },
+  {
+    "brand_name": "Tesla",
+    "brand_slug": "tesla",
+    "state_name": "Indiana",
+    "state_slug": "indiana",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Indianapolis"
+    ],
+    "avg_rating": 4.4
+  },
+  {
+    "brand_name": "Tesla",
+    "brand_slug": "tesla",
+    "state_name": "Małopolskie",
+    "state_slug": "malopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Kraków"
+    ],
+    "avg_rating": 4.0
+  },
+  {
+    "brand_name": "Tesla",
+    "brand_slug": "tesla",
+    "state_name": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Katowice"
+    ],
+    "avg_rating": 4.0
+  },
+  {
+    "brand_name": "Tesla",
+    "brand_slug": "tesla",
+    "state_name": "Lubelskie",
+    "state_slug": "lubelskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Lublin"
+    ],
+    "avg_rating": 3.5
+  },
+  {
+    "brand_name": "Tesla",
+    "brand_slug": "tesla",
+    "state_name": "Podlaskie",
+    "state_slug": "podlaskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Białystok"
+    ],
+    "avg_rating": 3.2
   },
   {
     "brand_name": "Toyota",
@@ -4436,18 +6153,6 @@
     "cities_count": 1,
     "cities": [
       "Opole"
-    ],
-    "avg_rating": 4.6
-  },
-  {
-    "brand_name": "Toyota",
-    "brand_slug": "toyota",
-    "state_name": "Lubuskie",
-    "state_slug": "lubuskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Zielona Góra"
     ],
     "avg_rating": 4.6
   },
@@ -4526,18 +6231,6 @@
   {
     "brand_name": "Volkswagen",
     "brand_slug": "volkswagen",
-    "state_name": "Kujawsko-pomorskie",
-    "state_slug": "kujawsko-pomorskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Bydgoszcz"
-    ],
-    "avg_rating": 4.7
-  },
-  {
-    "brand_name": "Volkswagen",
-    "brand_slug": "volkswagen",
     "state_name": "North Carolina",
     "state_slug": "north-carolina",
     "count": 1,
@@ -4582,18 +6275,6 @@
       "Kielce"
     ],
     "avg_rating": 4.5
-  },
-  {
-    "brand_name": "Volkswagen",
-    "brand_slug": "volkswagen",
-    "state_name": "Podlaskie",
-    "state_slug": "podlaskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Białystok"
-    ],
-    "avg_rating": 4.4
   },
   {
     "brand_name": "Volkswagen",

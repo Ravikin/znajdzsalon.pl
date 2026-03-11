@@ -2,7 +2,7 @@
   {
     "name": "Mazowieckie",
     "slug": "mazowieckie",
-    "count": 152,
+    "count": 189,
     "cities": [
       "Blizne Łaszczyńskiego",
       "Falenty",
@@ -18,7 +18,7 @@
   {
     "name": "Wielkopolskie",
     "slug": "wielkopolskie",
-    "count": 63,
+    "count": 84,
     "cities": [
       "Baranowo",
       "Komorniki",
@@ -29,9 +29,18 @@
     "cities_count": 5
   },
   {
+    "name": "Łódzkie",
+    "slug": "lodzkie",
+    "count": 82,
+    "cities": [
+      "Łódź"
+    ],
+    "cities_count": 1
+  },
+  {
     "name": "Małopolskie",
     "slug": "malopolskie",
-    "count": 58,
+    "count": 82,
     "cities": [
       "Kraków",
       "Modlnica",
@@ -40,40 +49,9 @@
     "cities_count": 3
   },
   {
-    "name": "Łódzkie",
-    "slug": "lodzkie",
-    "count": 52,
-    "cities": [
-      "Łódź"
-    ],
-    "cities_count": 1
-  },
-  {
-    "name": "Pomorskie",
-    "slug": "pomorskie",
-    "count": 45,
-    "cities": [
-      "Gdańsk",
-      "Osielsko",
-      "Sopot"
-    ],
-    "cities_count": 3
-  },
-  {
-    "name": "Dolnośląskie",
-    "slug": "dolnoslaskie",
-    "count": 45,
-    "cities": [
-      "Bielany Wrocławskie",
-      "Długołęka",
-      "Wrocław"
-    ],
-    "cities_count": 3
-  },
-  {
     "name": "Śląskie",
     "slug": "slaskie",
-    "count": 38,
+    "count": 67,
     "cities": [
       "Bielsko-Biała",
       "Chorzów",
@@ -84,9 +62,32 @@
     "cities_count": 5
   },
   {
+    "name": "Pomorskie",
+    "slug": "pomorskie",
+    "count": 64,
+    "cities": [
+      "Gdańsk",
+      "Osielsko",
+      "Rumia",
+      "Sopot"
+    ],
+    "cities_count": 4
+  },
+  {
+    "name": "Dolnośląskie",
+    "slug": "dolnoslaskie",
+    "count": 64,
+    "cities": [
+      "Bielany Wrocławskie",
+      "Długołęka",
+      "Wrocław"
+    ],
+    "cities_count": 3
+  },
+  {
     "name": "Zachodniopomorskie",
     "slug": "zachodniopomorskie",
-    "count": 34,
+    "count": 58,
     "cities": [
       "Szczecin",
       "Ustowo, Szczecin"
@@ -94,9 +95,38 @@
     "cities_count": 2
   },
   {
+    "name": "Podlaskie",
+    "slug": "podlaskie",
+    "count": 56,
+    "cities": [
+      "Białystok",
+      "Krupniki, Białystok",
+      "Porosły-Kolonia, Białystok"
+    ],
+    "cities_count": 3
+  },
+  {
+    "name": "Świętokrzyskie",
+    "slug": "swietokrzyskie",
+    "count": 48,
+    "cities": [
+      "Kielce"
+    ],
+    "cities_count": 1
+  },
+  {
+    "name": "Lubuskie",
+    "slug": "lubuskie",
+    "count": 48,
+    "cities": [
+      "Zielona Góra"
+    ],
+    "cities_count": 1
+  },
+  {
     "name": "Lubelskie",
     "slug": "lubelskie",
-    "count": 27,
+    "count": 44,
     "cities": [
       "Konopnica, Lublin",
       "Lublin",
@@ -107,45 +137,16 @@
   {
     "name": "Warmińsko-mazurskie",
     "slug": "warminsko-mazurskie",
-    "count": 26,
+    "count": 40,
     "cities": [
       "Olsztyn"
     ],
     "cities_count": 1
   },
   {
-    "name": "Opolskie",
-    "slug": "opolskie",
-    "count": 23,
-    "cities": [
-      "Opole"
-    ],
-    "cities_count": 1
-  },
-  {
-    "name": "Podlaskie",
-    "slug": "podlaskie",
-    "count": 22,
-    "cities": [
-      "Białystok",
-      "Krupniki, Białystok",
-      "Porosły-Kolonia, Białystok"
-    ],
-    "cities_count": 3
-  },
-  {
-    "name": "Lubuskie",
-    "slug": "lubuskie",
-    "count": 21,
-    "cities": [
-      "Zielona Góra"
-    ],
-    "cities_count": 1
-  },
-  {
     "name": "Podkarpackie",
     "slug": "podkarpackie",
-    "count": 20,
+    "count": 38,
     "cities": [
       "Krasne, Rzeszów",
       "Rzeszów",
@@ -156,20 +157,37 @@
   {
     "name": "Kujawsko-pomorskie",
     "slug": "kujawsko-pomorskie",
-    "count": 20,
+    "count": 34,
     "cities": [
       "Bydgoszcz"
     ],
     "cities_count": 1
   },
   {
-    "name": "Świętokrzyskie",
-    "slug": "swietokrzyskie",
-    "count": 17,
+    "name": "Opolskie",
+    "slug": "opolskie",
+    "count": 29,
     "cities": [
-      "Kielce"
+      "Opole"
     ],
     "cities_count": 1
+  },
+  {
+    "name": "British Columbia",
+    "slug": "british-columbia",
+    "count": 17,
+    "cities": [
+      "Burnaby",
+      "Langley",
+      "North Vancouver",
+      "Port Alberni",
+      "Port Coquitlam",
+      "Richmond",
+      "Surrey",
+      "Vancouver",
+      "West Vancouver"
+    ],
+    "cities_count": 9
   },
   {
     "name": "State of Rio de Janeiro",
@@ -185,18 +203,6 @@
       "Vassouras"
     ],
     "cities_count": 7
-  },
-  {
-    "name": "British Columbia",
-    "slug": "british-columbia",
-    "count": 6,
-    "cities": [
-      "Langley",
-      "Port Coquitlam",
-      "Richmond",
-      "Surrey"
-    ],
-    "cities_count": 4
   },
   {
     "name": "Tokyo",
@@ -220,6 +226,15 @@
     "cities_count": 1
   },
   {
+    "name": "Idaho",
+    "slug": "idaho",
+    "count": 2,
+    "cities": [
+      "Boise"
+    ],
+    "cities_count": 1
+  },
+  {
     "name": "Texas",
     "slug": "texas",
     "count": 2,
@@ -228,15 +243,6 @@
       "Friendswood"
     ],
     "cities_count": 2
-  },
-  {
-    "name": "Idaho",
-    "slug": "idaho",
-    "count": 1,
-    "cities": [
-      "Boise"
-    ],
-    "cities_count": 1
   },
   {
     "name": "North Carolina",
@@ -257,11 +263,29 @@
     "cities_count": 1
   },
   {
+    "name": "Metropolitan City of Milan",
+    "slug": "metropolitan-city-of-milan",
+    "count": 1,
+    "cities": [
+      "Milan"
+    ],
+    "cities_count": 1
+  },
+  {
     "name": "BC",
     "slug": "bc",
     "count": 1,
     "cities": [
       "Surrey"
+    ],
+    "cities_count": 1
+  },
+  {
+    "name": "Indiana",
+    "slug": "indiana",
+    "count": 1,
+    "cities": [
+      "Indianapolis"
     ],
     "cities_count": 1
   },

@@ -11,14 +11,14 @@ city_name: Warszawa
 city_slug: warszawa
 state: Mazowieckie
 state_slug: mazowieckie
-count: 7
+count: 8
 avg_rating: 4.0
-lat: 52.2145
-lng: 21.0009
+lat: 52.2173
+lng: 21.012
 robots: index,follow
 faq:
   - q: Ile salonów Kia jest w mieście Warszawa?
-    a: W mieście Warszawa działa 7 autoryzowanych salonów Kia.
+    a: W mieście Warszawa działa 8 autoryzowanych salonów Kia.
   - q: Jaka jest średnia ocena salonów Kia w mieście Warszawa?
     a: Średnia ocena salonów Kia w mieście Warszawa wynosi 4.0/5.
   - q: Gdzie znaleźć salon Kia w mieście Warszawa?

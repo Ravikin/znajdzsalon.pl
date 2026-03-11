@@ -11,16 +11,16 @@ city_name: Warszawa
 city_slug: warszawa
 state: Mazowieckie
 state_slug: mazowieckie
-count: 1
-avg_rating: 4.0
-lat: 52.2059
-lng: 20.9394
+count: 2
+avg_rating: 4.2
+lat: 52.2309
+lng: 20.9921
 robots: index,follow
 faq:
   - q: Ile salonów Mercedes-Benz jest w mieście Warszawa?
-    a: W mieście Warszawa działa 1 autoryzowany salon Mercedes-Benz.
+    a: W mieście Warszawa działa 2 autoryzowanych salonów Mercedes-Benz.
   - q: Jaka jest średnia ocena salonów Mercedes-Benz w mieście Warszawa?
-    a: Średnia ocena salonów Mercedes-Benz w mieście Warszawa wynosi 4.0/5.
+    a: Średnia ocena salonów Mercedes-Benz w mieście Warszawa wynosi 4.2/5.
   - q: Gdzie znaleźć salon Mercedes-Benz w mieście Warszawa?
     a: Lista wszystkich salonów Mercedes-Benz w mieście Warszawa z adresami i telefonami znajduje się na tej stronie.
 ---

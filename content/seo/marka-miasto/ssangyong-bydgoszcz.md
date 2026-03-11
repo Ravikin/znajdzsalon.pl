@@ -1,0 +1,28 @@
+---
+title: Salon SsangYong Bydgoszcz – lista dealerów
+slug: ssangyong-bydgoszcz
+url: /ssangyong/bydgoszcz/
+layout: brand-city
+type: seo
+seo_type: brand_city
+brand_name: SsangYong
+brand_slug: ssangyong
+city_name: Bydgoszcz
+city_slug: bydgoszcz
+state: Kujawsko-pomorskie
+state_slug: kujawsko-pomorskie
+count: 2
+avg_rating: 4.6
+lat: 53.105
+lng: 17.9836
+robots: index,follow
+faq:
+  - q: Ile salonów SsangYong jest w mieście Bydgoszcz?
+    a: W mieście Bydgoszcz działa 2 autoryzowanych salonów SsangYong.
+  - q: Jaka jest średnia ocena salonów SsangYong w mieście Bydgoszcz?
+    a: Średnia ocena salonów SsangYong w mieście Bydgoszcz wynosi 4.6/5.
+  - q: Gdzie znaleźć salon SsangYong w mieście Bydgoszcz?
+    a: Lista wszystkich salonów SsangYong w mieście Bydgoszcz z adresami i telefonami znajduje się na tej stronie.
+---
+
+

@@ -9,15 +9,15 @@ brand_name: Mercedes-Benz
 brand_slug: mercedes-benz
 state_name: Mazowieckie
 state_slug: mazowieckie
-count: 1
+count: 2
 cities_count: 1
 cities:
   - Warszawa
-avg_rating: 4.0
+avg_rating: 4.2
 robots: index,follow
 faq:
   - q: Ile salonów Mercedes-Benz jest w województwie mazowieckie?
-    a: W województwie mazowieckie działa 1 salonów Mercedes-Benz w 1 miastach.
+    a: W województwie mazowieckie działa 2 salonów Mercedes-Benz w 1 miastach.
   - q: W jakich miastach województwa mazowieckie są salony Mercedes-Benz?
     a: Lista miast z salonami Mercedes-Benz w województwie mazowieckie znajduje się na tej stronie.
 ---

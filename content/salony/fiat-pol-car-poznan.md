@@ -4,6 +4,14 @@ slug: fiat-pol-car-poznan
 type: salony
 brands:
   - Fiat
+  - Alfa Romeo
+  - Jeep
+  - Kia
+  - Fiat Professional
+  - CUPRA
+  - SEAT
+  - IVECO
+  - Leapmotor
 city: Poznań
 city_slug: poznan
 state: Wielkopolskie
@@ -18,8 +26,16 @@ website: "https://fiat.pol-car.pl/"
 rating: 4.1
 reviews_count: 17
 services:
-
-facilities: ""
+  sprzedaz_nowych: true
+  sprzedaz_uzywanych: true
+  serwis: true
+  czesci: true
+  finansowanie: true
+  leasing: true
+  ubezpieczenia: true
+  auto_zastepcze: false
+  wynajem: true
+facilities: Serwis mechaniczny, serwis blacharsko-lakierniczy, stacja kontroli pojazdów, wymiana ogumienia
 listing_type: ""
 photo: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerSPSFL4GpfmqFRlCpZBR_64U5ZG659XPvGbequnahCg5o5-37fn9tWabQGmx07-3ZhU46_ekmznmyOzdKaB-CmhRWX_hhriSiaESaVT_qRf3eaAC6ySQP2DTPw5IUgdtTqdG4cJuzzkW0p=w800-h500-k-no"
 working_hours:
@@ -37,8 +53,8 @@ working_hours:
     - "09:00-17:00"
   środa:
     - "09:00-17:00"
-facebook: ""
-instagram: ""
+facebook: "https://www.facebook.com/pmpolcar/"
+instagram: "https://www.instagram.com/pmpolcar/"
 ---
 
 

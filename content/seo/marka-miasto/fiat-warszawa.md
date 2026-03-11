@@ -11,14 +11,14 @@ city_name: Warszawa
 city_slug: warszawa
 state: Mazowieckie
 state_slug: mazowieckie
-count: 2
+count: 3
 avg_rating: 4.2
-lat: 52.26
-lng: 20.977
+lat: 52.2523
+lng: 21.0148
 robots: index,follow
 faq:
   - q: Ile salonów Fiat jest w mieście Warszawa?
-    a: W mieście Warszawa działa 2 autoryzowanych salonów Fiat.
+    a: W mieście Warszawa działa 3 autoryzowanych salonów Fiat.
   - q: Jaka jest średnia ocena salonów Fiat w mieście Warszawa?
     a: Średnia ocena salonów Fiat w mieście Warszawa wynosi 4.2/5.
   - q: Gdzie znaleźć salon Fiat w mieście Warszawa?

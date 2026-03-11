@@ -11,14 +11,14 @@ city_name: Łódź
 city_slug: lodz
 state: Łódzkie
 state_slug: lodzkie
-count: 1
+count: 2
 avg_rating: 4.3
 lat: 51.7241
-lng: 19.4822
+lng: 19.4821
 robots: index,follow
 faq:
   - q: Ile salonów SsangYong jest w mieście Łódź?
-    a: W mieście Łódź działa 1 autoryzowany salon SsangYong.
+    a: W mieście Łódź działa 2 autoryzowanych salonów SsangYong.
   - q: Jaka jest średnia ocena salonów SsangYong w mieście Łódź?
     a: Średnia ocena salonów SsangYong w mieście Łódź wynosi 4.3/5.
   - q: Gdzie znaleźć salon SsangYong w mieście Łódź?

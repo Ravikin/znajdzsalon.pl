@@ -11,16 +11,16 @@ city_name: Białystok
 city_slug: bialystok
 state: Podlaskie
 state_slug: podlaskie
-count: 1
-avg_rating: 4.4
-lat: 53.1617
+count: 2
+avg_rating: 4.6
+lat: 53.1616
 lng: 23.1859
 robots: index,follow
 faq:
   - q: Ile salonów Volkswagen jest w mieście Białystok?
-    a: W mieście Białystok działa 1 autoryzowany salon Volkswagen.
+    a: W mieście Białystok działa 2 autoryzowanych salonów Volkswagen.
   - q: Jaka jest średnia ocena salonów Volkswagen w mieście Białystok?
-    a: Średnia ocena salonów Volkswagen w mieście Białystok wynosi 4.4/5.
+    a: Średnia ocena salonów Volkswagen w mieście Białystok wynosi 4.6/5.
   - q: Gdzie znaleźć salon Volkswagen w mieście Białystok?
     a: Lista wszystkich salonów Volkswagen w mieście Białystok z adresami i telefonami znajduje się na tej stronie.
 ---

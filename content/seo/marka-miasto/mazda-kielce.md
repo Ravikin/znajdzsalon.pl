@@ -11,16 +11,16 @@ city_name: Kielce
 city_slug: kielce
 state: Świętokrzyskie
 state_slug: swietokrzyskie
-count: 1
-avg_rating: 4.5
-lat: 50.8959
-lng: 20.603
+count: 2
+avg_rating: 4.6
+lat: 50.8767
+lng: 20.5886
 robots: index,follow
 faq:
   - q: Ile salonów Mazda jest w mieście Kielce?
-    a: W mieście Kielce działa 1 autoryzowany salon Mazda.
+    a: W mieście Kielce działa 2 autoryzowanych salonów Mazda.
   - q: Jaka jest średnia ocena salonów Mazda w mieście Kielce?
-    a: Średnia ocena salonów Mazda w mieście Kielce wynosi 4.5/5.
+    a: Średnia ocena salonów Mazda w mieście Kielce wynosi 4.6/5.
   - q: Gdzie znaleźć salon Mazda w mieście Kielce?
     a: Lista wszystkich salonów Mazda w mieście Kielce z adresami i telefonami znajduje się na tej stronie.
 ---

@@ -9,15 +9,15 @@ brand_name: Subaru
 brand_slug: subaru
 state_name: Mazowieckie
 state_slug: mazowieckie
-count: 1
+count: 2
 cities_count: 1
 cities:
   - Warszawa
-avg_rating: 4.2
+avg_rating: 4.3
 robots: index,follow
 faq:
   - q: Ile salonów Subaru jest w województwie mazowieckie?
-    a: W województwie mazowieckie działa 1 salonów Subaru w 1 miastach.
+    a: W województwie mazowieckie działa 2 salonów Subaru w 1 miastach.
   - q: W jakich miastach województwa mazowieckie są salony Subaru?
     a: Lista miast z salonami Subaru w województwie mazowieckie znajduje się na tej stronie.
 ---

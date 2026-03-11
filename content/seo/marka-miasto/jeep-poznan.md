@@ -11,16 +11,16 @@ city_name: Poznań
 city_slug: poznan
 state: Wielkopolskie
 state_slug: wielkopolskie
-count: 3
-avg_rating: 4.5
-lat: 52.3904
-lng: 16.9438
+count: 4
+avg_rating: 4.4
+lat: 52.395
+lng: 16.9649
 robots: index,follow
 faq:
   - q: Ile salonów Jeep jest w mieście Poznań?
-    a: W mieście Poznań działa 3 autoryzowanych salonów Jeep.
+    a: W mieście Poznań działa 4 autoryzowanych salonów Jeep.
   - q: Jaka jest średnia ocena salonów Jeep w mieście Poznań?
-    a: Średnia ocena salonów Jeep w mieście Poznań wynosi 4.5/5.
+    a: Średnia ocena salonów Jeep w mieście Poznań wynosi 4.4/5.
   - q: Gdzie znaleźć salon Jeep w mieście Poznań?
     a: Lista wszystkich salonów Jeep w mieście Poznań z adresami i telefonami znajduje się na tej stronie.
 ---

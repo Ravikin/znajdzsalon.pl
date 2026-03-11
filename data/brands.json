@@ -2,44 +2,50 @@
   {
     "name": "Volkswagen",
     "slug": "volkswagen",
-    "count": 56,
+    "count": 59,
     "cities_count": 22
-  },
-  {
-    "name": "Toyota",
-    "slug": "toyota",
-    "count": 39,
-    "cities_count": 23
   },
   {
     "name": "NIO",
     "slug": "nio",
-    "count": 38,
-    "cities_count": 14
+    "count": 55,
+    "cities_count": 17
+  },
+  {
+    "name": "Toyota",
+    "slug": "toyota",
+    "count": 40,
+    "cities_count": 23
+  },
+  {
+    "name": "Kia",
+    "slug": "kia",
+    "count": 39,
+    "cities_count": 25
   },
   {
     "name": "Fiat",
     "slug": "fiat",
-    "count": 37,
+    "count": 39,
     "cities_count": 21
   },
   {
     "name": "BMW",
     "slug": "bmw",
-    "count": 36,
+    "count": 37,
     "cities_count": 20
   },
   {
     "name": "Peugeot",
     "slug": "peugeot",
-    "count": 35,
+    "count": 36,
     "cities_count": 18
   },
   {
-    "name": "Kia",
-    "slug": "kia",
-    "count": 34,
-    "cities_count": 22
+    "name": "Nissan",
+    "slug": "nissan",
+    "count": 35,
+    "cities_count": 25
   },
   {
     "name": "Skoda",
@@ -54,10 +60,10 @@
     "cities_count": 18
   },
   {
-    "name": "Nissan",
-    "slug": "nissan",
+    "name": "Hyundai",
+    "slug": "hyundai",
     "count": 32,
-    "cities_count": 24
+    "cities_count": 20
   },
   {
     "name": "Citroen",
@@ -66,15 +72,9 @@
     "cities_count": 17
   },
   {
-    "name": "Hyundai",
-    "slug": "hyundai",
-    "count": 30,
-    "cities_count": 20
-  },
-  {
     "name": "Renault",
     "slug": "renault",
-    "count": 29,
+    "count": 30,
     "cities_count": 17
   },
   {
@@ -84,10 +84,22 @@
     "cities_count": 19
   },
   {
+    "name": "Jeep",
+    "slug": "jeep",
+    "count": 29,
+    "cities_count": 15
+  },
+  {
     "name": "Mercedes-Benz",
     "slug": "mercedes-benz",
-    "count": 28,
+    "count": 29,
     "cities_count": 18
+  },
+  {
+    "name": "Audi",
+    "slug": "audi",
+    "count": 28,
+    "cities_count": 16
   },
   {
     "name": "Suzuki",
@@ -96,16 +108,34 @@
     "cities_count": 15
   },
   {
-    "name": "Audi",
-    "slug": "audi",
+    "name": "Cupra",
+    "slug": "cupra",
     "count": 25,
-    "cities_count": 16
+    "cities_count": 18
+  },
+  {
+    "name": "MG",
+    "slug": "mg",
+    "count": 25,
+    "cities_count": 20
   },
   {
     "name": "Honda",
     "slug": "honda",
     "count": 25,
     "cities_count": 18
+  },
+  {
+    "name": "Dacia",
+    "slug": "dacia",
+    "count": 24,
+    "cities_count": 15
+  },
+  {
+    "name": "BYD",
+    "slug": "byd",
+    "count": 24,
+    "cities_count": 11
   },
   {
     "name": "Opel",
@@ -120,16 +150,22 @@
     "cities_count": 17
   },
   {
+    "name": "Mazda",
+    "slug": "mazda",
+    "count": 22,
+    "cities_count": 18
+  },
+  {
+    "name": "Tesla",
+    "slug": "tesla",
+    "count": 21,
+    "cities_count": 16
+  },
+  {
     "name": "Mitsubishi",
     "slug": "mitsubishi",
     "count": 21,
     "cities_count": 13
-  },
-  {
-    "name": "Mazda",
-    "slug": "mazda",
-    "count": 21,
-    "cities_count": 18
   },
   {
     "name": "Lexus",
@@ -138,16 +174,34 @@
     "cities_count": 14
   },
   {
-    "name": "Jeep",
-    "slug": "jeep",
+    "name": "Seat",
+    "slug": "seat",
     "count": 19,
-    "cities_count": 10
+    "cities_count": 17
   },
   {
     "name": "Mini",
     "slug": "mini",
+    "count": 18,
+    "cities_count": 13
+  },
+  {
+    "name": "Subaru",
+    "slug": "subaru",
+    "count": 18,
+    "cities_count": 16
+  },
+  {
+    "name": "SsangYong",
+    "slug": "ssangyong",
+    "count": 18,
+    "cities_count": 10
+  },
+  {
+    "name": "Alfa Romeo",
+    "slug": "alfa-romeo",
     "count": 17,
-    "cities_count": 12
+    "cities_count": 11
   },
   {
     "name": "Land Rover",
@@ -156,68 +210,80 @@
     "cities_count": 13
   },
   {
+    "name": "DS",
+    "slug": "ds",
+    "count": 14,
+    "cities_count": 11
+  },
+  {
     "name": "Jaguar",
     "slug": "jaguar",
     "count": 11,
     "cities_count": 10
   },
   {
-    "name": "SsangYong",
-    "slug": "ssangyong",
-    "count": 4,
-    "cities_count": 3
+    "name": "Dodge",
+    "slug": "dodge",
+    "count": 11,
+    "cities_count": 9
   },
   {
-    "name": "BYD",
-    "slug": "byd",
-    "count": 3,
-    "cities_count": 1
+    "name": "RAM",
+    "slug": "ram",
+    "count": 8,
+    "cities_count": 8
+  },
+  {
+    "name": "Maxus",
+    "slug": "maxus",
+    "count": 5,
+    "cities_count": 5
   },
   {
     "name": "Isuzu",
     "slug": "isuzu",
+    "count": 4,
+    "cities_count": 4
+  },
+  {
+    "name": "Lynk",
+    "slug": "lynk",
     "count": 3,
     "cities_count": 3
   },
   {
-    "name": "Seat",
-    "slug": "seat",
-    "count": 2,
-    "cities_count": 2
+    "name": "Fiat Professional",
+    "slug": "fiat-professional",
+    "count": 1,
+    "cities_count": 1
   },
   {
-    "name": "Dodge",
-    "slug": "dodge",
-    "count": 2,
-    "cities_count": 2
-  },
-  {
-    "name": "Cupra",
+    "name": "CUPRA",
     "slug": "cupra",
     "count": 1,
     "cities_count": 1
   },
   {
-    "name": "RAM",
-    "slug": "ram",
+    "name": "SEAT",
+    "slug": "seat",
     "count": 1,
     "cities_count": 1
   },
   {
-    "name": "Tesla",
-    "slug": "tesla",
+    "name": "IVECO",
+    "slug": "iveco",
     "count": 1,
     "cities_count": 1
   },
   {
-    "name": "Alfa Romeo",
-    "slug": "alfa-romeo",
+    "name": "Leapmotor",
+    "slug": "leapmotor",
     "count": 1,
     "cities_count": 1
   },
   {
-    "name": "Subaru",
-    "slug": "subaru",
+    "name": "Great Wall",
+    "slug": "great-wall",
     "count": 1,
     "cities_count": 1
   }

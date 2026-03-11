@@ -1,0 +1,44 @@
+---
+title: Dacia Warszawa - PGD Aleje Jerozolimskie
+slug: dacia-warszawa-pgd-aleje-jerozolimskie
+type: salony
+brands:
+  - Dacia
+city: Warszawa
+city_slug: warszawa
+state: Mazowieckie
+state_slug: mazowieckie
+full_address: Al. Jerozolimskie 156, 02-326 Warszawa, Polska
+street: Al. Jerozolimskie 156
+postal_code: 02-326
+lat: 52.2099937
+lng: 20.9480024
+phone: +48 22 544 44 44
+website: "http://pgd.dacia.pl/"
+rating: 4.7
+reviews_count: 747
+services:
+
+facilities: ""
+listing_type: ""
+photo: "https://lh3.googleusercontent.com/p/AF1QipPx0h-f72rMvzFivB5RHKGcuD3fmwsz39D0LgZV=w800-h500-k-no"
+working_hours:
+  czwartek:
+    - "09:00-19:00"
+  niedziela:
+    - Zamknięte
+  piątek:
+    - "09:00-19:00"
+  poniedziałek:
+    - "09:00-19:00"
+  sobota:
+    - "10:00-15:00"
+  wtorek:
+    - "09:00-19:00"
+  środa:
+    - "09:00-19:00"
+facebook: ""
+instagram: ""
+---
+
+

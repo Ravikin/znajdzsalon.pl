@@ -9,15 +9,15 @@ brand_name: BMW
 brand_slug: bmw
 state_name: Lubuskie
 state_slug: lubuskie
-count: 1
+count: 2
 cities_count: 1
 cities:
   - Zielona Góra
-avg_rating: 4.4
+avg_rating: 4.6
 robots: index,follow
 faq:
   - q: Ile salonów BMW jest w województwie lubuskie?
-    a: W województwie lubuskie działa 1 salonów BMW w 1 miastach.
+    a: W województwie lubuskie działa 2 salonów BMW w 1 miastach.
   - q: W jakich miastach województwa lubuskie są salony BMW?
     a: Lista miast z salonami BMW w województwie lubuskie znajduje się na tej stronie.
 ---

@@ -3,13 +3,13 @@ title: Salony Isuzu w Polsce
 slug: isuzu
 type: marki
 brand_name: Isuzu
-count: 3
-cities_count: 3
+count: 4
+cities_count: 4
 faq:
   - q: Ile salonów Isuzu jest w Polsce?
-    a: W Polsce działa 3 salonów Isuzu w 3 miastach.
+    a: W Polsce działa 4 salonów Isuzu w 4 miastach.
   - q: Gdzie znaleźć salon Isuzu?
-    a: Na tej stronie znajdziesz listę wszystkich 3 salonów Isuzu w Polsce z adresami, telefonami i opiniami.
+    a: Na tej stronie znajdziesz listę wszystkich 4 salonów Isuzu w Polsce z adresami, telefonami i opiniami.
 ---
 
 

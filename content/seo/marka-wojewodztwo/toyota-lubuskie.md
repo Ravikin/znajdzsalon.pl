@@ -9,15 +9,15 @@ brand_name: Toyota
 brand_slug: toyota
 state_name: Lubuskie
 state_slug: lubuskie
-count: 1
+count: 2
 cities_count: 1
 cities:
   - Zielona Góra
-avg_rating: 4.6
+avg_rating: 4.7
 robots: index,follow
 faq:
   - q: Ile salonów Toyota jest w województwie lubuskie?
-    a: W województwie lubuskie działa 1 salonów Toyota w 1 miastach.
+    a: W województwie lubuskie działa 2 salonów Toyota w 1 miastach.
   - q: W jakich miastach województwa lubuskie są salony Toyota?
     a: Lista miast z salonami Toyota w województwie lubuskie znajduje się na tej stronie.
 ---

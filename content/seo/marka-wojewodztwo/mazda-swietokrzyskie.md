@@ -9,15 +9,15 @@ brand_name: Mazda
 brand_slug: mazda
 state_name: Świętokrzyskie
 state_slug: swietokrzyskie
-count: 1
+count: 2
 cities_count: 1
 cities:
   - Kielce
-avg_rating: 4.5
+avg_rating: 4.6
 robots: index,follow
 faq:
   - q: Ile salonów Mazda jest w województwie świętokrzyskie?
-    a: W województwie świętokrzyskie działa 1 salonów Mazda w 1 miastach.
+    a: W województwie świętokrzyskie działa 2 salonów Mazda w 1 miastach.
   - q: W jakich miastach województwa świętokrzyskie są salony Mazda?
     a: Lista miast z salonami Mazda w województwie świętokrzyskie znajduje się na tej stronie.
 ---

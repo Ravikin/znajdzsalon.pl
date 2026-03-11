@@ -9,16 +9,16 @@ brand_name: Kia
 brand_slug: kia
 state_name: Wielkopolskie
 state_slug: wielkopolskie
-count: 3
+count: 4
 cities_count: 2
 cities:
   - Komorniki
   - Poznań
-avg_rating: 4.5
+avg_rating: 4.4
 robots: index,follow
 faq:
   - q: Ile salonów Kia jest w województwie wielkopolskie?
-    a: W województwie wielkopolskie działa 3 salonów Kia w 2 miastach.
+    a: W województwie wielkopolskie działa 4 salonów Kia w 2 miastach.
   - q: W jakich miastach województwa wielkopolskie są salony Kia?
     a: Lista miast z salonami Kia w województwie wielkopolskie znajduje się na tej stronie.
 ---

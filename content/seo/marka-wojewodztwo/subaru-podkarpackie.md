@@ -1,0 +1,25 @@
+---
+title: Salony Subaru — Podkarpackie
+slug: subaru-podkarpackie
+url: /subaru/podkarpackie/
+layout: brand-state
+type: seo
+seo_type: brand_state
+brand_name: Subaru
+brand_slug: subaru
+state_name: Podkarpackie
+state_slug: podkarpackie
+count: 1
+cities_count: 1
+cities:
+  - Rzeszów
+avg_rating: 4.6
+robots: index,follow
+faq:
+  - q: Ile salonów Subaru jest w województwie podkarpackie?
+    a: W województwie podkarpackie działa 1 salonów Subaru w 1 miastach.
+  - q: W jakich miastach województwa podkarpackie są salony Subaru?
+    a: Lista miast z salonami Subaru w województwie podkarpackie znajduje się na tej stronie.
+---
+
+
