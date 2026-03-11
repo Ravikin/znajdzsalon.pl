@@ -22,7 +22,7 @@
 
   <!-- Listings -->
   <h2 class="text-xl font-bold mb-4">Wszystkie salony</h2>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
     {{ $citySlug := .Params.slug }}
     {{ range .Site.Data.listings }}
       {{ if eq .city_slug $citySlug }}
@@ -30,7 +30,17 @@
       {{ end }}
     {{ end }}
   </div>
+
+  <!-- FAQ -->
+  {{ partial "faq-section.html" . }}
+
+  <!-- Brands in this city -->
+  {{ partial "related-brands.html" . }}
 </div>
+{{ end }}
+
+{{ define "head" }}
+{{ partial "faq-schema.html" . }}
 {{ end }}
 
 {{ define "scripts" }}

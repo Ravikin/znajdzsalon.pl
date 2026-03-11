@@ -1,0 +1,22 @@
+{{ with .Params.faq }}
+{{ if gt (len .) 0 }}
+<section class="mt-8 mb-8">
+  <h2 class="text-xl font-bold mb-4">Najczęściej zadawane pytania</h2>
+  <div class="space-y-2">
+    {{ range . }}
+    <details class="bg-white border border-gray-200 rounded-lg group">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-medium hover:text-primary transition-colors">
+        {{ .q }}
+        <svg class="w-5 h-5 text-text-muted flex-shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+        </svg>
+      </summary>
+      <div class="px-4 pb-4 text-text-muted">
+        {{ .a }}
+      </div>
+    </details>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}

@@ -1,0 +1,32 @@
+{{/* Shows cities with this brand — used on brand pages and brand+city combo pages */}}
+{{ $brandSlug := "" }}
+{{ if eq .Params.seo_type "brand_city" }}
+  {{ $brandSlug = .Params.brand_slug }}
+{{ else if eq .Type "marki" }}
+  {{ $brandSlug = .Params.slug }}
+{{ end }}
+
+{{ if $brandSlug }}
+  {{ $currentCitySlug := .Params.city_slug | default "" }}
+  {{ $brandName := .Params.brand_name }}
+  {{ $others := slice }}
+  {{ range .Site.Data.brand_cities }}
+    {{ if and (eq .brand_slug $brandSlug) (ne .city_slug $currentCitySlug) }}
+      {{ $others = $others | append . }}
+    {{ end }}
+  {{ end }}
+  {{ if gt (len $others) 0 }}
+  <div class="mt-8">
+    <h2 class="text-xl font-bold mb-4">Salony {{ $brandName }} w innych miastach</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+      {{ range $others }}
+      <a href="/{{ .brand_slug }}/{{ .city_slug }}/"
+        class="flex items-center justify-between p-3 bg-white rounded-lg border border-gray-200 hover:border-primary-light transition-colors">
+        <span class="font-medium text-sm">{{ .city_name }}</span>
+        <span class="text-xs text-text-muted bg-gray-100 px-2 py-0.5 rounded-full">{{ .count }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+{{ end }}

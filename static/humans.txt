@@ -1,0 +1,10 @@
+/* TEAM */
+Site: ZnajdźSalon.pl
+Contact: kontakt@znajdzsalon.pl
+Location: Polska
+
+/* SITE */
+Language: Polish
+Standards: HTML5, CSS3
+Components: Hugo, Tailwind CSS, Leaflet, Alpine.js
+Software: Hugo

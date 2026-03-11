@@ -1,0 +1,28 @@
+---
+title: Salon Isuzu Łódź – lista dealerów
+slug: isuzu-lodz
+url: /isuzu/lodz/
+layout: brand-city
+type: seo
+seo_type: brand_city
+brand_name: Isuzu
+brand_slug: isuzu
+city_name: Łódź
+city_slug: lodz
+state: Łódzkie
+state_slug: lodzkie
+count: 1
+avg_rating: 4.6
+lat: 51.8268
+lng: 19.427
+robots: index,follow
+faq:
+  - q: Ile salonów Isuzu jest w mieście Łódź?
+    a: W mieście Łódź działa 1 autoryzowany salon Isuzu.
+  - q: Jaka jest średnia ocena salonów Isuzu w mieście Łódź?
+    a: Średnia ocena salonów Isuzu w mieście Łódź wynosi 4.6/5.
+  - q: Gdzie znaleźć salon Isuzu w mieście Łódź?
+    a: Lista wszystkich salonów Isuzu w mieście Łódź z adresami i telefonami znajduje się na tej stronie.
+---
+
+

@@ -17,10 +17,24 @@
 
       {{ if .Params.brands }}
       <div class="flex flex-wrap gap-2 mb-6">
+        {{ $citySlug := .Params.city_slug }}
         {{ range .Params.brands }}
-          <a href="/marki/{{ . | urlize }}/" class="bg-primary/5 text-primary px-3 py-1 rounded-full text-sm font-medium hover:bg-primary/10 transition-colors">
+          {{ $brandSlug := . | urlize }}
+          {{ $comboExists := false }}
+          {{ range $.Site.Data.brand_cities }}
+            {{ if and (eq .brand_slug $brandSlug) (eq .city_slug $citySlug) }}
+              {{ $comboExists = true }}
+            {{ end }}
+          {{ end }}
+          {{ if $comboExists }}
+          <a href="/{{ $brandSlug }}/{{ $citySlug }}/" class="bg-primary/5 text-primary px-3 py-1 rounded-full text-sm font-medium hover:bg-primary/10 transition-colors">
             {{ . }}
           </a>
+          {{ else }}
+          <a href="/marki/{{ $brandSlug }}/" class="bg-primary/5 text-primary px-3 py-1 rounded-full text-sm font-medium hover:bg-primary/10 transition-colors">
+            {{ . }}
+          </a>
+          {{ end }}
         {{ end }}
       </div>
       {{ end }}

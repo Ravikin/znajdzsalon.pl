@@ -1,0 +1,95 @@
+{{ define "title" }}Salon {{ .Params.brand_name }} {{ .Params.city_name }} – lista dealerów | ZnajdźSalon.pl{{ end }}
+{{ define "description" }}{{ .Params.count }} {{ if eq .Params.count 1 }}salon{{ else }}salonów{{ end }} {{ .Params.brand_name }} w mieście {{ .Params.city_name }}. Adresy, telefony, godziny otwarcia, opinie.{{ end }}
+
+{{ define "head" }}
+{{ partial "faq-schema.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  {{ partial "breadcrumbs.html" . }}
+
+  <div class="flex items-center gap-4 mb-6">
+    {{ $logoPath := printf "images/brands/%s.svg" .Params.brand_slug }}
+    {{ if (fileExists (printf "static/%s" $logoPath)) }}
+      <img src="/{{ $logoPath }}" alt="{{ .Params.brand_name }}" class="h-16 w-auto">
+    {{ end }}
+    <div>
+      <h1 class="text-3xl font-bold">Salony {{ .Params.brand_name }} — {{ .Params.city_name }}</h1>
+      <p class="text-text-muted">
+        {{ .Params.count }} {{ if eq .Params.count 1 }}salon{{ else }}salonów{{ end }}
+        · woj. {{ .Params.state }}
+        {{ if gt .Params.avg_rating 0.0 }}· średnia ocena {{ .Params.avg_rating }}/5{{ end }}
+      </p>
+    </div>
+  </div>
+
+  <!-- Map -->
+  {{ if and .Params.lat .Params.lng }}
+  <div id="combo-map" class="h-96 w-full rounded-xl border border-gray-200 mb-8"></div>
+  {{ end }}
+
+  <!-- AI Content -->
+  {{ if .Content }}
+  <div class="prose prose-lg max-w-none mb-8">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  <!-- Listings -->
+  <h2 class="text-xl font-bold mb-4">{{ if eq .Params.count 1 }}Salon{{ else }}Wszystkie salony{{ end }} {{ .Params.brand_name }} w mieście {{ .Params.city_name }}</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+    {{ $brand := .Params.brand_name }}
+    {{ $citySlug := .Params.city_slug }}
+    {{ range .Site.Data.listings }}
+      {{ if and (in .brands $brand) (eq .city_slug $citySlug) }}
+        {{ partial "listing-card.html" . }}
+      {{ end }}
+    {{ end }}
+  </div>
+
+  <!-- FAQ -->
+  {{ partial "faq-section.html" . }}
+
+  <!-- Related: Other brands in this city -->
+  {{ partial "related-brands.html" . }}
+
+  <!-- Related: Same brand in other cities -->
+  {{ partial "related-cities.html" . }}
+
+  <!-- Back links -->
+  <div class="flex flex-wrap gap-3 mt-8 text-sm">
+    <a href="/marki/{{ .Params.brand_slug }}/" class="text-primary hover:underline">← Wszystkie salony {{ .Params.brand_name }}</a>
+    <a href="/miasta/{{ .Params.city_slug }}/" class="text-primary hover:underline">← Salony samochodowe {{ .Params.city_name }}</a>
+  </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+{{ if and .Params.lat .Params.lng }}
+<script>
+  const map = L.map('combo-map').setView([{{ .Params.lat }}, {{ .Params.lng }}], 12);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+
+  const brandName = {{ .Params.brand_name | jsonify }};
+  const citySlug = {{ .Params.city_slug | jsonify }};
+  const listings = {{ .Site.Data.listings | jsonify }};
+  const bounds = [];
+
+  listings.filter(l => l.brands && l.brands.includes(brandName) && l.city_slug === citySlug).forEach(l => {
+    if (l.lat && l.lng) {
+      L.marker([l.lat, l.lng])
+        .addTo(map)
+        .bindPopup(`<b>${l.name}</b><br>${l.full_address}<br><a href="/salon/${l.slug}/">Szczegóły</a>`);
+      bounds.push([l.lat, l.lng]);
+    }
+  });
+
+  if (bounds.length > 1) {
+    map.fitBounds(bounds, { padding: [30, 30] });
+  }
+</script>
+{{ end }}
+{{ end }}

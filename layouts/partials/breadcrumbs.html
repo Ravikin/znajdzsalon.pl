@@ -21,6 +21,14 @@
   {{ if .Params.state_name }}
     {{ $breadcrumbs = $breadcrumbs | append (dict "name" .Params.state_name "url" "") }}
   {{ end }}
+{{ else if eq .Params.seo_type "brand_city" }}
+  {{ $breadcrumbs = $breadcrumbs | append (dict "name" "Marki" "url" "/marki/") }}
+  {{ $breadcrumbs = $breadcrumbs | append (dict "name" .Params.brand_name "url" (printf "/marki/%s/" .Params.brand_slug)) }}
+  {{ $breadcrumbs = $breadcrumbs | append (dict "name" .Params.city_name "url" "") }}
+{{ else if eq .Params.seo_type "brand_state" }}
+  {{ $breadcrumbs = $breadcrumbs | append (dict "name" "Marki" "url" "/marki/") }}
+  {{ $breadcrumbs = $breadcrumbs | append (dict "name" .Params.brand_name "url" (printf "/marki/%s/" .Params.brand_slug)) }}
+  {{ $breadcrumbs = $breadcrumbs | append (dict "name" .Params.state_name "url" "") }}
 {{ end }}
 
 <nav aria-label="Breadcrumbs" class="text-sm text-text-muted mb-6">

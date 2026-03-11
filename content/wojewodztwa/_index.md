@@ -1,6 +1,6 @@
 ---
-title: "Województwa"
-type: "wojewodztwa"
+title: Województwa
+type: wojewodztwa
 ---
 
 

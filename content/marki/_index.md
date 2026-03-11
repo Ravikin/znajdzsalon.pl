@@ -1,6 +1,6 @@
 ---
-title: "Marki samochodów"
-type: "marki"
+title: Marki samochodów
+type: marki
 ---
 
 

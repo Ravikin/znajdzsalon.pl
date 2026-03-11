@@ -1,6 +1,6 @@
 ---
-title: "Miasta"
-type: "miasta"
+title: Miasta
+type: miasta
 ---
 
 

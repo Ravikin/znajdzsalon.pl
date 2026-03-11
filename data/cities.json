@@ -4,17 +4,764 @@
     "slug": "warszawa",
     "state": "Mazowieckie",
     "state_slug": "mazowieckie",
-    "count": 2,
-    "lat": 52.2688,
-    "lng": 20.9519
+    "count": 143,
+    "lat": 52.241054999999996,
+    "lng": 21.0273734
+  },
+  {
+    "name": "Poznań",
+    "slug": "poznan",
+    "state": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 56,
+    "lat": 52.3835258,
+    "lng": 16.9748035
   },
   {
     "name": "Kraków",
     "slug": "krakow",
     "state": "Małopolskie",
     "state_slug": "malopolskie",
+    "count": 55,
+    "lat": 50.1011963,
+    "lng": 19.887947399999998
+  },
+  {
+    "name": "Łódź",
+    "slug": "lodz",
+    "state": "Łódzkie",
+    "state_slug": "lodzkie",
+    "count": 52,
+    "lat": 51.8062007,
+    "lng": 19.3702896
+  },
+  {
+    "name": "Gdańsk",
+    "slug": "gdansk",
+    "state": "Pomorskie",
+    "state_slug": "pomorskie",
+    "count": 42,
+    "lat": 54.392854,
+    "lng": 18.583816
+  },
+  {
+    "name": "Wrocław",
+    "slug": "wroclaw",
+    "state": "Dolnośląskie",
+    "state_slug": "dolnoslaskie",
+    "count": 38,
+    "lat": 51.129515999999995,
+    "lng": 16.936751
+  },
+  {
+    "name": "Katowice",
+    "slug": "katowice",
+    "state": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 32,
+    "lat": 50.2639238,
+    "lng": 19.0493502
+  },
+  {
+    "name": "Olsztyn",
+    "slug": "olsztyn",
+    "state": "Warmińsko-mazurskie",
+    "state_slug": "warminsko-mazurskie",
+    "count": 26,
+    "lat": 53.7798696,
+    "lng": 20.5137397
+  },
+  {
+    "name": "Lublin",
+    "slug": "lublin",
+    "state": "Lubelskie",
+    "state_slug": "lubelskie",
+    "count": 25,
+    "lat": 51.2252219,
+    "lng": 22.471147199999997
+  },
+  {
+    "name": "Opole",
+    "slug": "opole",
+    "state": "Opolskie",
+    "state_slug": "opolskie",
+    "count": 23,
+    "lat": 50.6969919,
+    "lng": 17.8761412
+  },
+  {
+    "name": "Szczecin",
+    "slug": "szczecin",
+    "state": "Zachodniopomorskie",
+    "state_slug": "zachodniopomorskie",
+    "count": 23,
+    "lat": 53.3992363,
+    "lng": 14.5011212
+  },
+  {
+    "name": "Zielona Góra",
+    "slug": "zielona-gora",
+    "state": "Lubuskie",
+    "state_slug": "lubuskie",
+    "count": 21,
+    "lat": 51.9588423,
+    "lng": 15.540037199999999
+  },
+  {
+    "name": "Białystok",
+    "slug": "bialystok",
+    "state": "Podlaskie",
+    "state_slug": "podlaskie",
+    "count": 20,
+    "lat": 53.1440677,
+    "lng": 23.081320599999998
+  },
+  {
+    "name": "Bydgoszcz",
+    "slug": "bydgoszcz",
+    "state": "Kujawsko-pomorskie",
+    "state_slug": "kujawsko-pomorskie",
+    "count": 20,
+    "lat": 53.134000099999994,
+    "lng": 18.1161455
+  },
+  {
+    "name": "Rzeszów",
+    "slug": "rzeszow",
+    "state": "Podkarpackie",
+    "state_slug": "podkarpackie",
+    "count": 17,
+    "lat": 49.9986107,
+    "lng": 22.0186438
+  },
+  {
+    "name": "Kielce",
+    "slug": "kielce",
+    "state": "Świętokrzyskie",
+    "state_slug": "swietokrzyskie",
+    "count": 17,
+    "lat": 50.8964657,
+    "lng": 20.5945799
+  },
+  {
+    "name": "Ustowo, Szczecin",
+    "slug": "ustowo-szczecin",
+    "state": "Zachodniopomorskie",
+    "state_slug": "zachodniopomorskie",
+    "count": 11,
+    "lat": 53.3865239,
+    "lng": 14.4973113
+  },
+  {
+    "name": "Rio de Janeiro",
+    "slug": "rio-de-janeiro",
+    "state": "State of Rio de Janeiro",
+    "state_slug": "state-of-rio-de-janeiro",
+    "count": 11,
+    "lat": -22.9118283,
+    "lng": -43.191838999999995
+  },
+  {
+    "name": "Świdnik",
+    "slug": "swidnik",
+    "state": "",
+    "state_slug": "",
+    "count": 5,
+    "lat": 51.2121129,
+    "lng": 22.6455029
+  },
+  {
+    "name": "Długołęka",
+    "slug": "dlugoleka",
+    "state": "Dolnośląskie",
+    "state_slug": "dolnoslaskie",
+    "count": 5,
+    "lat": 51.1740375,
+    "lng": 17.1739986
+  },
+  {
+    "name": "Krasne",
+    "slug": "krasne",
+    "state": "",
+    "state_slug": "",
+    "count": 4,
+    "lat": 50.0407142,
+    "lng": 22.0686327
+  },
+  {
+    "name": "Świlcza",
+    "slug": "swilcza",
+    "state": "",
+    "state_slug": "",
+    "count": 4,
+    "lat": 50.066431699999995,
+    "lng": 21.9266442
+  },
+  {
+    "name": "Baranowo",
+    "slug": "baranowo",
+    "state": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 4,
+    "lat": 52.437171,
+    "lng": 16.7760599
+  },
+  {
+    "name": "Surrey",
+    "slug": "surrey",
+    "state": "BC",
+    "state_slug": "bc",
+    "count": 4,
+    "lat": 49.1979179,
+    "lng": -122.7952347
+  },
+  {
+    "name": "Marki",
+    "slug": "marki",
+    "state": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 3,
+    "lat": 52.364785999999995,
+    "lng": 21.1405583
+  },
+  {
+    "name": "Przeźmierowo",
+    "slug": "przezmierowo",
+    "state": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 3,
+    "lat": 52.435225499999994,
+    "lng": 16.7793493
+  },
+  {
+    "name": "Campinas",
+    "slug": "campinas",
+    "state": "State of São Paulo",
+    "state_slug": "state-of-sao-paulo",
+    "count": 3,
+    "lat": -22.9287612,
+    "lng": -47.0698046
+  },
+  {
+    "name": "Modlniczka",
+    "slug": "modlniczka",
+    "state": "",
+    "state_slug": "",
+    "count": 2,
+    "lat": 50.1072318,
+    "lng": 19.847970699999998
+  },
+  {
+    "name": "Jelonek",
+    "slug": "jelonek",
+    "state": "",
+    "state_slug": "",
+    "count": 2,
+    "lat": 52.4829344,
+    "lng": 16.860653499999998
+  },
+  {
+    "name": "Krasne, Rzeszów",
+    "slug": "krasne-rzeszow",
+    "state": "Podkarpackie",
+    "state_slug": "podkarpackie",
+    "count": 2,
+    "lat": 50.039984499999996,
+    "lng": 22.066531599999998
+  },
+  {
+    "name": "Konopnica",
+    "slug": "konopnica",
+    "state": "",
+    "state_slug": "",
+    "count": 2,
+    "lat": 51.2223313,
+    "lng": 22.4630036
+  },
+  {
+    "name": "Swadzim",
+    "slug": "swadzim",
+    "state": "",
+    "state_slug": "",
+    "count": 2,
+    "lat": 52.4386155,
+    "lng": 16.7586933
+  },
+  {
+    "name": "Modlnica",
+    "slug": "modlnica",
+    "state": "Małopolskie",
+    "state_slug": "malopolskie",
+    "count": 2,
+    "lat": 50.1120703,
+    "lng": 19.8750471
+  },
+  {
+    "name": "Dąbrowa",
+    "slug": "dabrowa",
+    "state": "",
+    "state_slug": "",
+    "count": 2,
+    "lat": 50.688595,
+    "lng": 17.75563
+  },
+  {
+    "name": "Sosnowiec",
+    "slug": "sosnowiec",
+    "state": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 2,
+    "lat": 50.296045199999995,
+    "lng": 19.1164792
+  },
+  {
+    "name": "Kalinówka",
+    "slug": "kalinowka",
+    "state": "",
+    "state_slug": "",
+    "count": 2,
+    "lat": 51.2098525,
+    "lng": 22.6485543
+  },
+  {
+    "name": "Osielsko",
+    "slug": "osielsko",
+    "state": "Pomorskie",
+    "state_slug": "pomorskie",
+    "count": 2,
+    "lat": 53.1773234,
+    "lng": 18.0580308
+  },
+  {
+    "name": "Ruda Śląska",
+    "slug": "ruda-slaska",
+    "state": "",
+    "state_slug": "",
+    "count": 2,
+    "lat": 50.2850774,
+    "lng": 18.8478848
+  },
+  {
+    "name": "Porosły-Kolonia",
+    "slug": "porosly-kolonia",
+    "state": "",
+    "state_slug": "",
+    "count": 2,
+    "lat": 53.1476097,
+    "lng": 23.068477599999998
+  },
+  {
+    "name": "Świętochłowice",
+    "slug": "swietochlowice",
+    "state": "",
+    "state_slug": "",
+    "count": 2,
+    "lat": 50.2914575,
+    "lng": 18.931587399999998
+  },
+  {
+    "name": "Chorzów",
+    "slug": "chorzow",
+    "state": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 2,
+    "lat": 50.284543299999996,
+    "lng": 18.9628277
+  },
+  {
+    "name": "Bielany Wrocławskie",
+    "slug": "bielany-wroclawskie",
+    "state": "Dolnośląskie",
+    "state_slug": "dolnoslaskie",
+    "count": 2,
+    "lat": 51.045556,
+    "lng": 16.9711176
+  },
+  {
+    "name": "Suginami City",
+    "slug": "suginami-city",
+    "state": "Tokyo",
+    "state_slug": "tokyo",
+    "count": 2,
+    "lat": 35.682438999999995,
+    "lng": 139.6317972
+  },
+  {
+    "name": "Konstancin-Jeziorna",
+    "slug": "konstancin-jeziorna",
+    "state": "Mazowieckie",
+    "state_slug": "mazowieckie",
     "count": 1,
-    "lat": 50.0291,
-    "lng": 19.9256
+    "lat": 52.1071193,
+    "lng": 21.1141784
+  },
+  {
+    "name": "Falenty",
+    "slug": "falenty",
+    "state": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 1,
+    "lat": 52.143162,
+    "lng": 20.908141999999998
+  },
+  {
+    "name": "Zgorzała",
+    "slug": "zgorzala",
+    "state": "",
+    "state_slug": "",
+    "count": 1,
+    "lat": 52.1067725,
+    "lng": 20.971221699999997
+  },
+  {
+    "name": "Kryspinów",
+    "slug": "kryspinow",
+    "state": "",
+    "state_slug": "",
+    "count": 1,
+    "lat": 50.0335964,
+    "lng": 19.8125789
+  },
+  {
+    "name": "Łomianki",
+    "slug": "lomianki",
+    "state": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 1,
+    "lat": 52.3256301,
+    "lng": 20.9093897
+  },
+  {
+    "name": "Leszno",
+    "slug": "leszno",
+    "state": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "lat": 51.856911499999995,
+    "lng": 16.5772495
+  },
+  {
+    "name": "Bielsko-Biała",
+    "slug": "bielsko-biala",
+    "state": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 1,
+    "lat": 49.8384284,
+    "lng": 19.036985299999998
+  },
+  {
+    "name": "Sulejówek",
+    "slug": "sulejowek",
+    "state": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 1,
+    "lat": 52.2231745,
+    "lng": 21.253349399999998
+  },
+  {
+    "name": "Wieliczka",
+    "slug": "wieliczka",
+    "state": "Małopolskie",
+    "state_slug": "malopolskie",
+    "count": 1,
+    "lat": 49.9939651,
+    "lng": 20.0437202
+  },
+  {
+    "name": "Richmond",
+    "slug": "richmond",
+    "state": "British Columbia",
+    "state_slug": "british-columbia",
+    "count": 1,
+    "lat": 49.1707669,
+    "lng": -123.07730439999999
+  },
+  {
+    "name": "Boise",
+    "slug": "boise",
+    "state": "Idaho",
+    "state_slug": "idaho",
+    "count": 1,
+    "lat": 43.601140699999995,
+    "lng": -116.2782549
+  },
+  {
+    "name": "Blizne Łaszczyńskiego",
+    "slug": "blizne-laszczynskiego",
+    "state": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 1,
+    "lat": 52.2397251,
+    "lng": 20.8898329
+  },
+  {
+    "name": "Durham",
+    "slug": "durham",
+    "state": "North Carolina",
+    "state_slug": "north-carolina",
+    "count": 1,
+    "lat": 35.9692754,
+    "lng": -78.95430069999999
+  },
+  {
+    "name": "Gliwice",
+    "slug": "gliwice",
+    "state": "Śląskie",
+    "state_slug": "slaskie",
+    "count": 1,
+    "lat": 50.276964,
+    "lng": 18.6942841
+  },
+  {
+    "name": "Porosły-Kolonia, Białystok",
+    "slug": "porosly-kolonia-bialystok",
+    "state": "Podlaskie",
+    "state_slug": "podlaskie",
+    "count": 1,
+    "lat": 53.149277,
+    "lng": 23.065932
+  },
+  {
+    "name": "Niterói",
+    "slug": "niteroi",
+    "state": "State of Rio de Janeiro",
+    "state_slug": "state-of-rio-de-janeiro",
+    "count": 1,
+    "lat": -22.893483099999997,
+    "lng": -43.1151616
+  },
+  {
+    "name": "Columbus",
+    "slug": "columbus",
+    "state": "Ohio",
+    "state_slug": "ohio",
+    "count": 1,
+    "lat": 39.9247739,
+    "lng": -83.1240354
+  },
+  {
+    "name": "Piaseczno",
+    "slug": "piaseczno",
+    "state": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "count": 1,
+    "lat": 52.0975706,
+    "lng": 21.0196239
+  },
+  {
+    "name": "Świerklany",
+    "slug": "swierklany",
+    "state": "",
+    "state_slug": "",
+    "count": 1,
+    "lat": 50.031463599999995,
+    "lng": 18.599045699999998
+  },
+  {
+    "name": "Michałowice",
+    "slug": "michalowice",
+    "state": "",
+    "state_slug": "",
+    "count": 1,
+    "lat": 52.1805607,
+    "lng": 20.8879602
+  },
+  {
+    "name": "Konopnica, Lublin",
+    "slug": "konopnica-lublin",
+    "state": "Lubelskie",
+    "state_slug": "lubelskie",
+    "count": 1,
+    "lat": 51.2273,
+    "lng": 22.473056
+  },
+  {
+    "name": "Vassouras",
+    "slug": "vassouras",
+    "state": "State of Rio de Janeiro",
+    "state_slug": "state-of-rio-de-janeiro",
+    "count": 1,
+    "lat": -22.4083878,
+    "lng": -43.6697803
+  },
+  {
+    "name": "Sopot",
+    "slug": "sopot",
+    "state": "Pomorskie",
+    "state_slug": "pomorskie",
+    "count": 1,
+    "lat": 54.460051899999996,
+    "lng": 18.5534686
+  },
+  {
+    "name": "Friendswood",
+    "slug": "friendswood",
+    "state": "Texas",
+    "state_slug": "texas",
+    "count": 1,
+    "lat": 29.5602482,
+    "lng": -95.16219819999999
+  },
+  {
+    "name": "Austin",
+    "slug": "austin",
+    "state": "Texas",
+    "state_slug": "texas",
+    "count": 1,
+    "lat": 30.2728084,
+    "lng": -97.7629843
+  },
+  {
+    "name": "Mościska",
+    "slug": "mosciska",
+    "state": "",
+    "state_slug": "",
+    "count": 1,
+    "lat": 52.288408999999994,
+    "lng": 20.870000599999997
+  },
+  {
+    "name": "Świlcza, Rzeszów",
+    "slug": "swilcza-rzeszow",
+    "state": "Podkarpackie",
+    "state_slug": "podkarpackie",
+    "count": 1,
+    "lat": 50.0652597,
+    "lng": 21.9316915
+  },
+  {
+    "name": "Komorniki",
+    "slug": "komorniki",
+    "state": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "lat": 52.3455556,
+    "lng": 16.8288889
+  },
+  {
+    "name": "Três Rios",
+    "slug": "tres-rios",
+    "state": "State of Rio de Janeiro",
+    "state_slug": "state-of-rio-de-janeiro",
+    "count": 1,
+    "lat": -22.1085167,
+    "lng": -43.2111787
+  },
+  {
+    "name": "Langley",
+    "slug": "langley",
+    "state": "British Columbia",
+    "state_slug": "british-columbia",
+    "count": 1,
+    "lat": 49.111052,
+    "lng": -122.67485599999999
+  },
+  {
+    "name": "Port Coquitlam",
+    "slug": "port-coquitlam",
+    "state": "British Columbia",
+    "state_slug": "british-columbia",
+    "count": 1,
+    "lat": 49.2717685,
+    "lng": -122.78809609999999
+  },
+  {
+    "name": "Krupniki, Białystok",
+    "slug": "krupniki-bialystok",
+    "state": "Podlaskie",
+    "state_slug": "podlaskie",
+    "count": 1,
+    "lat": 53.130612,
+    "lng": 23.062791
+  },
+  {
+    "name": "Duque de Caxias",
+    "slug": "duque-de-caxias",
+    "state": "State of Rio de Janeiro",
+    "state_slug": "state-of-rio-de-janeiro",
+    "count": 1,
+    "lat": -22.798165299999997,
+    "lng": -43.294267999999995
+  },
+  {
+    "name": "Petrópolis",
+    "slug": "petropolis",
+    "state": "State of Rio de Janeiro",
+    "state_slug": "state-of-rio-de-janeiro",
+    "count": 1,
+    "lat": -22.5253852,
+    "lng": -43.1933674
+  },
+  {
+    "name": "Rudna Mała",
+    "slug": "rudna-mala",
+    "state": "",
+    "state_slug": "",
+    "count": 1,
+    "lat": 50.1053661,
+    "lng": 21.9772776
+  },
+  {
+    "name": "Portland",
+    "slug": "portland",
+    "state": "Oregon",
+    "state_slug": "oregon",
+    "count": 1,
+    "lat": 45.445136999999995,
+    "lng": -122.7784423
+  },
+  {
+    "name": "Nova Iguaçu",
+    "slug": "nova-iguacu",
+    "state": "State of Rio de Janeiro",
+    "state_slug": "state-of-rio-de-janeiro",
+    "count": 1,
+    "lat": -22.7633781,
+    "lng": -43.428273499999996
+  },
+  {
+    "name": "Nadarzyn",
+    "slug": "nadarzyn",
+    "state": "",
+    "state_slug": "",
+    "count": 1,
+    "lat": 52.101099999999995,
+    "lng": 20.8233998
+  },
+  {
+    "name": "Meguro City",
+    "slug": "meguro-city",
+    "state": "Tokyo",
+    "state_slug": "tokyo",
+    "count": 1,
+    "lat": 35.6390332,
+    "lng": 139.7040997
+  },
+  {
+    "name": "Setagaya City",
+    "slug": "setagaya-city",
+    "state": "Tokyo",
+    "state_slug": "tokyo",
+    "count": 1,
+    "lat": 35.639599,
+    "lng": 139.6353653
+  },
+  {
+    "name": "Jasin",
+    "slug": "jasin",
+    "state": "",
+    "state_slug": "",
+    "count": 1,
+    "lat": 52.3985152,
+    "lng": 17.1040077
+  },
+  {
+    "name": "Minato City",
+    "slug": "minato-city",
+    "state": "Tokyo",
+    "state_slug": "tokyo",
+    "count": 1,
+    "lat": 35.666347699999996,
+    "lng": 139.71386669999998
   }
 ]

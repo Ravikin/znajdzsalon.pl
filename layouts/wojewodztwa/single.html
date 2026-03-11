@@ -31,7 +31,7 @@
 
   <!-- Listings -->
   <h2 class="text-xl font-bold mt-8 mb-4">Wszystkie salony w województwie</h2>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
     {{ $stateSlug := .Params.slug }}
     {{ range .Site.Data.listings }}
       {{ if eq .state_slug $stateSlug }}
@@ -39,5 +39,35 @@
       {{ end }}
     {{ end }}
   </div>
+
+  <!-- FAQ -->
+  {{ partial "faq-section.html" . }}
+
+  <!-- Brands in this voivodeship -->
+  {{ $stateSlug := .Params.slug }}
+  {{ $brands := slice }}
+  {{ range .Site.Data.brand_states }}
+    {{ if eq .state_slug $stateSlug }}
+      {{ $brands = $brands | append . }}
+    {{ end }}
+  {{ end }}
+  {{ if gt (len $brands) 0 }}
+  <div class="mt-8">
+    <h2 class="text-xl font-bold mb-4">Marki w województwie {{ .Params.state_name }}</h2>
+    <div class="flex flex-wrap gap-2">
+      {{ range $brands }}
+      <a href="/{{ .brand_slug }}/{{ .state_slug }}/"
+        class="inline-flex items-center gap-1.5 bg-white border border-gray-200 hover:border-primary-light px-3 py-1.5 rounded-full text-sm transition-colors">
+        {{ .brand_name }}
+        <span class="text-xs text-text-muted">{{ .count }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
 </div>
+{{ end }}
+
+{{ define "head" }}
+{{ partial "faq-schema.html" . }}
 {{ end }}

@@ -1,0 +1,25 @@
+---
+title: Salony Suzuki — Mazowieckie
+slug: suzuki-mazowieckie
+url: /suzuki/mazowieckie/
+layout: brand-state
+type: seo
+seo_type: brand_state
+brand_name: Suzuki
+brand_slug: suzuki
+state_name: Mazowieckie
+state_slug: mazowieckie
+count: 9
+cities_count: 1
+cities:
+  - Warszawa
+avg_rating: 4.5
+robots: index,follow
+faq:
+  - q: Ile salonów Suzuki jest w województwie mazowieckie?
+    a: W województwie mazowieckie działa 9 salonów Suzuki w 1 miastach.
+  - q: W jakich miastach województwa mazowieckie są salony Suzuki?
+    a: Lista miast z salonami Suzuki w województwie mazowieckie znajduje się na tej stronie.
+---
+
+

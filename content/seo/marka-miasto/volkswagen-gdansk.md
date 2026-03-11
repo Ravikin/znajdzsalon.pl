@@ -1,0 +1,28 @@
+---
+title: Salon Volkswagen Gdańsk – lista dealerów
+slug: volkswagen-gdansk
+url: /volkswagen/gdansk/
+layout: brand-city
+type: seo
+seo_type: brand_city
+brand_name: Volkswagen
+brand_slug: volkswagen
+city_name: Gdańsk
+city_slug: gdansk
+state: Pomorskie
+state_slug: pomorskie
+count: 2
+avg_rating: 4.5
+lat: 54.3643
+lng: 18.5834
+robots: index,follow
+faq:
+  - q: Ile salonów Volkswagen jest w mieście Gdańsk?
+    a: W mieście Gdańsk działa 2 autoryzowanych salonów Volkswagen.
+  - q: Jaka jest średnia ocena salonów Volkswagen w mieście Gdańsk?
+    a: Średnia ocena salonów Volkswagen w mieście Gdańsk wynosi 4.5/5.
+  - q: Gdzie znaleźć salon Volkswagen w mieście Gdańsk?
+    a: Lista wszystkich salonów Volkswagen w mieście Gdańsk z adresami i telefonami znajduje się na tej stronie.
+---
+
+
