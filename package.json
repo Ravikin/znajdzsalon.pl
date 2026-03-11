@@ -4,9 +4,13 @@
   "scripts": {
     "dev": "hugo server --disableFastRender",
     "build": "hugo --minify",
+    "deploy": "hugo --minify && wrangler deploy",
+    "preview": "hugo --minify && wrangler dev",
     "css": "npx @tailwindcss/cli -i ./assets/css/main.css -o ./static/css/style.css --watch"
   },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.0.0"
+    "@tailwindcss/cli": "^4.0.0",
+    "hugo-extended": "^0.147.7",
+    "wrangler": "^4.0.0"
   }
 }
