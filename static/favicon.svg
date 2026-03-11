@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Location pin shape -->
+  <path d="M16 2C10.477 2 6 6.477 6 12c0 7.5 10 18 10 18s10-10.5 10-18c0-5.523-4.477-10-10-10z" fill="#2563EB"/>
+  <!-- Car icon inside pin -->
+  <g transform="translate(9, 7)" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M1 8.5h12"/>
+    <path d="M2.5 5.5L4 2.5h6l1.5 3"/>
+    <path d="M1 8.5V6a1 1 0 011-1h10a1 1 0 011 1v2.5"/>
+    <circle cx="3.5" cy="8.5" r="1" fill="#FFFFFF"/>
+    <circle cx="10.5" cy="8.5" r="1" fill="#FFFFFF"/>
+  </g>
+</svg>

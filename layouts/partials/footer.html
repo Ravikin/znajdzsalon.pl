@@ -1,18 +1,21 @@
-<footer class="bg-gray-900 text-gray-300 mt-16">
+<footer class="bg-gray-900 text-gray-400">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
       <!-- About -->
       <div>
-        <h3 class="text-white font-bold text-lg mb-4">ZnajdźSalon.pl</h3>
+        <div class="flex items-center gap-2 mb-4">
+          <svg class="w-6 h-6" viewBox="0 0 32 32" fill="none"><path d="M16 2C10.477 2 6 6.477 6 12c0 7.5 10 18 10 18s10-10.5 10-18c0-5.523-4.477-10-10-10z" fill="#3B82F6"/><g transform="translate(9,7)" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M1 8.5h12"/><path d="M2.5 5.5L4 2.5h6l1.5 3"/><path d="M1 8.5V6a1 1 0 011-1h10a1 1 0 011 1v2.5"/><circle cx="3.5" cy="8.5" r="1" fill="#fff"/><circle cx="10.5" cy="8.5" r="1" fill="#fff"/></g></svg>
+          <span class="text-white font-bold">ZnajdźSalon.pl</span>
+        </div>
         <p class="text-sm leading-relaxed">
-          Katalog salonów samochodowych w Polsce. Znajdź autoryzowanego dealera każdej marki w swoim mieście.
+          Katalog salonów samochodowych w Polsce. Znajdź dealera każdej marki w swoim mieście.
         </p>
       </div>
 
       <!-- Popular brands -->
       <div>
-        <h3 class="text-white font-bold text-lg mb-4">Popularne marki</h3>
-        <div class="grid grid-cols-2 gap-1 text-sm">
+        <h3 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Marki</h3>
+        <div class="grid grid-cols-2 gap-x-4 gap-y-1.5 text-sm">
           {{ range first 8 (sort $.Site.Data.brands "count" "desc") }}
             <a href="/marki/{{ .slug }}/" class="hover:text-white transition-colors">{{ .name }}</a>
           {{ end }}
@@ -21,17 +24,29 @@
 
       <!-- Popular cities -->
       <div>
-        <h3 class="text-white font-bold text-lg mb-4">Popularne miasta</h3>
-        <div class="grid grid-cols-2 gap-1 text-sm">
+        <h3 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Miasta</h3>
+        <div class="grid grid-cols-2 gap-x-4 gap-y-1.5 text-sm">
           {{ range first 8 (sort $.Site.Data.cities "count" "desc") }}
             <a href="/miasta/{{ .slug }}/" class="hover:text-white transition-colors">{{ .name }}</a>
           {{ end }}
         </div>
       </div>
+
+      <!-- Links -->
+      <div>
+        <h3 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Informacje</h3>
+        <ul class="space-y-1.5 text-sm">
+          <li><a href="/najlepsze/" class="hover:text-white transition-colors">Najlepsze salony</a></li>
+          <li><a href="/wojewodztwa/" class="hover:text-white transition-colors">Województwa</a></li>
+          <li><a href="/blog/" class="hover:text-white transition-colors">Blog</a></li>
+          <li><a href="/kontakt/" class="hover:text-white transition-colors">Kontakt</a></li>
+        </ul>
+      </div>
     </div>
 
-    <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-500">
-      <p>&copy; {{ now.Year }} ZnajdźSalon.pl. Wszelkie prawa zastrzeżone.</p>
+    <div class="border-t border-gray-800 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-gray-500">
+      <p>&copy; {{ now.Year }} ZnajdźSalon.pl</p>
+      <p>Dane na podstawie Google Maps. Aktualizowane cyklicznie.</p>
     </div>
   </div>
 </footer>
