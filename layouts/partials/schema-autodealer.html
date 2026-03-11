@@ -1,0 +1,33 @@
+{{/* Schema.org AutoDealer markup for listing pages */}}
+{{ if .Params.lat }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "name": {{ .Title | jsonify }},
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": {{ .Params.street | default "" | jsonify }},
+    "addressLocality": {{ .Params.city | default "" | jsonify }},
+    "addressRegion": {{ .Params.state | default "" | jsonify }},
+    "postalCode": {{ .Params.postal_code | default "" | jsonify }},
+    "addressCountry": "PL"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ .Params.lat }},
+    "longitude": {{ .Params.lng }}
+  }
+  {{ with .Params.phone }}, "telephone": {{ . | jsonify }}{{ end }}
+  {{ with .Params.website }}, "url": {{ . | jsonify }}{{ end }}
+  {{ if and .Params.rating .Params.reviews_count }}
+  , "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": {{ .Params.rating }},
+    "reviewCount": {{ .Params.reviews_count }},
+    "bestRating": 5
+  }
+  {{ end }}
+}
+</script>
+{{ end }}

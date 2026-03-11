@@ -1,0 +1,28 @@
+{{ define "title" }}Marki samochodów — Salony w Polsce | ZnajdźSalon.pl{{ end }}
+{{ define "description" }}Przeglądaj salony samochodowe w Polsce według marki. {{ len .Site.Data.brands }} marek, {{ len .Site.Data.listings }} salonów.{{ end }}
+
+{{ define "main" }}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  {{ partial "breadcrumbs.html" . }}
+
+  <h1 class="text-3xl font-bold mb-8">Marki samochodów</h1>
+
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+    {{ range sort .Site.Data.brands "name" }}
+    <a href="/marki/{{ .slug }}/"
+      class="flex flex-col items-center gap-3 p-5 bg-white rounded-xl border border-gray-200 hover:border-primary-light hover:shadow-md transition-all">
+      {{ $logoPath := printf "images/brands/%s.svg" .slug }}
+      {{ if (fileExists (printf "static/%s" $logoPath)) }}
+        <img src="/{{ $logoPath }}" alt="{{ .name }}" class="h-12 w-auto">
+      {{ else }}
+        <div class="h-12 w-12 bg-primary/10 rounded-full flex items-center justify-center text-primary font-bold text-xl">
+          {{ substr .name 0 1 }}
+        </div>
+      {{ end }}
+      <span class="font-medium">{{ .name }}</span>
+      <span class="text-sm text-text-muted">{{ .count }} salonów</span>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

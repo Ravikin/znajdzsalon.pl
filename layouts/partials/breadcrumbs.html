@@ -1,0 +1,45 @@
+{{ $breadcrumbs := slice (dict "name" "Strona główna" "url" "/") }}
+
+{{ if eq .Type "salony" }}
+  {{ $breadcrumbs = $breadcrumbs | append (dict "name" "Salony" "url" "/salony/") }}
+  {{ if .Params.city }}
+    {{ $breadcrumbs = $breadcrumbs | append (dict "name" .Params.city "url" (printf "/miasta/%s/" .Params.city_slug)) }}
+  {{ end }}
+  {{ $breadcrumbs = $breadcrumbs | append (dict "name" .Title "url" "") }}
+{{ else if eq .Type "marki" }}
+  {{ $breadcrumbs = $breadcrumbs | append (dict "name" "Marki" "url" "/marki/") }}
+  {{ if .Params.brand_name }}
+    {{ $breadcrumbs = $breadcrumbs | append (dict "name" .Params.brand_name "url" "") }}
+  {{ end }}
+{{ else if eq .Type "miasta" }}
+  {{ $breadcrumbs = $breadcrumbs | append (dict "name" "Miasta" "url" "/miasta/") }}
+  {{ if .Params.city_name }}
+    {{ $breadcrumbs = $breadcrumbs | append (dict "name" .Params.city_name "url" "") }}
+  {{ end }}
+{{ else if eq .Type "wojewodztwa" }}
+  {{ $breadcrumbs = $breadcrumbs | append (dict "name" "Województwa" "url" "/wojewodztwa/") }}
+  {{ if .Params.state_name }}
+    {{ $breadcrumbs = $breadcrumbs | append (dict "name" .Params.state_name "url" "") }}
+  {{ end }}
+{{ end }}
+
+<nav aria-label="Breadcrumbs" class="text-sm text-text-muted mb-6">
+  <ol class="flex flex-wrap items-center gap-1" itemscope itemtype="https://schema.org/BreadcrumbList">
+    {{ range $i, $item := $breadcrumbs }}
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="flex items-center">
+        {{ if $item.url }}
+          <a itemprop="item" href="{{ $item.url }}" class="hover:text-primary transition-colors">
+            <span itemprop="name">{{ $item.name }}</span>
+          </a>
+          <meta itemprop="position" content="{{ add $i 1 }}">
+          <svg class="w-4 h-4 mx-1 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        {{ else }}
+          <span itemprop="name" class="text-text font-medium">{{ $item.name }}</span>
+          <meta itemprop="position" content="{{ add $i 1 }}">
+        {{ end }}
+      </li>
+    {{ end }}
+  </ol>
+</nav>

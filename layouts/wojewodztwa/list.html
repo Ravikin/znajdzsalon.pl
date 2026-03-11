@@ -1,0 +1,19 @@
+{{ define "title" }}Województwa — Salony samochodowe | ZnajdźSalon.pl{{ end }}
+
+{{ define "main" }}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  {{ partial "breadcrumbs.html" . }}
+
+  <h1 class="text-3xl font-bold mb-8">Województwa</h1>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    {{ range sort .Site.Data.voivodeships "count" "desc" }}
+    <a href="/wojewodztwa/{{ .slug }}/"
+      class="p-5 bg-white rounded-xl border border-gray-200 hover:border-primary-light hover:shadow-md transition-all">
+      <h2 class="font-bold text-lg">{{ .name }}</h2>
+      <p class="text-sm text-text-muted mt-1">{{ .count }} salonów &middot; {{ .cities_count }} miast</p>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

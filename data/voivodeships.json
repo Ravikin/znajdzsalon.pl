@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Mazowieckie",
+    "slug": "mazowieckie",
+    "count": 2,
+    "cities": [
+      "Warszawa"
+    ],
+    "cities_count": 1
+  },
+  {
+    "name": "Małopolskie",
+    "slug": "malopolskie",
+    "count": 1,
+    "cities": [
+      "Kraków"
+    ],
+    "cities_count": 1
+  }
+]

@@ -1,0 +1,37 @@
+<footer class="bg-gray-900 text-gray-300 mt-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- About -->
+      <div>
+        <h3 class="text-white font-bold text-lg mb-4">ZnajdźSalon.pl</h3>
+        <p class="text-sm leading-relaxed">
+          Katalog salonów samochodowych w Polsce. Znajdź autoryzowanego dealera każdej marki w swoim mieście.
+        </p>
+      </div>
+
+      <!-- Popular brands -->
+      <div>
+        <h3 class="text-white font-bold text-lg mb-4">Popularne marki</h3>
+        <div class="grid grid-cols-2 gap-1 text-sm">
+          {{ range first 8 (sort $.Site.Data.brands "count" "desc") }}
+            <a href="/marki/{{ .slug }}/" class="hover:text-white transition-colors">{{ .name }}</a>
+          {{ end }}
+        </div>
+      </div>
+
+      <!-- Popular cities -->
+      <div>
+        <h3 class="text-white font-bold text-lg mb-4">Popularne miasta</h3>
+        <div class="grid grid-cols-2 gap-1 text-sm">
+          {{ range first 8 (sort $.Site.Data.cities "count" "desc") }}
+            <a href="/miasta/{{ .slug }}/" class="hover:text-white transition-colors">{{ .name }}</a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-500">
+      <p>&copy; {{ now.Year }} ZnajdźSalon.pl. Wszelkie prawa zastrzeżone.</p>
+    </div>
+  </div>
+</footer>

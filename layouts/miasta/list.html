@@ -1,0 +1,33 @@
+{{ define "title" }}Miasta — Salony samochodowe w Polsce | ZnajdźSalon.pl{{ end }}
+{{ define "description" }}Przeglądaj salony samochodowe w Polsce według miasta. {{ len .Site.Data.cities }} miast z salonami samochodowymi.{{ end }}
+
+{{ define "main" }}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  {{ partial "breadcrumbs.html" . }}
+
+  <h1 class="text-3xl font-bold mb-8">Miasta</h1>
+
+  <!-- Group by voivodeship using voivodeships data -->
+  <div class="space-y-8">
+    {{ range sort .Site.Data.voivodeships "name" }}
+    {{ $stateSlug := .slug }}
+    <div>
+      <h2 class="text-xl font-bold mb-3 text-primary">
+        <a href="/wojewodztwa/{{ .slug }}/" class="hover:underline">{{ .name }}</a>
+      </h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+        {{ range sort $.Site.Data.cities "count" "desc" }}
+          {{ if eq .state_slug $stateSlug }}
+          <a href="/miasta/{{ .slug }}/"
+            class="flex items-center justify-between p-3 bg-white rounded-lg border border-gray-200 hover:border-primary-light transition-colors">
+            <span class="font-medium text-sm">{{ .name }}</span>
+            <span class="text-xs text-text-muted bg-gray-100 px-2 py-0.5 rounded-full">{{ .count }}</span>
+          </a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

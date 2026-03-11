@@ -1,0 +1,56 @@
+{{ define "title" }}Salony samochodowe {{ .Params.city_name }} | ZnajdźSalon.pl{{ end }}
+{{ define "description" }}{{ .Params.count }} salonów samochodowych w {{ .Params.city_name }}. Znajdź dealerów wszystkich marek.{{ end }}
+
+{{ define "main" }}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  {{ partial "breadcrumbs.html" . }}
+
+  <h1 class="text-3xl font-bold mb-2">Salony samochodowe — {{ .Params.city_name }}</h1>
+  <p class="text-text-muted mb-6">{{ .Params.count }} salonów &middot; woj. {{ .Params.state }}</p>
+
+  <!-- Map -->
+  {{ if and .Params.lat .Params.lng }}
+  <div id="city-map" class="h-96 w-full rounded-xl border border-gray-200 mb-8"></div>
+  {{ end }}
+
+  <!-- AI Content -->
+  {{ if .Content }}
+  <div class="prose prose-lg max-w-none mb-8">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  <!-- Listings -->
+  <h2 class="text-xl font-bold mb-4">Wszystkie salony</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    {{ $citySlug := .Params.slug }}
+    {{ range .Site.Data.listings }}
+      {{ if eq .city_slug $citySlug }}
+        {{ partial "listing-card.html" . }}
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+{{ if and .Params.lat .Params.lng }}
+<script>
+  const map = L.map('city-map').setView([{{ .Params.lat }}, {{ .Params.lng }}], 12);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+
+  const citySlug = {{ .Params.slug | jsonify }};
+  const listings = {{ .Site.Data.listings | jsonify }};
+
+  listings.filter(l => l.city_slug === citySlug).forEach(l => {
+    if (l.lat && l.lng) {
+      L.marker([l.lat, l.lng])
+        .addTo(map)
+        .bindPopup(`<b>${l.name}</b><br>${l.full_address}<br><a href="/salon/${l.slug}/">Szczegóły</a>`);
+    }
+  });
+</script>
+{{ end }}
+{{ end }}

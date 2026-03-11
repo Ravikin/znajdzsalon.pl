@@ -1,0 +1,108 @@
+[
+  {
+    "slug": "toyota-bielany-warszawa",
+    "name": "Toyota Bielany",
+    "place_id": "test1",
+    "brands": [
+      "Toyota",
+      "Lexus"
+    ],
+    "city": "Warszawa",
+    "city_slug": "warszawa",
+    "state": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "full_address": "ul. Marymoncka 71, 01-802 Warszawa",
+    "street": "",
+    "postal_code": "01-802",
+    "country": "Polska",
+    "lat": 52.2688,
+    "lng": 20.9519,
+    "phone": "+48 22 123 4567",
+    "website": "https://toyotabielany.pl",
+    "rating": 4.5,
+    "reviews_count": 423,
+    "services": {
+      "sprzedaz_nowych": true,
+      "serwis": true,
+      "leasing": true
+    },
+    "facilities": "",
+    "listing_type": "autoryzowany_dealer",
+    "photo": "",
+    "working_hours": {},
+    "facebook": "",
+    "instagram": "",
+    "description": "",
+    "ai_description": "<p>Toyota Bielany to autoryzowany dealer Toyoty w Warszawie.</p>"
+  },
+  {
+    "slug": "bmw-inchcape-warszawa-warszawa",
+    "name": "BMW Inchcape Warszawa",
+    "place_id": "test2",
+    "brands": [
+      "BMW",
+      "Mini"
+    ],
+    "city": "Warszawa",
+    "city_slug": "warszawa",
+    "state": "Mazowieckie",
+    "state_slug": "mazowieckie",
+    "full_address": "Al. Jerozolimskie 200, 02-486 Warszawa",
+    "street": "",
+    "postal_code": "02-486",
+    "country": "Polska",
+    "lat": 52.2044,
+    "lng": 20.9357,
+    "phone": "+48 22 987 6543",
+    "website": "https://bmw-inchcape.pl",
+    "rating": 4.3,
+    "reviews_count": 312,
+    "services": {
+      "sprzedaz_nowych": true,
+      "sprzedaz_uzywanych": true,
+      "serwis": true
+    },
+    "facilities": "",
+    "listing_type": "autoryzowany_dealer",
+    "photo": "",
+    "working_hours": {},
+    "facebook": "",
+    "instagram": "",
+    "description": "",
+    "ai_description": ""
+  },
+  {
+    "slug": "volkswagen-krakow-krakow",
+    "name": "Volkswagen Kraków",
+    "place_id": "test3",
+    "brands": [
+      "Volkswagen"
+    ],
+    "city": "Kraków",
+    "city_slug": "krakow",
+    "state": "Małopolskie",
+    "state_slug": "malopolskie",
+    "full_address": "ul. Zakopiańska 100, 30-418 Kraków",
+    "street": "",
+    "postal_code": "30-418",
+    "country": "Polska",
+    "lat": 50.0291,
+    "lng": 19.9256,
+    "phone": "+48 12 555 1234",
+    "website": "https://vw-krakow.pl",
+    "rating": 4.1,
+    "reviews_count": 198,
+    "services": {
+      "sprzedaz_nowych": true,
+      "czesci": true
+    },
+    "facilities": "",
+    "listing_type": "autoryzowany_dealer",
+    "photo": "",
+    "working_hours": {},
+    "facebook": "",
+    "instagram": "",
+    "description": "",
+    "ai_description": ""
+  }
+]

@@ -1,0 +1,40 @@
+baseURL = "https://znajdzsalon.pl"
+languageCode = "pl"
+defaultContentLanguage = "pl"
+title = "ZnajdźSalon.pl — Salony samochodowe w Polsce"
+
+[params]
+  description = "Katalog salonów samochodowych w Polsce. Znajdź autoryzowanego dealera każdej marki w swoim mieście."
+  ogImage = "/images/og-default.jpg"
+
+[permalinks]
+  salony = "/salon/:slug/"
+  miasta = "/miasta/:slug/"
+  wojewodztwa = "/wojewodztwa/:slug/"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Marki"
+    url = "/marki/"
+    weight = 1
+  [[menu.main]]
+    name = "Miasta"
+    url = "/miasta/"
+    weight = 2
+  [[menu.main]]
+    name = "Województwa"
+    url = "/wojewodztwa/"
+    weight = 3

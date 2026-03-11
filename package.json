@@ -1,0 +1,12 @@
+{
+  "name": "znajdzsalon",
+  "private": true,
+  "scripts": {
+    "dev": "hugo server --disableFastRender",
+    "build": "hugo --minify",
+    "css": "npx @tailwindcss/cli -i ./assets/css/main.css -o ./static/css/style.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0"
+  }
+}

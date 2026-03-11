@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Toyota",
+    "slug": "toyota",
+    "count": 1,
+    "cities_count": 1
+  },
+  {
+    "name": "Lexus",
+    "slug": "lexus",
+    "count": 1,
+    "cities_count": 1
+  },
+  {
+    "name": "BMW",
+    "slug": "bmw",
+    "count": 1,
+    "cities_count": 1
+  },
+  {
+    "name": "Mini",
+    "slug": "mini",
+    "count": 1,
+    "cities_count": 1
+  },
+  {
+    "name": "Volkswagen",
+    "slug": "volkswagen",
+    "count": 1,
+    "cities_count": 1
+  }
+]
