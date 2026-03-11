@@ -28,7 +28,7 @@ title = "ZnajdźSalon.pl — Salony samochodowe w Polsce"
 [menu]
   [[menu.main]]
     name = "Znajdź salon"
-    url = "/marki/"
+    url = "/szukaj/"
     weight = 1
     [menu.main.params]
       icon = "search"
