@@ -150,7 +150,7 @@
       {{ range first 18 (sort .Site.Data.brands "count" "desc") }}
       <a href="/marki/{{ .slug }}/"
         class="flex flex-col items-center gap-2 p-4 bg-white rounded-xl border border-gray-200 hover:border-primary-light hover:shadow-md transition-all group">
-        {{ $logoPath := printf "images/brands/%s.svg" .slug }}
+        {{ $logoPath := printf "images/brands/%s.png" .slug }}
         {{ if (fileExists (printf "static/%s" $logoPath)) }}
           <img src="/{{ $logoPath }}" alt="{{ .name }}" class="h-10 w-auto opacity-70 group-hover:opacity-100 transition-opacity">
         {{ else }}

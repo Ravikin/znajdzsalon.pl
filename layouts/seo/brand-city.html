@@ -10,7 +10,7 @@
   {{ partial "breadcrumbs.html" . }}
 
   <div class="flex items-center gap-4 mb-6">
-    {{ $logoPath := printf "images/brands/%s.svg" .Params.brand_slug }}
+    {{ $logoPath := printf "images/brands/%s.png" .Params.brand_slug }}
     {{ if (fileExists (printf "static/%s" $logoPath)) }}
       <img src="/{{ $logoPath }}" alt="{{ .Params.brand_name }}" class="h-16 w-auto">
     {{ end }}

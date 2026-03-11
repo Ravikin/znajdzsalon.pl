@@ -14,7 +14,7 @@
   {{ partial "breadcrumbs.html" . }}
 
   <div class="flex items-center gap-4 mb-6">
-    {{ $logoPath := printf "images/brands/%s.svg" .Params.slug }}
+    {{ $logoPath := printf "images/brands/%s.png" .Params.slug }}
     {{ if (fileExists (printf "static/%s" $logoPath)) }}
       <img src="/{{ $logoPath }}" alt="{{ .Params.brand_name }}" class="h-16 w-auto">
     {{ end }}
@@ -62,7 +62,7 @@
     {{ range sort .Site.Data.brands "name" }}
     <a href="/marki/{{ .slug }}/"
       class="flex flex-col items-center gap-3 p-5 bg-white rounded-xl border border-gray-200 hover:border-primary-light hover:shadow-md transition-all">
-      {{ $logoPath := printf "images/brands/%s.svg" .slug }}
+      {{ $logoPath := printf "images/brands/%s.png" .slug }}
       {{ if (fileExists (printf "static/%s" $logoPath)) }}
         <img src="/{{ $logoPath }}" alt="{{ .name }}" class="h-12 w-auto">
       {{ else }}
