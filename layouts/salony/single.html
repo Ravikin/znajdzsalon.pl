@@ -151,6 +151,7 @@
       <div class="bg-white rounded-xl border border-gray-200 p-5">
         <h2 class="font-bold text-lg mb-3">Godziny otwarcia</h2>
         <dl class="space-y-1 text-sm">
+          {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" "Saturday" "Sunday" }}
           {{ $dayLabels := dict
             "Monday" "Poniedziałek"
             "Tuesday" "Wtorek"
@@ -160,11 +161,15 @@
             "Saturday" "Sobota"
             "Sunday" "Niedziela"
           }}
-          {{ range $day, $hours := . }}
-          <div class="flex justify-between">
-            <dt class="text-text-muted">{{ index $dayLabels $day | default $day }}</dt>
-            <dd class="font-medium">{{ $hours }}</dd>
-          </div>
+          {{ $wh := . }}
+          {{ range $days }}
+            {{ $hours := index $wh . }}
+            {{ if $hours }}
+            <div class="flex justify-between">
+              <dt class="text-text-muted">{{ index $dayLabels . }}</dt>
+              <dd class="font-medium">{{ $hours }}</dd>
+            </div>
+            {{ end }}
           {{ end }}
         </dl>
       </div>
