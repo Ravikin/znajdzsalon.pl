@@ -46,7 +46,7 @@
     {{ end }}
   </div>
 
-  {{ if .website }}
+  {{ if and .website (or (hasPrefix .website "http://") (hasPrefix .website "https://")) }}
   <div class="border-t border-gray-200 mt-3 pt-3 flex items-center justify-between">
     <a href="/salon/{{ .slug }}/" class="text-sm font-medium text-primary hover:underline">Szczegóły</a>
     <a href="{{ .website }}{{ if strings.Contains .website "?" }}&{{ else }}?{{ end }}ref=znajdzsalon"
