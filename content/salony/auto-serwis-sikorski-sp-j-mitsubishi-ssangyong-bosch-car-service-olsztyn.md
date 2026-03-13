@@ -4,7 +4,7 @@ slug: auto-serwis-sikorski-sp-j-mitsubishi-ssangyong-bosch-car-service-olsztyn
 type: salony
 brands:
   - Mitsubishi
-  - SsangYong
+  - Ssangyong
 city: Olsztyn
 city_slug: olsztyn
 state: Warmińsko-mazurskie

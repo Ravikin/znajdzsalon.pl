@@ -306,8 +306,8 @@ function heroSearch() {
     query: '',
     results: [],
     open: false,
-    brands: {{ .Site.Data.brands | jsonify }},
-    cities: {{ .Site.Data.cities | jsonify }},
+    brands: {{ .Site.Data.brands | jsonify | safeJS }},
+    cities: {{ .Site.Data.cities | jsonify | safeJS }},
     search() {
       const q = this.query.toLowerCase().trim();
       if (q.length < 2) { this.results = []; return; }

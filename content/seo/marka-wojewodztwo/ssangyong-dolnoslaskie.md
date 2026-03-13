@@ -1,11 +1,11 @@
 ---
-title: Salony SsangYong — Dolnośląskie
+title: Salony Ssangyong — Dolnośląskie
 slug: ssangyong-dolnoslaskie
 url: /ssangyong/dolnoslaskie/
 layout: brand-state
 type: seo
 seo_type: brand_state
-brand_name: SsangYong
+brand_name: Ssangyong
 brand_slug: ssangyong
 state_name: Dolnośląskie
 state_slug: dolnoslaskie
@@ -16,10 +16,10 @@ cities:
 avg_rating: 4.9
 robots: index,follow
 faq:
-  - q: Ile salonów SsangYong jest w województwie dolnośląskie?
-    a: W województwie dolnośląskie działa 1 salonów SsangYong w 1 miastach.
-  - q: W jakich miastach województwa dolnośląskie są salony SsangYong?
-    a: Lista miast z salonami SsangYong w województwie dolnośląskie znajduje się na tej stronie.
+  - q: Ile salonów Ssangyong jest w województwie dolnośląskie?
+    a: W województwie dolnośląskie działa 1 salonów Ssangyong w 1 miastach.
+  - q: W jakich miastach województwa dolnośląskie są salony Ssangyong?
+    a: Lista miast z salonami Ssangyong w województwie dolnośląskie znajduje się na tej stronie.
 ---
 
 

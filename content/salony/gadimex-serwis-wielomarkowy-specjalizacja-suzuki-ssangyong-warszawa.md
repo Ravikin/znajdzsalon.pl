@@ -4,7 +4,7 @@ slug: gadimex-serwis-wielomarkowy-specjalizacja-suzuki-ssangyong-warszawa
 type: salony
 brands:
   - Suzuki
-  - SsangYong
+  - Ssangyong
 city: Warszawa
 city_slug: warszawa
 state: Mazowieckie

@@ -1,15 +1,15 @@
 ---
-title: Salony SEAT w Polsce
+title: Salony Seat w Polsce
 slug: seat
 type: marki
-brand_name: SEAT
-count: 1
-cities_count: 1
+brand_name: Seat
+count: 19
+cities_count: 16
 faq:
-  - q: Ile salonów SEAT jest w Polsce?
-    a: W Polsce działa 1 salonów SEAT w 1 miastach.
-  - q: Gdzie znaleźć salon SEAT?
-    a: Na tej stronie znajdziesz listę wszystkich 1 salonów SEAT w Polsce z adresami, telefonami i opiniami.
+  - q: Ile salonów Seat jest w Polsce?
+    a: W Polsce działa 19 salonów Seat w 16 miastach.
+  - q: Gdzie znaleźć salon Seat?
+    a: Na tej stronie znajdziesz listę wszystkich 19 salonów Seat w Polsce z adresami, telefonami i opiniami.
 ---
 
 

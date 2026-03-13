@@ -9,15 +9,15 @@ brand_name: Cupra
 brand_slug: cupra
 state_name: Wielkopolskie
 state_slug: wielkopolskie
-count: 1
+count: 2
 cities_count: 1
 cities:
   - Poznań
-avg_rating: 4.9
+avg_rating: 4.5
 robots: index,follow
 faq:
   - q: Ile salonów Cupra jest w województwie wielkopolskie?
-    a: W województwie wielkopolskie działa 1 salonów Cupra w 1 miastach.
+    a: W województwie wielkopolskie działa 2 salonów Cupra w 1 miastach.
   - q: W jakich miastach województwa wielkopolskie są salony Cupra?
     a: Lista miast z salonami Cupra w województwie wielkopolskie znajduje się na tej stronie.
 ---

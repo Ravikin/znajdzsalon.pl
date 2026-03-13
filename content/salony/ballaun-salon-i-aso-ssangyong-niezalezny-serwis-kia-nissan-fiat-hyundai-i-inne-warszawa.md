@@ -7,7 +7,7 @@ brands:
   - Kia
   - Fiat
   - Nissan
-  - SsangYong
+  - Ssangyong
 city: Warszawa
 city_slug: warszawa
 state: Mazowieckie

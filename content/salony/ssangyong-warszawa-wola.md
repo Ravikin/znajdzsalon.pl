@@ -3,7 +3,7 @@ title: SsangYong Warszawa Wola
 slug: ssangyong-warszawa-wola
 type: salony
 brands:
-  - SsangYong
+  - Ssangyong
 city: Warszawa
 city_slug: warszawa
 state: Mazowieckie

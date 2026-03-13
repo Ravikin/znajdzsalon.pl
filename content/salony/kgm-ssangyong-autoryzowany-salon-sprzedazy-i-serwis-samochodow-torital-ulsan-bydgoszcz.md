@@ -3,7 +3,7 @@ title: KGM - SsangYong Autoryzowany Salon Sprzedaży i Serwis Samochodów TORITA
 slug: kgm-ssangyong-autoryzowany-salon-sprzedazy-i-serwis-samochodow-torital-ulsan-bydgoszcz
 type: salony
 brands:
-  - SsangYong
+  - Ssangyong
 city: Bydgoszcz
 city_slug: bydgoszcz
 state: Kujawsko-pomorskie

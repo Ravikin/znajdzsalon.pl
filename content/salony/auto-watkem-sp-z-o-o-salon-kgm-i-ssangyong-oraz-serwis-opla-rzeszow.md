@@ -3,7 +3,7 @@ title: AUTO-WATKEM Sp. z o.o. Salon KGM I SsangYong oraz Serwis OPLA
 slug: auto-watkem-sp-z-o-o-salon-kgm-i-ssangyong-oraz-serwis-opla-rzeszow
 type: salony
 brands:
-  - SsangYong
+  - Ssangyong
 city: Rzeszów
 city_slug: rzeszow
 state: Podkarpackie

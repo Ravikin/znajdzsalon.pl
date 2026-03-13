@@ -1,11 +1,11 @@
 ---
-title: Salony SsangYong — Mazowieckie
+title: Salony Ssangyong — Mazowieckie
 slug: ssangyong-mazowieckie
 url: /ssangyong/mazowieckie/
 layout: brand-state
 type: seo
 seo_type: brand_state
-brand_name: SsangYong
+brand_name: Ssangyong
 brand_slug: ssangyong
 state_name: Mazowieckie
 state_slug: mazowieckie
@@ -16,10 +16,10 @@ cities:
 avg_rating: 4.1
 robots: index,follow
 faq:
-  - q: Ile salonów SsangYong jest w województwie mazowieckie?
-    a: W województwie mazowieckie działa 6 salonów SsangYong w 1 miastach.
-  - q: W jakich miastach województwa mazowieckie są salony SsangYong?
-    a: Lista miast z salonami SsangYong w województwie mazowieckie znajduje się na tej stronie.
+  - q: Ile salonów Ssangyong jest w województwie mazowieckie?
+    a: W województwie mazowieckie działa 6 salonów Ssangyong w 1 miastach.
+  - q: W jakich miastach województwa mazowieckie są salony Ssangyong?
+    a: Lista miast z salonami Ssangyong w województwie mazowieckie znajduje się na tej stronie.
 ---
 
 

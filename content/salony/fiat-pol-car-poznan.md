@@ -8,9 +8,9 @@ brands:
   - Jeep
   - Kia
   - Fiat Professional
-  - CUPRA
-  - SEAT
-  - IVECO
+  - Cupra
+  - Seat
+  - Iveco
   - Leapmotor
 city: Poznań
 city_slug: poznan

@@ -3,7 +3,7 @@ title: "SsangYong Salon sprzedaży & ASO"
 slug: ssangyong-salon-sprzedazy-aso-bydgoszcz
 type: salony
 brands:
-  - SsangYong
+  - Ssangyong
 city: Bydgoszcz
 city_slug: bydgoszcz
 state: Kujawsko-pomorskie

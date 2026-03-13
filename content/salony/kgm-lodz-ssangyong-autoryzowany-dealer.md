@@ -3,7 +3,7 @@ title: KGM Łódź (SsangYong) Autoryzowany Dealer
 slug: kgm-lodz-ssangyong-autoryzowany-dealer
 type: salony
 brands:
-  - SsangYong
+  - Ssangyong
 city: Łódź
 city_slug: lodz
 state: Łódzkie

@@ -3,7 +3,7 @@ title: Salon KGM by Ssangyong, Forthing i DFSK Katowice ABC-Cars autoryzowany sa
 slug: salon-kgm-by-ssangyong-forthing-i-dfsk-katowice-abc-cars-autoryzowany-salon-i-serwis
 type: salony
 brands:
-  - SsangYong
+  - Ssangyong
 city: Katowice
 city_slug: katowice
 state: Śląskie

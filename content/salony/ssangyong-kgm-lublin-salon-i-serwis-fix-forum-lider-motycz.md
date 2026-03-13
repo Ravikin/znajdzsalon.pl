@@ -3,7 +3,7 @@ title: SsangYong / KGM Lublin Salon i Serwis Fix Forum Lider
 slug: ssangyong-kgm-lublin-salon-i-serwis-fix-forum-lider-motycz
 type: salony
 brands:
-  - SsangYong
+  - Ssangyong
 city: Motycz
 city_slug: motycz
 state: ""

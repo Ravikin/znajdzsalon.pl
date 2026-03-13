@@ -87,8 +87,8 @@
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
 
-  const brandName = {{ .Params.brand_name | jsonify }};
-  const listings = {{ .Site.Data.listings | jsonify }};
+  const brandName = {{ .Params.brand_name | jsonify | safeJS }};
+  const listings = {{ .Site.Data.listings | jsonify | safeJS }};
 
   listings.filter(l => l.brands && l.brands.includes(brandName)).forEach(l => {
     if (l.lat && l.lng) {

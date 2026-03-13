@@ -3,7 +3,7 @@ title: "KGM | SsangYong Wrocław | Dom Samochodowy Germaz sp. z o.o."
 slug: kgm-ssangyong-wroclaw-dom-samochodowy-germaz-sp-z-o-o
 type: salony
 brands:
-  - SsangYong
+  - Ssangyong
 city: Wrocław
 city_slug: wroclaw
 state: Dolnośląskie

@@ -4,7 +4,7 @@ slug: autoryzowany-serwis-citroen-kubiak-autoryzowany-serwis-ssangyong-lodz
 type: salony
 brands:
   - Citroen
-  - SsangYong
+  - Ssangyong
 city: Łódź
 city_slug: lodz
 state: Łódzkie

@@ -3,7 +3,7 @@ title: SsangYong Opole
 slug: ssangyong-opole
 type: salony
 brands:
-  - SsangYong
+  - Ssangyong
 city: Opole
 city_slug: opole
 state: Opolskie

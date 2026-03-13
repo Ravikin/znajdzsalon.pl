@@ -180,7 +180,7 @@
     "lng": 20.9743
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "city_name": "Warszawa",
     "city_slug": "warszawa",
@@ -1106,6 +1106,18 @@
   {
     "brand_name": "Cupra",
     "brand_slug": "cupra",
+    "city_name": "Poznań",
+    "city_slug": "poznan",
+    "state": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 2,
+    "avg_rating": 4.5,
+    "lat": 52.3834,
+    "lng": 16.9383
+  },
+  {
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
     "city_name": "Gdańsk",
     "city_slug": "gdansk",
     "state": "Pomorskie",
@@ -1742,6 +1754,18 @@
   {
     "brand_name": "Seat",
     "brand_slug": "seat",
+    "city_name": "Poznań",
+    "city_slug": "poznan",
+    "state": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 2,
+    "avg_rating": 4.4,
+    "lat": 52.3834,
+    "lng": 16.9384
+  },
+  {
+    "brand_name": "Seat",
+    "brand_slug": "seat",
     "city_name": "Wrocław",
     "city_slug": "wroclaw",
     "state": "Dolnośląskie",
@@ -1788,7 +1812,7 @@
     "lng": 19.0298
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "city_name": "Bydgoszcz",
     "city_slug": "bydgoszcz",
@@ -1800,7 +1824,7 @@
     "lng": 17.9836
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "city_name": "Katowice",
     "city_slug": "katowice",
@@ -1812,7 +1836,7 @@
     "lng": 19.0188
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "city_name": "Łódź",
     "city_slug": "lodz",
@@ -2544,18 +2568,6 @@
     "lng": 18.9871
   },
   {
-    "brand_name": "CUPRA",
-    "brand_slug": "cupra",
-    "city_name": "Poznań",
-    "city_slug": "poznan",
-    "state": "Wielkopolskie",
-    "state_slug": "wielkopolskie",
-    "count": 1,
-    "avg_rating": 4.1,
-    "lat": 52.4085,
-    "lng": 17.0282
-  },
-  {
     "brand_name": "Citroen",
     "brand_slug": "citroen",
     "city_name": "Łomianki",
@@ -2734,18 +2746,6 @@
     "avg_rating": 4.9,
     "lat": 50.0664,
     "lng": 22.0138
-  },
-  {
-    "brand_name": "Cupra",
-    "brand_slug": "cupra",
-    "city_name": "Poznań",
-    "city_slug": "poznan",
-    "state": "Wielkopolskie",
-    "state_slug": "wielkopolskie",
-    "count": 1,
-    "avg_rating": 4.9,
-    "lat": 52.3582,
-    "lng": 16.8485
   },
   {
     "brand_name": "Cupra",
@@ -3756,18 +3756,6 @@
     "lng": 21.9841
   },
   {
-    "brand_name": "IVECO",
-    "brand_slug": "iveco",
-    "city_name": "Poznań",
-    "city_slug": "poznan",
-    "state": "Wielkopolskie",
-    "state_slug": "wielkopolskie",
-    "count": 1,
-    "avg_rating": 4.1,
-    "lat": 52.4085,
-    "lng": 17.0282
-  },
-  {
     "brand_name": "Isuzu",
     "brand_slug": "isuzu",
     "city_name": "Wiry",
@@ -3814,6 +3802,18 @@
     "avg_rating": 4.3,
     "lat": 53.1306,
     "lng": 23.0628
+  },
+  {
+    "brand_name": "Iveco",
+    "brand_slug": "iveco",
+    "city_name": "Poznań",
+    "city_slug": "poznan",
+    "state": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "avg_rating": 4.1,
+    "lat": 52.4085,
+    "lng": 17.0282
   },
   {
     "brand_name": "Jaguar",
@@ -6036,18 +6036,6 @@
     "lng": 22.0345
   },
   {
-    "brand_name": "SEAT",
-    "brand_slug": "seat",
-    "city_name": "Poznań",
-    "city_slug": "poznan",
-    "state": "Wielkopolskie",
-    "state_slug": "wielkopolskie",
-    "count": 1,
-    "avg_rating": 4.1,
-    "lat": 52.4085,
-    "lng": 17.0282
-  },
-  {
     "brand_name": "Seat",
     "brand_slug": "seat",
     "city_name": "Opole",
@@ -6082,18 +6070,6 @@
     "avg_rating": 4.8,
     "lat": 53.3992,
     "lng": 14.5011
-  },
-  {
-    "brand_name": "Seat",
-    "brand_slug": "seat",
-    "city_name": "Poznań",
-    "city_slug": "poznan",
-    "state": "Wielkopolskie",
-    "state_slug": "wielkopolskie",
-    "count": 1,
-    "avg_rating": 4.7,
-    "lat": 52.3583,
-    "lng": 16.8485
   },
   {
     "brand_name": "Seat",
@@ -6324,7 +6300,7 @@
     "lng": 20.4246
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "city_name": "Wrocław",
     "city_slug": "wroclaw",
@@ -6336,7 +6312,7 @@
     "lng": 16.9731
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "city_name": "Kielce",
     "city_slug": "kielce",
@@ -6348,7 +6324,7 @@
     "lng": 20.6032
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "city_name": "Motycz",
     "city_slug": "motycz",
@@ -6360,7 +6336,7 @@
     "lng": 22.4737
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "city_name": "Olsztyn",
     "city_slug": "olsztyn",
@@ -6372,7 +6348,7 @@
     "lng": 20.4177
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "city_name": "Opole",
     "city_slug": "opole",
@@ -6384,7 +6360,7 @@
     "lng": 17.934
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "city_name": "Rzeszów",
     "city_slug": "rzeszow",

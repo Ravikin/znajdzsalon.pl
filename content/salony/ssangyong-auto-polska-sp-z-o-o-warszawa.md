@@ -3,7 +3,7 @@ title: SsangYong Auto Polska sp. z o.o.
 slug: ssangyong-auto-polska-sp-z-o-o-warszawa
 type: salony
 brands:
-  - SsangYong
+  - Ssangyong
 city: Warszawa
 city_slug: warszawa
 state: Mazowieckie

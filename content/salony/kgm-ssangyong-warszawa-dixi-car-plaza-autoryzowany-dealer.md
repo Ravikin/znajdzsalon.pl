@@ -3,7 +3,7 @@ title: KGM SsangYong Warszawa Dixi-Car Plaza. Autoryzowany dealer
 slug: kgm-ssangyong-warszawa-dixi-car-plaza-autoryzowany-dealer
 type: salony
 brands:
-  - SsangYong
+  - Ssangyong
 city: Warszawa
 city_slug: warszawa
 state: Mazowieckie

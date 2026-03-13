@@ -1,15 +1,15 @@
 ---
-title: Salony CUPRA w Polsce
+title: Salony Cupra w Polsce
 slug: cupra
 type: marki
-brand_name: CUPRA
-count: 1
-cities_count: 1
+brand_name: Cupra
+count: 26
+cities_count: 18
 faq:
-  - q: Ile salonów CUPRA jest w Polsce?
-    a: W Polsce działa 1 salonów CUPRA w 1 miastach.
-  - q: Gdzie znaleźć salon CUPRA?
-    a: Na tej stronie znajdziesz listę wszystkich 1 salonów CUPRA w Polsce z adresami, telefonami i opiniami.
+  - q: Ile salonów Cupra jest w Polsce?
+    a: W Polsce działa 26 salonów Cupra w 18 miastach.
+  - q: Gdzie znaleźć salon Cupra?
+    a: Na tej stronie znajdziesz listę wszystkich 26 salonów Cupra w Polsce z adresami, telefonami i opiniami.
 ---
 
 

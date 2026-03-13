@@ -4,13 +4,13 @@
 {
   "@context": "https://schema.org",
   "@type": "AutoDealer",
-  "name": {{ .Title | jsonify }},
+  "name": {{ .Title | jsonify | safeJS }},
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": {{ .Params.street | default "" | jsonify }},
-    "addressLocality": {{ .Params.city | default "" | jsonify }},
-    "addressRegion": {{ .Params.state | default "" | jsonify }},
-    "postalCode": {{ .Params.postal_code | default "" | jsonify }},
+    "streetAddress": {{ .Params.street | default "" | jsonify | safeJS }},
+    "addressLocality": {{ .Params.city | default "" | jsonify | safeJS }},
+    "addressRegion": {{ .Params.state | default "" | jsonify | safeJS }},
+    "postalCode": {{ .Params.postal_code | default "" | jsonify | safeJS }},
     "addressCountry": "PL"
   },
   "geo": {
@@ -18,8 +18,8 @@
     "latitude": {{ .Params.lat }},
     "longitude": {{ .Params.lng }}
   }
-  {{ with .Params.phone }}, "telephone": {{ . | jsonify }}{{ end }}
-  {{ with .Params.website }}, "url": {{ . | jsonify }}{{ end }}
+  {{ with .Params.phone }}, "telephone": {{ . | jsonify | safeJS }}{{ end }}
+  {{ with .Params.website }}, "url": {{ . | jsonify | safeJS }}{{ end }}
   {{ if and .Params.rating .Params.reviews_count }}
   , "aggregateRating": {
     "@type": "AggregateRating",

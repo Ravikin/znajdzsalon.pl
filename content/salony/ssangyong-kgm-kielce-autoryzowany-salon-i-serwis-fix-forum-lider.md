@@ -3,7 +3,7 @@ title: SsangYong / KGM Kielce - Autoryzowany Salon i Serwis Fix Forum Lider
 slug: ssangyong-kgm-kielce-autoryzowany-salon-i-serwis-fix-forum-lider
 type: salony
 brands:
-  - SsangYong
+  - Ssangyong
 city: Kielce
 city_slug: kielce
 state: Świętokrzyskie

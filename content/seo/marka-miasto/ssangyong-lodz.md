@@ -1,11 +1,11 @@
 ---
-title: Salon SsangYong Łódź – lista dealerów
+title: Salon Ssangyong Łódź – lista dealerów
 slug: ssangyong-lodz
 url: /ssangyong/lodz/
 layout: brand-city
 type: seo
 seo_type: brand_city
-brand_name: SsangYong
+brand_name: Ssangyong
 brand_slug: ssangyong
 city_name: Łódź
 city_slug: lodz
@@ -17,12 +17,12 @@ lat: 51.7241
 lng: 19.4821
 robots: index,follow
 faq:
-  - q: Ile salonów SsangYong jest w mieście Łódź?
-    a: W mieście Łódź działa 2 autoryzowanych salonów SsangYong.
-  - q: Jaka jest średnia ocena salonów SsangYong w mieście Łódź?
-    a: Średnia ocena salonów SsangYong w mieście Łódź wynosi 4.3/5.
-  - q: Gdzie znaleźć salon SsangYong w mieście Łódź?
-    a: Lista wszystkich salonów SsangYong w mieście Łódź z adresami i telefonami znajduje się na tej stronie.
+  - q: Ile salonów Ssangyong jest w mieście Łódź?
+    a: W mieście Łódź działa 2 autoryzowanych salonów Ssangyong.
+  - q: Jaka jest średnia ocena salonów Ssangyong w mieście Łódź?
+    a: Średnia ocena salonów Ssangyong w mieście Łódź wynosi 4.3/5.
+  - q: Gdzie znaleźć salon Ssangyong w mieście Łódź?
+    a: Lista wszystkich salonów Ssangyong w mieście Łódź z adresami i telefonami znajduje się na tej stronie.
 ---
 
 

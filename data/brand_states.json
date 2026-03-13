@@ -214,7 +214,7 @@
     "avg_rating": 4.2
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "state_name": "Mazowieckie",
     "state_slug": "mazowieckie",
@@ -1226,6 +1226,18 @@
   {
     "brand_name": "Cupra",
     "brand_slug": "cupra",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.5
+  },
+  {
+    "brand_name": "Cupra",
+    "brand_slug": "cupra",
     "state_name": "Pomorskie",
     "state_slug": "pomorskie",
     "count": 2,
@@ -2035,6 +2047,18 @@
   {
     "brand_name": "Seat",
     "brand_slug": "seat",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 2,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.4
+  },
+  {
+    "brand_name": "Seat",
+    "brand_slug": "seat",
     "state_name": "Dolnośląskie",
     "state_slug": "dolnoslaskie",
     "count": 2,
@@ -2081,7 +2105,7 @@
     "avg_rating": 4.3
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "state_name": "Kujawsko-pomorskie",
     "state_slug": "kujawsko-pomorskie",
@@ -2093,7 +2117,7 @@
     "avg_rating": 4.6
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "state_name": "Śląskie",
     "state_slug": "slaskie",
@@ -2105,7 +2129,7 @@
     "avg_rating": 4.3
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "state_name": "Łódzkie",
     "state_slug": "lodzkie",
@@ -2671,18 +2695,6 @@
     "avg_rating": 4.4
   },
   {
-    "brand_name": "CUPRA",
-    "brand_slug": "cupra",
-    "state_name": "Wielkopolskie",
-    "state_slug": "wielkopolskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Poznań"
-    ],
-    "avg_rating": 4.1
-  },
-  {
     "brand_name": "Citroen",
     "brand_slug": "citroen",
     "state_name": "Warmińsko-mazurskie",
@@ -2823,18 +2835,6 @@
     "cities_count": 1,
     "cities": [
       "Rzeszów"
-    ],
-    "avg_rating": 4.9
-  },
-  {
-    "brand_name": "Cupra",
-    "brand_slug": "cupra",
-    "state_name": "Wielkopolskie",
-    "state_slug": "wielkopolskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Poznań"
     ],
     "avg_rating": 4.9
   },
@@ -3667,18 +3667,6 @@
     "avg_rating": 4.4
   },
   {
-    "brand_name": "IVECO",
-    "brand_slug": "iveco",
-    "state_name": "Wielkopolskie",
-    "state_slug": "wielkopolskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Poznań"
-    ],
-    "avg_rating": 4.1
-  },
-  {
     "brand_name": "Isuzu",
     "brand_slug": "isuzu",
     "state_name": "Łódzkie",
@@ -3701,6 +3689,18 @@
       "Krupniki, Białystok"
     ],
     "avg_rating": 4.3
+  },
+  {
+    "brand_name": "Iveco",
+    "brand_slug": "iveco",
+    "state_name": "Wielkopolskie",
+    "state_slug": "wielkopolskie",
+    "count": 1,
+    "cities_count": 1,
+    "cities": [
+      "Poznań"
+    ],
+    "avg_rating": 4.1
   },
   {
     "brand_name": "Jaguar",
@@ -5239,18 +5239,6 @@
     "avg_rating": 4.3
   },
   {
-    "brand_name": "SEAT",
-    "brand_slug": "seat",
-    "state_name": "Wielkopolskie",
-    "state_slug": "wielkopolskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Poznań"
-    ],
-    "avg_rating": 4.1
-  },
-  {
     "brand_name": "Seat",
     "brand_slug": "seat",
     "state_name": "Opolskie",
@@ -5273,18 +5261,6 @@
       "Szczecin"
     ],
     "avg_rating": 4.8
-  },
-  {
-    "brand_name": "Seat",
-    "brand_slug": "seat",
-    "state_name": "Wielkopolskie",
-    "state_slug": "wielkopolskie",
-    "count": 1,
-    "cities_count": 1,
-    "cities": [
-      "Poznań"
-    ],
-    "avg_rating": 4.7
   },
   {
     "brand_name": "Seat",
@@ -5455,7 +5431,7 @@
     "avg_rating": 4.3
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "state_name": "Dolnośląskie",
     "state_slug": "dolnoslaskie",
@@ -5467,7 +5443,7 @@
     "avg_rating": 4.9
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "state_name": "Świętokrzyskie",
     "state_slug": "swietokrzyskie",
@@ -5479,7 +5455,7 @@
     "avg_rating": 4.9
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "state_name": "Warmińsko-mazurskie",
     "state_slug": "warminsko-mazurskie",
@@ -5491,7 +5467,7 @@
     "avg_rating": 4.4
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "state_name": "Opolskie",
     "state_slug": "opolskie",
@@ -5503,7 +5479,7 @@
     "avg_rating": 4.4
   },
   {
-    "brand_name": "SsangYong",
+    "brand_name": "Ssangyong",
     "brand_slug": "ssangyong",
     "state_name": "Podkarpackie",
     "state_slug": "podkarpackie",

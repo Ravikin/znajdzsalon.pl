@@ -84,6 +84,12 @@
     "cities_count": 18
   },
   {
+    "name": "Cupra",
+    "slug": "cupra",
+    "count": 26,
+    "cities_count": 18
+  },
+  {
     "name": "Audi",
     "slug": "audi",
     "count": 26,
@@ -94,12 +100,6 @@
     "slug": "suzuki",
     "count": 26,
     "cities_count": 15
-  },
-  {
-    "name": "Cupra",
-    "slug": "cupra",
-    "count": 25,
-    "cities_count": 18
   },
   {
     "name": "MG",
@@ -156,19 +156,19 @@
     "cities_count": 14
   },
   {
+    "name": "Seat",
+    "slug": "seat",
+    "count": 19,
+    "cities_count": 16
+  },
+  {
     "name": "Mitsubishi",
     "slug": "mitsubishi",
     "count": 19,
     "cities_count": 13
   },
   {
-    "name": "Seat",
-    "slug": "seat",
-    "count": 18,
-    "cities_count": 16
-  },
-  {
-    "name": "SsangYong",
+    "name": "Ssangyong",
     "slug": "ssangyong",
     "count": 18,
     "cities_count": 10
@@ -252,19 +252,7 @@
     "cities_count": 1
   },
   {
-    "name": "CUPRA",
-    "slug": "cupra",
-    "count": 1,
-    "cities_count": 1
-  },
-  {
-    "name": "SEAT",
-    "slug": "seat",
-    "count": 1,
-    "cities_count": 1
-  },
-  {
-    "name": "IVECO",
+    "name": "Iveco",
     "slug": "iveco",
     "count": 1,
     "cities_count": 1

@@ -1,11 +1,11 @@
 ---
-title: Salony SsangYong — Warmińsko-mazurskie
+title: Salony Ssangyong — Warmińsko-mazurskie
 slug: ssangyong-warminsko-mazurskie
 url: /ssangyong/warminsko-mazurskie/
 layout: brand-state
 type: seo
 seo_type: brand_state
-brand_name: SsangYong
+brand_name: Ssangyong
 brand_slug: ssangyong
 state_name: Warmińsko-mazurskie
 state_slug: warminsko-mazurskie
@@ -16,10 +16,10 @@ cities:
 avg_rating: 4.4
 robots: index,follow
 faq:
-  - q: Ile salonów SsangYong jest w województwie warmińsko-mazurskie?
-    a: W województwie warmińsko-mazurskie działa 1 salonów SsangYong w 1 miastach.
-  - q: W jakich miastach województwa warmińsko-mazurskie są salony SsangYong?
-    a: Lista miast z salonami SsangYong w województwie warmińsko-mazurskie znajduje się na tej stronie.
+  - q: Ile salonów Ssangyong jest w województwie warmińsko-mazurskie?
+    a: W województwie warmińsko-mazurskie działa 1 salonów Ssangyong w 1 miastach.
+  - q: W jakich miastach województwa warmińsko-mazurskie są salony Ssangyong?
+    a: Lista miast z salonami Ssangyong w województwie warmińsko-mazurskie znajduje się na tej stronie.
 ---
 
 

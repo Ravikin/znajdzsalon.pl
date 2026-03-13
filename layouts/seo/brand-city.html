@@ -73,9 +73,9 @@
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
 
-  const brandName = {{ .Params.brand_name | jsonify }};
-  const citySlug = {{ .Params.city_slug | jsonify }};
-  const listings = {{ .Site.Data.listings | jsonify }};
+  const brandName = {{ .Params.brand_name | jsonify | safeJS }};
+  const citySlug = {{ .Params.city_slug | jsonify | safeJS }};
+  const listings = {{ .Site.Data.listings | jsonify | safeJS }};
   const bounds = [];
 
   listings.filter(l => l.brands && l.brands.includes(brandName) && l.city_slug === citySlug).forEach(l => {

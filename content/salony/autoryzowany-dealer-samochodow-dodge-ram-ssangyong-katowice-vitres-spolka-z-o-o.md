@@ -3,7 +3,7 @@ title: "Autoryzowany Dealer Samochodów Dodge | RAM | SsangYong | Katowice | VIT
 slug: autoryzowany-dealer-samochodow-dodge-ram-ssangyong-katowice-vitres-spolka-z-o-o
 type: salony
 brands:
-  - SsangYong
+  - Ssangyong
   - Dodge
   - RAM
 city: Katowice
