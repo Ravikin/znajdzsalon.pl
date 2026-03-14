@@ -21,6 +21,11 @@
   {{ if .Params.state_name }}
     {{ $breadcrumbs = $breadcrumbs | append (dict "name" .Params.state_name "url" "") }}
   {{ end }}
+{{ else if eq .Type "blog" }}
+  {{ $breadcrumbs = $breadcrumbs | append (dict "name" "Blog" "url" "/blog/") }}
+  {{ if .IsPage }}
+    {{ $breadcrumbs = $breadcrumbs | append (dict "name" .Title "url" "") }}
+  {{ end }}
 {{ else if eq .Params.seo_type "brand_city" }}
   {{ $breadcrumbs = $breadcrumbs | append (dict "name" "Marki" "url" "/marki/") }}
   {{ $breadcrumbs = $breadcrumbs | append (dict "name" .Params.brand_name "url" (printf "/marki/%s/" .Params.brand_slug)) }}

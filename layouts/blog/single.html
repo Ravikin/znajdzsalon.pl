@@ -1,0 +1,118 @@
+{{ define "title" }}{{ .Title }} | Blog | ZnajdźSalon.pl{{ end }}
+
+{{ define "main" }}
+<article class="max-w-3xl mx-auto px-4 py-8">
+
+  {{ partial "breadcrumbs.html" . }}
+
+  <!-- Category badge + date -->
+  <div class="flex items-center gap-3 mb-4 text-sm text-text-muted">
+    {{ with .Params.category }}
+    <span class="bg-primary/10 text-primary px-3 py-1 rounded-full font-medium">{{ . }}</span>
+    {{ end }}
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+  </div>
+
+  <h1 class="text-3xl md:text-4xl font-bold mb-6 leading-tight">{{ .Title }}</h1>
+
+  <!-- Brand tags -->
+  {{ with .Params.brands }}
+  <div class="flex flex-wrap gap-2 mb-6">
+    {{ range . }}
+    {{ $slug := . | urlize }}
+    <a href="/marki/{{ $slug }}/" class="inline-flex items-center gap-1 bg-gray-100 hover:bg-gray-200 text-sm px-3 py-1 rounded-full transition-colors">
+      {{ . }}
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <!-- Article content -->
+  <div class="prose prose-lg max-w-none
+    prose-headings:text-text prose-headings:font-bold
+    prose-a:text-primary prose-a:no-underline hover:prose-a:underline
+    prose-p:text-text-muted prose-p:leading-relaxed
+    prose-li:text-text-muted">
+    {{ .Content }}
+  </div>
+
+  <!-- FAQ section -->
+  {{ partial "faq-section.html" . }}
+
+  <!-- CTA -->
+  <div class="mt-12 p-6 bg-primary/5 border border-primary/20 rounded-xl text-center">
+    <h2 class="text-xl font-bold mb-2">Szukasz salonu samochodowego?</h2>
+    <p class="text-text-muted mb-4">Przejdź do katalogu i znajdź autoryzowanego dealera w swoim mieście.</p>
+    <a href="/szukaj/" class="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-medium hover:bg-primary-dark transition-colors">
+      Przejdź do katalogu
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- Related posts -->
+  {{ $currentBrands := .Params.brands | default slice }}
+  {{ $currentCategory := .Params.category }}
+  {{ $currentPage := . }}
+  {{ $related := slice }}
+  {{ range where (where .Site.RegularPages "Type" "blog") "Permalink" "ne" .Permalink }}
+    {{ $match := false }}
+    {{ $postBrands := .Params.brands | default slice }}
+    {{ range $postBrands }}
+      {{ if in $currentBrands . }}{{ $match = true }}{{ end }}
+    {{ end }}
+    {{ if and (not $match) (eq .Params.category $currentCategory) }}{{ $match = true }}{{ end }}
+    {{ if $match }}
+      {{ $related = $related | append . }}
+    {{ end }}
+  {{ end }}
+
+  {{ if gt (len $related) 0 }}
+  <section class="mt-12">
+    <h2 class="text-xl font-bold mb-4">Powiązane artykuły</h2>
+    <div class="grid gap-4 md:grid-cols-3">
+      {{ range first 3 $related }}
+      <a href="{{ .Permalink }}" class="block p-4 bg-white border border-gray-200 rounded-lg hover:border-primary transition-colors">
+        {{ with .Params.category }}
+        <span class="text-xs text-primary font-medium">{{ . }}</span>
+        {{ end }}
+        <h3 class="font-semibold mt-1 line-clamp-2">{{ .Title }}</h3>
+        <time class="text-sm text-text-muted mt-2 block">{{ .Date.Format "2 January 2006" }}</time>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+</article>
+
+<!-- Structured Data: BlogPosting -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Params.description }}",
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05-07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}",
+  "author": {
+    "@type": "Organization",
+    "name": "ZnajdźSalon.pl",
+    "url": "https://znajdzsalon.pl"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ZnajdźSalon.pl",
+    "url": "https://znajdzsalon.pl"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+}
+</script>
+
+<!-- FAQ Schema -->
+{{ partial "faq-schema.html" . }}
+{{ end }}

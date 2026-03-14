@@ -1,0 +1,41 @@
+{{ define "title" }}Blog | ZnajdźSalon.pl{{ end }}
+
+{{ define "main" }}
+<div class="max-w-5xl mx-auto px-4 py-8">
+
+  {{ partial "breadcrumbs.html" . }}
+
+  <h1 class="text-3xl font-bold mb-2">Blog motoryzacyjny</h1>
+  <p class="text-text-muted mb-8">Aktualności ze świata motoryzacji, premiery nowych modeli i porady dla kupujących.</p>
+
+  {{ $posts := where .Site.RegularPages "Type" "blog" }}
+  {{ if gt (len $posts) 0 }}
+  <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+    {{ range $posts.ByDate.Reverse }}
+    <a href="{{ .Permalink }}" class="block bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-primary hover:shadow-md transition-all">
+      <div class="p-5">
+        <div class="flex items-center gap-2 mb-3">
+          {{ with .Params.category }}
+          <span class="text-xs bg-primary/10 text-primary px-2 py-0.5 rounded-full font-medium">{{ . }}</span>
+          {{ end }}
+          <time class="text-xs text-text-muted" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+        </div>
+        <h2 class="font-semibold text-lg mb-2 line-clamp-2">{{ .Title }}</h2>
+        <p class="text-sm text-text-muted line-clamp-3">{{ .Summary }}</p>
+        {{ with .Params.brands }}
+        <div class="flex flex-wrap gap-1 mt-3">
+          {{ range first 3 . }}
+          <span class="text-xs bg-gray-100 px-2 py-0.5 rounded">{{ . }}</span>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </a>
+    {{ end }}
+  </div>
+  {{ else }}
+  <p class="text-text-muted">Brak postów na blogu. Wkrótce pojawią się nowe artykuły!</p>
+  {{ end }}
+
+</div>
+{{ end }}
