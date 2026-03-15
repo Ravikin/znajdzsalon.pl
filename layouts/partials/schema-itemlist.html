@@ -1,0 +1,23 @@
+{{/* ItemList schema for category pages listing salons */}}
+{{ $items := .items }}
+{{ $name := .name }}
+{{ if gt (len $items) 0 }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": {{ $name | jsonify | safeJS }},
+  "numberOfItems": {{ len $items }},
+  "itemListElement": [
+    {{ range $i, $item := $items }}{{ if $i }},{{ end }}
+    {
+      "@type": "ListItem",
+      "position": {{ add $i 1 }},
+      "url": {{ (printf "%ssalon/%s/" $.siteURL $item.slug) | jsonify | safeJS }},
+      "name": {{ $item.name | jsonify | safeJS }}
+    }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}

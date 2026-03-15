@@ -1,0 +1,10 @@
+{{- if .Description }}{{ .Description }}
+{{- else if .IsHome }}Znajdź salon samochodowy w swojej okolicy. Porównaj oferty, sprawdź opinie i godziny otwarcia dealerów wszystkich marek w Polsce.
+{{- else if eq .Type "miasta" }}{{ .Params.city_name }}: {{ .Params.count }} salonów samochodowych — adresy, telefony, opinie. Znajdź dealerów wszystkich marek.
+{{- else if eq .Type "marki" }}{{ if .Params.brand_name }}{{ .Params.count }} salonów {{ .Params.brand_name }} w Polsce. Znajdź autoryzowanego dealera {{ .Params.brand_name }} w swoim mieście.{{ else }}Przeglądaj salony samochodowe w Polsce według marki. {{ len .Site.Data.brands }} marek, {{ len .Site.Data.listings }} salonów.{{ end }}
+{{- else if eq .Type "wojewodztwa" }}{{ if .Params.state_name }}{{ .Params.state_name }}: {{ .Params.count }} salonów samochodowych w {{ .Params.cities_count }} miastach.{{ else }}{{ .Site.Params.description }}{{ end }}
+{{- else if eq .Params.seo_type "brand_city" }}{{ .Params.count }} {{ if eq .Params.count 1 }}salon{{ else }}salonów{{ end }} {{ .Params.brand_name }} — {{ .Params.city_name }}. Adresy, telefony, godziny otwarcia, opinie.
+{{- else if eq .Params.seo_type "brand_state" }}{{ .Params.count }} salonów {{ .Params.brand_name }} — {{ .Params.state_name }}. Sprawdź dealerów w {{ .Params.cities_count }} miastach.
+{{- else if eq .Type "salony" }}{{ .Title }} — salon samochodowy, {{ .Params.city }}, {{ .Params.state }}. Sprawdź ofertę, opinie, godziny otwarcia i dane kontaktowe.
+{{- else }}{{ .Site.Params.description }}
+{{- end -}}
