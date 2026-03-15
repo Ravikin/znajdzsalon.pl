@@ -44,16 +44,3 @@ Przy wyborze salonu zwróć uwagę nie tylko na cenę samochodu, ale również n
 
 Dobrym pomysłem jest również odwiedzenie salonów w większych miastach, gdzie konkurencja może przekładać się na lepsze warunki zakupu. Niezależnie od lokalizacji, kluczowe jest sprawdzenie dostępności infrastruktury ładowania w swoim regionie przed podjęciem decyzji o zakupie.
 
-## Najczęściej zadawane pytania
-
-**Czy samochód elektryczny za 182 tys. zł to dobra inwestycja?**
-To zależy od indywidualnych potrzeb. Jeśli jeździsz głównie po mieście, masz dostęp do ładowarki i planujesz długoterminowe użytkowanie, niższe koszty eksploatacji mogą zrównoważyć wyższą cenę zakupu. Dla osób pokonujących duże dystanse lub bez dostępu do domowej ładowarki elektryk może nie być optymalnym wyborem.
-
-**Czy ceny samochodów elektrycznych będą dalej spadać?**
-Wszystko wskazuje na to, że trend spadkowy się utrzyma. Analitycy przewidują, że wraz z rozwojem technologii baterii i wzrostem produkcji, ceny będą dalej maleć, a parytet cenowy z autami spalinowymi może nastąpić w ciągu najbliższych 3-5 lat.
-
-**Jakie dopłaty do zakupu auta elektrycznego są dostępne w Polsce?**
-W Polsce dostępne są różne programy dopłat, głównie dla firm i przedsiębiorców. Warto śledzić aktualne programy NFOŚiGW oraz lokalne inicjatywy w poszczególnych miastach, które mogą oferować dodatkowe zachęty finansowe.
-
-**Ile faktycznie kosztuje najtańszy samochód elektryczny w Polsce?**
-Najtańsze modele elektryczne można kupić już od około 100-120 tysięcy złotych. To głównie małe auta miejskie z ograniczonym zasięgiem, ale wystarczającym do codziennych dojazdów w obrębie miasta.

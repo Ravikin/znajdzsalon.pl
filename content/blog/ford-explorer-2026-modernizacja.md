@@ -46,20 +46,3 @@ Autoryzowani dealerzy [marki Ford](/marki/ford/) oferują nie tylko możliwość
 
 Przed podjęciem decyzji o zakupie warto odwiedzić kilka salonów, porównać oferty i skorzystać z jazdy testowej. Doświadczeni doradcy pomogą dobrać odpowiednią wersję wyposażenia i udzielą informacji o aktualnych programach finansowania czy promocjach.
 
-## Najczęściej zadawane pytania
-
-**Kiedy odświeżony Ford Explorer 2026 trafi do Polski?**
-
-Oficjalna data premiery na polskim rynku nie została jeszcze potwierdzona. Najlepiej skontaktować się bezpośrednio z autoryzowanymi dealerami Ford w Polsce, aby uzyskać aktualne informacje o dostępności i możliwości rezerwacji.
-
-**Jaki będzie zasięg nowego Explorera?**
-
-Dokładne dane dotyczące zasięgu nie zostały jeszcze oficjalnie ujawnione przez producenta. Ford zapowiada jednak istotną poprawę w tym zakresie w porównaniu do obecnej wersji. Szczegóły poznamy bliżej premiery rynkowej.
-
-**Czy modernizacja wpłynie na cenę pojazdu?**
-
-Informacje o cenach odświeżonej wersji Explorera na polskim rynku będą dostępne dopiero przy oficjalnej premierze. Nowe funkcje i większy zasięg mogą wpłynąć na pozycjonowanie cenowe modelu.
-
-**Czy Ford Explorer jest dostępny tylko jako auto elektryczne?**
-
-Tak, Ford Explorer oferowany na rynku europejskim jest dostępny wyłącznie w wersji w pełni elektrycznej. To część strategii marki dotyczącej transformacji w kierunku elektromobilności.

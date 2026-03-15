@@ -46,20 +46,3 @@ Salony [marki Honda](/marki/honda/) znajdziesz zarówno w największych aglomera
 
 Warto odwiedzić lokalny salon osobiście – jazda testowa to najlepszy sposób, by przekonać się, czy technologia e:HEV spełnia Twoje oczekiwania w codziennej eksploatacji.
 
-## Najczęściej zadawane pytania
-
-**Czy Honda całkowicie rezygnuje z aut elektrycznych?**
-
-Nie, Honda nie rezygnuje z elektryków, ale zmienia tempo ich wprowadzania. Firma przedłuża żywotność modeli hybrydowych i dostosowuje strategię do rzeczywistego popytu rynkowego. Auta elektryczne pozostaną w ofercie, ale nie zdominują jej tak szybko, jak pierwotnie planowano.
-
-**Co to oznacza dla wartości rezydualnej aut Hondy?**
-
-To może być pozytywna informacja. Hybrydy Honda, które pozostaną dłużej w produkcji, będą miały lepszą dostępność części i serwisu, co zazwyczaj pozytywnie wpływa na ich wartość na rynku wtórnym. Stabilna oferta to większe zaufanie kupujących.
-
-**Czy powinienem czekać na tańsze elektryki Hondy?**
-
-Jeśli nie jesteś przekonany do elektryków lub Twoja infrastruktura domowa nie jest gotowa, nie ma powodu do czekania. Obecne hybrydy oferują sprawdzoną technologię, niskie spalanie i większą elastyczność użytkowania. Decyzję podejmuj na podstawie swoich realnych potrzeb, nie spekulacji o przyszłości.
-
-**Jakie modele hybrydowe Honda oferuje obecnie w Polsce?**
-
-Honda ma w ofercie kilka sprawdzonych hybryd z technologią e:HEV, w tym Civic, CR-V, HR-V oraz ZR-V. Wszystkie wykorzystują inteligentny system łączący silnik benzynowy z elektrycznym, zapewniając ekonomiczną jazdę bez konieczności ładowania z gniazdka.

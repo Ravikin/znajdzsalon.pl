@@ -44,20 +44,3 @@ Volkswagen to jedna z najpopularniejszych marek w Polsce, a jej sieć dealerska 
 
 Szukając odpowiedniego salonu, zwróć uwagę nie tylko na odległość, ale też na oferowane usługi posprzedażowe, opinie innych klientów oraz dostępność modeli do jazd testowych. Dobrze jest odwiedzić kilka salonów przed podjęciem ostatecznej decyzji – warunki finansowania i dostępne promocje mogą się znacząco różnić między poszczególnymi dealerami.
 
-## Najczęściej zadawane pytania
-
-**Kiedy nowe modele Volkswagena trafią do polskich salonów?**
-
-Premiery będą rozłożone na cały 2026 rok. Pierwsze nowości powinny pojawić się w salonach już wiosną, ale część modeli trafi do sprzedaży dopiero pod koniec roku. Najlepiej śledzić informacje bezpośrednio u autoryzowanych dealerów.
-
-**Czy nowe modele będą droższe od obecnych?**
-
-Volkswagen zapowiada większą dostępność cenową swoich aut, więc niektóre modele mogą być nawet tańsze od poprzedników. Dużo zależy jednak od wersji wyposażenia i typu napędu – auta elektryczne zazwyczaj startują z wyższej półki cenowej.
-
-**Czy warto czekać na nowe modele, czy kupić auto teraz?**
-
-To zależy od Twoich potrzeb. Jeśli pilnie potrzebujesz auta, obecne modele są w pełni dojrzałe i sprawdzone. Jeśli możesz poczekać kilka miesięcy, nowe wersje zaoferują nowocześniejsze rozwiązania. Możesz też skorzystać na promocjach obecnych modeli przed ich wycofaniem.
-
-**Czy wszystkie 19 modeli trafi do Polski?**
-
-Nie wszystkie nowości będą dostępne na polskim rynku od razu. Volkswagen często wprowadza nowe modele etapami na różnych rynkach. Szczegółowe informacje o dostępności uzyskasz w [salonach Volkswagena](/marki/volkswagen/) na terenie całego kraju.

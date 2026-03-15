@@ -53,20 +53,3 @@ Jeśli rozważasz zakup pojazdu chińskiej marki, warto wiedzieć, że ich dost�
 
 Wszystkie aktualne adresy salonów znajdziesz w naszym katalogu znajdzsalon.pl.
 
-## Najczęściej zadawane pytania
-
-**Czy chińskie samochody są niezawodne?**
-
-Współczesne chińskie marki znacząco poprawiły jakość produkcji i osiągają dobre wyniki w testach bezpieczeństwa Euro NCAP. Wiele modeli oferuje długie gwarancje (nawet 7 lat), co świadczy o zaufaniu producenta do własnych produktów. Warto sprawdzić opinie właścicieli konkretnego modelu przed zakupem.
-
-**Czy serwisowanie chińskiego auta będzie problemem?**
-
-Marki, które poważnie traktują polski rynek, rozbudowują sieci autoryzowanych serwisów. Przed zakupem sprawdź dostępność punktów obsługi w swojej okolicy oraz opinie o jakości i czasie obsługi. Rosnąca liczba salonów zazwyczaj oznacza też więcej punktów serwisowych.
-
-**Czy warto kupić chiński samochód elektryczny?**
-
-Chińscy producenci są liderami technologii elektrycznej i oferują konkurencyjne ceny przy bogatym wyposażeniu. Jeśli Twoje potrzeby komunikacyjne pozwalają na wykorzystanie samochodu elektrycznego, chińskie marki mogą być dobrą alternatywą dla droższych odpowiedników europejskich marek.
-
-**Jak wygląda wartość rezydualna chińskich aut?**
-
-To obecnie największe niewiadome. Chińskie marki dopiero budują swoją pozycję na rynku wtórnym, co może oznaczać wyższą deprecjację niż w przypadku uznanych marek. Z drugiej strony, rosnąca popularność i rozwijająca się sieć serwisowa mogą pozytywnie wpłynąć na przyszłą wartość odsprzedaży.

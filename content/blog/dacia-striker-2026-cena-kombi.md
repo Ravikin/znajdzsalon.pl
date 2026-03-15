@@ -46,20 +46,3 @@ Odwiedzenie salonu to najlepsza okazja, by zobaczyć Strikera na żywo, ocenić 
 
 Przed wizytą w salonie polecamy sprawdzenie dostępności konkretnych wersji i terminów dostaw – popularne modele mogą wymagać oczekiwania na realizację zamówienia.
 
-## Najczęściej zadawane pytania
-
-**Ile kosztuje Dacia Striker w podstawowej wersji?**
-
-Cena wywoławcza nowej Dacii Striker wynosi 106 400 zł. To kwota za wersję bazową, którą można rozbudować o dodatkowe opcje wyposażenia zgodnie z potrzebami.
-
-**Czy Dacia Striker to dobre auto rodzinne?**
-
-Tak, Striker został zaprojektowany z myślą o rodzinach. Przestronny bagażnik kombi i ekonomiczna eksploatacja czynią z niego praktyczny wybór dla osób szukających funkcjonalnego auta na co dzień.
-
-**Gdzie znajdę salony Dacia w mojej okolicy?**
-
-W Polsce działa obecnie 24 salony Dacia w 15 miastach. Pełną listę punktów sprzedaży wraz z danymi kontaktowymi znajdziesz na naszej stronie w sekcji [Dacia](/marki/dacia/).
-
-**Czy Dacia to marka niezawodna?**
-
-Dacia należy do koncernu Renault i korzysta z sprawdzonych rozwiązań technicznych. Marka stawia na prostotę konstrukcji, co przekłada się na niższe koszty napraw i dobrą dostępność części zamiennych w Polsce.

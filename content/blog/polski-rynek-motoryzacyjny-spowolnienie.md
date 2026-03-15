@@ -38,20 +38,3 @@ Jeśli rozważasz zakup samochodu elektrycznego, obecny moment może być dobry 
 
 Pamiętaj również o sprawdzeniu lokalnej infrastruktury ładowania oraz przeanalizowaniu swoich rzeczywistych potrzeb. Auto elektryczne sprawdzi się idealnie, jeśli codziennie pokonujesz krótkie dystanse w mieście i masz możliwość ładowania w domu lub w pracy.
 
-## Najczęściej zadawane pytania
-
-**Czy teraz jest dobry moment na zakup samochodu elektrycznego?**
-
-Tak, szczególnie jeśli szukasz okazji cenowych. Spowolnienie rynku często oznacza lepsze warunki negocjacyjne w salonach i większą gotowość dealerów do oferowania rabatów. Upewnij się jednak, że infrastruktura ładowania w Twojej okolicy jest wystarczająca dla Twoich potrzeb.
-
-**Czy polskie miasta rozwijają infrastrukturę ładowania?**
-
-Tak, choć w nierównym tempie. Największe miasta Polski systematycznie zwiększają liczbę stacji ładowania, zarówno publicznych, jak i przy galeriach handlowych czy parkingach. Mniejsze miejscowości wciąż mają ograniczoną infrastrukturę, dlatego przed zakupem sprawdź dostępność ładowarek na swoich typowych trasach.
-
-**Czy ceny samochodów elektrycznych spadną w najbliższym czasie?**
-
-Możliwe, że tak. Spadający popyt może skłonić producentów i dealerów do obniżek cen lub oferowania atrakcyjniejszych pakietów wyposażenia w standardowej cenie. Warto śledzić oferty i porównywać warunki w różnych salonach.
-
-**Jakie alternatywy dla aut w pełni elektrycznych warto rozważyć?**
-
-Hybrydowe samochody plug-in (PHEV) stanowią kompromis – oferują możliwość jazdy elektrycznej na krótkich dystansach, zachowując spalinowy silnik na dłuższe trasy. Tradycyjne hybrydy (HEV) to kolejna opcja, choć bez możliwości ładowania z gniazdka. Wybór zależy od Twoich potrzeb i budżetu.

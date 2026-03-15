@@ -1,49 +1,74 @@
 {{ define "title" }}{{ .Title }} | Blog | ZnajdźSalon.pl{{ end }}
 
 {{ define "main" }}
-<article class="max-w-3xl mx-auto px-4 py-8">
+<article class="max-w-3xl mx-auto px-4 py-10">
 
   {{ partial "breadcrumbs.html" . }}
 
   <!-- Category badge + date -->
-  <div class="flex items-center gap-3 mb-4 text-sm text-text-muted">
+  <div class="flex items-center gap-3 mb-5 text-sm">
     {{ with .Params.category }}
-    <span class="bg-primary/10 text-primary px-3 py-1 rounded-full font-medium">{{ . }}</span>
+    <span class="bg-primary text-white px-3 py-1 rounded-full font-medium text-xs tracking-wide uppercase">{{ . }}</span>
     {{ end }}
-    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+    <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-text-muted">{{ .Date.Format "2 January 2006" }}</time>
   </div>
 
-  <h1 class="text-3xl md:text-4xl font-bold mb-6 leading-tight">{{ .Title }}</h1>
+  <h1 class="text-3xl md:text-4xl font-extrabold mb-4 leading-tight text-text">{{ .Title }}</h1>
+
+  <!-- Description / subtitle -->
+  {{ with .Params.description }}
+  <p class="text-lg text-text-muted mb-6 leading-relaxed">{{ . }}</p>
+  {{ end }}
 
   <!-- Brand tags -->
   {{ with .Params.brands }}
-  <div class="flex flex-wrap gap-2 mb-6">
+  <div class="flex flex-wrap gap-2 mb-8">
     {{ range . }}
     {{ $slug := . | urlize }}
-    <a href="/marki/{{ $slug }}/" class="inline-flex items-center gap-1 bg-gray-100 hover:bg-gray-200 text-sm px-3 py-1 rounded-full transition-colors">
+    <a href="/marki/{{ $slug }}/" class="inline-flex items-center gap-1.5 bg-surface-alt border border-border hover:border-primary hover:bg-primary/5 text-sm font-medium px-3.5 py-1.5 rounded-full transition-colors text-text-secondary">
+      <svg class="w-3.5 h-3.5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
       {{ . }}
     </a>
     {{ end }}
   </div>
   {{ end }}
 
+  <hr class="border-border mb-10">
+
   <!-- Article content -->
-  <div class="prose prose-lg max-w-none
-    prose-headings:text-text prose-headings:font-bold
-    prose-a:text-primary prose-a:no-underline hover:prose-a:underline
-    prose-p:text-text-muted prose-p:leading-relaxed
-    prose-li:text-text-muted">
+  <div class="article-body">
     {{ .Content }}
   </div>
 
-  <!-- FAQ section -->
-  {{ partial "faq-section.html" . }}
+  <!-- FAQ section (collapsible, from front matter — skip if FAQ already in content) -->
+  {{ with .Params.faq }}
+  {{ if gt (len .) 0 }}
+  <section class="mt-12 mb-8">
+    <h2 class="text-2xl font-bold mb-6 pb-3 border-b-2 border-primary text-text">Najczęściej zadawane pytania</h2>
+    <div class="space-y-3">
+      {{ range . }}
+      <details class="bg-surface-alt border border-border rounded-xl group">
+        <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-text hover:text-primary transition-colors">
+          {{ .q }}
+          <svg class="w-5 h-5 text-text-muted flex-shrink-0 ml-4 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </summary>
+        <div class="px-5 pb-5 text-text-secondary leading-relaxed border-t border-border">
+          {{ .a }}
+        </div>
+      </details>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
 
   <!-- CTA -->
-  <div class="mt-12 p-6 bg-primary/5 border border-primary/20 rounded-xl text-center">
-    <h2 class="text-xl font-bold mb-2">Szukasz salonu samochodowego?</h2>
-    <p class="text-text-muted mb-4">Przejdź do katalogu i znajdź autoryzowanego dealera w swoim mieście.</p>
-    <a href="/szukaj/" class="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-lg font-medium hover:bg-primary-dark transition-colors">
+  <div class="mt-12 p-8 bg-gradient-to-br from-primary/5 to-primary/10 border border-primary/20 rounded-2xl text-center">
+    <h2 class="text-2xl font-bold mb-2 text-text">Szukasz salonu samochodowego?</h2>
+    <p class="text-text-muted mb-5">Przejdź do katalogu i znajdź autoryzowanego dealera w swoim mieście.</p>
+    <a href="/szukaj/" class="inline-flex items-center gap-2 bg-primary text-white px-7 py-3.5 rounded-xl font-semibold hover:bg-primary-dark transition-colors shadow-md hover:shadow-lg">
       Przejdź do katalogu
       <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
@@ -69,16 +94,16 @@
   {{ end }}
 
   {{ if gt (len $related) 0 }}
-  <section class="mt-12">
-    <h2 class="text-xl font-bold mb-4">Powiązane artykuły</h2>
-    <div class="grid gap-4 md:grid-cols-3">
+  <section class="mt-14">
+    <h2 class="text-2xl font-bold mb-6 text-text">Powiązane artykuły</h2>
+    <div class="grid gap-5 md:grid-cols-3">
       {{ range first 3 $related }}
-      <a href="{{ .Permalink }}" class="block p-4 bg-white border border-gray-200 rounded-lg hover:border-primary transition-colors">
+      <a href="{{ .Permalink }}" class="block p-5 bg-white border border-border rounded-xl hover:border-primary hover:shadow-md transition-all group">
         {{ with .Params.category }}
-        <span class="text-xs text-primary font-medium">{{ . }}</span>
+        <span class="text-xs text-primary font-semibold uppercase tracking-wide">{{ . }}</span>
         {{ end }}
-        <h3 class="font-semibold mt-1 line-clamp-2">{{ .Title }}</h3>
-        <time class="text-sm text-text-muted mt-2 block">{{ .Date.Format "2 January 2006" }}</time>
+        <h3 class="font-bold mt-2 line-clamp-2 group-hover:text-primary transition-colors">{{ .Title }}</h3>
+        <time class="text-sm text-text-muted mt-3 block">{{ .Date.Format "2 January 2006" }}</time>
       </a>
       {{ end }}
     </div>

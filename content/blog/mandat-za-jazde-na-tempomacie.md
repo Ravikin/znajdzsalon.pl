@@ -38,20 +38,3 @@ Dobrą praktyką podczas odbioru nowego auta jest poproszenie o szczegółowe pr
 
 Warto również rozważyć wybór modeli z systemami monitorującymi uwagę kierowcy, które ostrzegają przed rozproszeniem lub zmęczeniem. Takie rozwiązania stają się coraz powszechniejsze w nowych pojazdach i mogą pomóc uniknąć sytuacji prowadzących do mandatu.
 
-## Najczęściej zadawane pytania
-
-**Czy używanie tempomatu jest legalne w Polsce?**
-
-Tak, korzystanie z tempomatu jest w pełni legalne. Mandat grozi nie za samo używanie tego systemu, a za niewłaściwy sposób prowadzenia pojazdu – gdy kierowca przestaje kontrolować auto i nie reaguje na warunki drogowe, polegając wyłącznie na automatyce.
-
-**Jak uniknąć mandatu podczas jazdy z tempomatem?**
-
-Kluczowe jest utrzymanie pełnej koncentracji na drodze i aktywne uczestnictwo w prowadzeniu pojazdu. Tempomat należy traktować jako pomoc, nie zastępstwo dla uwagi kierowcy. Zawsze dostosowuj prędkość do warunków, wyłączaj system w trudnych warunkach i bądź gotowy do natychmiastowej reakcji.
-
-**Czy tempomat adaptacyjny też wiąże się z ryzykiem mandatu?**
-
-Tak, nawet najnowocześniejsze systemy ACC (Adaptive Cruise Control) nie zwalniają z odpowiedzialności. Mimo że automatycznie utrzymują bezpieczny odstęp od poprzedzającego pojazdu, kierowca musi nieustannie monitorować sytuację i być gotowy do przejęcia pełnej kontroli.
-
-**Czy przy zakupie auta z tempomatem dostanę instrukcję obsługi?**
-
-Tak, każdy nowy samochód jest dostarczany z pełną dokumentacją techniczną. Podczas odbioru auta w salonie możesz też poprosić o praktyczne przeszkolenie z obsługi wszystkich systemów wspomagających jazdę, w tym tempomatu.
