@@ -29,7 +29,7 @@
       </nav>
 
       <!-- Mobile menu button -->
-      <button x-data x-on:click="$dispatch('toggle-menu')"
+      <button id="mobile-menu-toggle"
         class="lg:hidden p-2 rounded-lg hover:bg-gray-100">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
@@ -39,8 +39,7 @@
   </div>
 
   <!-- Mobile menu -->
-  <div x-data="{ open: false }" x-on:toggle-menu.window="open = !open" x-show="open" x-cloak
-    class="lg:hidden border-t border-gray-200 bg-white">
+  <div id="mobile-menu" class="lg:hidden border-t border-gray-200 bg-white hidden">
     <nav class="px-4 py-3 space-y-1">
       {{ range .Site.Menus.main }}
         <a href="{{ .URL }}" class="flex items-center gap-2 px-3 py-2.5 rounded-lg hover:bg-gray-100 font-medium text-text-muted">
@@ -62,3 +61,12 @@
     </nav>
   </div>
 </header>
+<script>
+(function(){
+  var btn = document.getElementById('mobile-menu-toggle');
+  var menu = document.getElementById('mobile-menu');
+  if (btn && menu) {
+    btn.addEventListener('click', function() { menu.classList.toggle('hidden'); });
+  }
+})();
+</script>

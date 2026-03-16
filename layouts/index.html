@@ -1,5 +1,4 @@
 {{ define "title" }}ZnajdźSalon.pl — Katalog salonów samochodowych w Polsce{{ end }}
-{{ define "description" }}Znajdź salon samochodowy w swojej okolicy. Porównaj oferty, sprawdź opinie i godziny otwarcia dealerów wszystkich marek w Polsce.{{ end }}
 
 {{ define "head" }}
 <script type="application/ld+json">
@@ -13,6 +12,21 @@
     "@type": "SearchAction",
     "target": "https://znajdzsalon.pl/szukaj/?q={search_term_string}",
     "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ZnajdźSalon.pl",
+  "url": "https://znajdzsalon.pl",
+  "logo": "https://znajdzsalon.pl/favicon.svg",
+  "description": "Katalog salonów samochodowych w Polsce",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "url": "https://znajdzsalon.pl/kontakt/"
   }
 }
 </script>
@@ -32,28 +46,18 @@
     </p>
 
     <!-- Search box -->
-    <div x-data="heroSearch()" class="max-w-xl mx-auto relative">
+    <div id="hero-search" class="max-w-xl mx-auto relative">
       <div class="relative">
         <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-text-muted pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
         </svg>
-        <input type="text" x-model="query" x-on:input="search()" x-on:focus="open = true" x-on:click.outside="open = false"
-          x-on:keydown.enter="if(results.length) window.location=results[0].url; else if(query.trim()) window.location='/szukaj/?q='+encodeURIComponent(query.trim())"
+        <input type="text" id="hero-input" maxlength="100"
           placeholder="Wpisz markę lub miasto..."
           class="w-full pl-12 pr-5 py-4 rounded-xl text-text text-lg shadow-lg border-0 focus:outline-none focus:ring-4 focus:ring-accent/40 placeholder:text-gray-400">
       </div>
       <!-- Dropdown -->
-      <div x-show="open && results.length > 0" x-cloak x-transition
-        class="absolute left-0 right-0 mt-2 bg-white rounded-xl shadow-2xl border border-gray-200 text-left overflow-hidden z-30">
-        <template x-for="r in results" :key="r.url">
-          <a :href="r.url" class="flex items-center justify-between px-4 py-3 hover:bg-gray-50 border-b border-gray-100 last:border-0">
-            <div>
-              <span class="font-medium text-text" x-text="r.name"></span>
-              <span class="text-xs text-text-muted ml-1.5 bg-gray-100 px-1.5 py-0.5 rounded" x-text="r.badge"></span>
-            </div>
-            <span class="text-sm text-text-muted" x-text="r.count + ' salonów'"></span>
-          </a>
-        </template>
+      <div id="hero-dropdown"
+        class="absolute left-0 right-0 mt-2 bg-white rounded-xl shadow-2xl border border-gray-200 text-left overflow-hidden z-30 hidden">
       </div>
     </div>
   </div>
@@ -152,7 +156,7 @@
         class="flex flex-col items-center gap-2 p-4 bg-white rounded-xl border border-gray-200 hover:border-primary-light hover:shadow-md transition-all group">
         {{ $logoPath := printf "images/brands/%s.png" .slug }}
         {{ if (fileExists (printf "static/%s" $logoPath)) }}
-          <img src="/{{ $logoPath }}" alt="{{ .name }}" class="h-10 w-auto opacity-70 group-hover:opacity-100 transition-opacity">
+          <img src="/{{ $logoPath }}" alt="{{ .name }}" class="h-10 w-auto opacity-70 group-hover:opacity-100 transition-opacity" loading="lazy">
         {{ else }}
           <div class="h-10 w-10 bg-primary/10 rounded-full flex items-center justify-center text-primary font-bold text-lg group-hover:bg-primary/20 transition-colors">
             {{ substr .name 0 1 }}
@@ -301,30 +305,65 @@
 
 {{ define "scripts" }}
 <script>
-function heroSearch() {
-  return {
-    query: '',
-    results: [],
-    open: false,
-    brands: {{ .Site.Data.brands | jsonify | safeJS }},
-    cities: {{ .Site.Data.cities | jsonify | safeJS }},
-    search() {
-      const q = this.query.toLowerCase().trim();
-      if (q.length < 2) { this.results = []; return; }
-      const res = [];
-      for (const b of this.brands) {
-        if (b.name.toLowerCase().includes(q))
-          res.push({ name: b.name, badge: 'marka', count: b.count, url: '/marki/' + b.slug + '/' });
-        if (res.length >= 10) break;
-      }
-      for (const c of this.cities) {
-        if (c.name.toLowerCase().includes(q))
-          res.push({ name: c.name, badge: 'miasto', count: c.count, url: '/miasta/' + c.slug + '/' });
-        if (res.length >= 10) break;
-      }
-      this.results = res.slice(0, 8);
+(function() {
+  'use strict';
+  var brands = {{ .Site.Data.brands | jsonify | safeJS }};
+  var cities = {{ .Site.Data.cities | jsonify | safeJS }};
+  var input = document.getElementById('hero-input');
+  var dropdown = document.getElementById('hero-dropdown');
+  if (!input || !dropdown) return;
+
+  var results = [];
+
+  function search() {
+    var q = input.value.toLowerCase().trim().substring(0, 100);
+    if (q.length < 2) { dropdown.classList.add('hidden'); dropdown.innerHTML = ''; results = []; return; }
+    var res = [];
+    for (var i = 0; i < brands.length && res.length < 10; i++) {
+      if (brands[i].name.toLowerCase().indexOf(q) >= 0)
+        res.push({ name: brands[i].name, badge: 'marka', count: brands[i].count, url: '/marki/' + brands[i].slug + '/' });
     }
+    for (var j = 0; j < cities.length && res.length < 10; j++) {
+      if (cities[j].name.toLowerCase().indexOf(q) >= 0)
+        res.push({ name: cities[j].name, badge: 'miasto', count: cities[j].count, url: '/miasta/' + cities[j].slug + '/' });
+    }
+    results = res.slice(0, 8);
+    dropdown.innerHTML = '';
+    for (var k = 0; k < results.length; k++) {
+      var r = results[k];
+      var a = document.createElement('a');
+      a.href = r.url;
+      a.className = 'flex items-center justify-between px-4 py-3 hover:bg-gray-50 border-b border-gray-100 last:border-0';
+      var left = document.createElement('div');
+      var nameSpan = document.createElement('span');
+      nameSpan.className = 'font-medium text-text';
+      nameSpan.textContent = r.name;
+      var badgeSpan = document.createElement('span');
+      badgeSpan.className = 'text-xs text-text-muted ml-1.5 bg-gray-100 px-1.5 py-0.5 rounded';
+      badgeSpan.textContent = r.badge;
+      left.appendChild(nameSpan);
+      left.appendChild(badgeSpan);
+      var countSpan = document.createElement('span');
+      countSpan.className = 'text-sm text-text-muted';
+      countSpan.textContent = r.count + ' salonów';
+      a.appendChild(left);
+      a.appendChild(countSpan);
+      dropdown.appendChild(a);
+    }
+    dropdown.classList.toggle('hidden', results.length === 0);
   }
-}
+
+  input.addEventListener('input', search);
+  input.addEventListener('focus', function() { if (results.length) dropdown.classList.remove('hidden'); });
+  document.addEventListener('click', function(e) {
+    if (!document.getElementById('hero-search').contains(e.target)) dropdown.classList.add('hidden');
+  });
+  input.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+      if (results.length) { window.location = results[0].url; }
+      else if (input.value.trim()) { window.location = '/szukaj/?q=' + encodeURIComponent(input.value.trim().substring(0, 100)); }
+    }
+  });
+})();
 </script>
 {{ end }}
